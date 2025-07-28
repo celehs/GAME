@@ -1,0 +1,3551 @@
+desc,gpt4
+type 2 diabetes,1.0
+type 2 diabetes with neurological manifestations,1.0
+secondary diabetes mellitus,0.75
+type 2 diabetes with renal manifestations,1.0
+diabetes mellitus,0.9
+diabetes status,0.75
+type 2 diabetes with ophthalmic manifestations,1.0
+diabetes type 2 with peripheral circulatory disorders,1.0
+type 1 diabetes,0.2
+type 2 diabetes with ketoacidosis,1.0
+hiv 2 ab,0.0
+diabetes insipidus,0.0
+twocal,0.0
+igg subclass 2,0.1
+diabetisource,0.0
+isolate 2,0.0
+cv2 ab,0.0
+iga subclass 2,0.1
+insulin antibody,0.5
+hla-dq2,0.1
+interleukin 2 receptor,0.1
+diabetic retinopathy,0.85
+component 2,0.0
+insulin,0.75
+insulin ab,0.75
+time 2,0.0
+mi-2 ab,0.0
+complement c2,0.1
+insulin degludec,0.75
+glucose,0.75
+hypoglycemia,0.75
+date of second test,0.0
+glucose / potassium chloride,0.5
+2 hour postprandial blood glucose,0.75
+order comment 2,0.0
+glucerna,0.0
+canagliflozin,1.0
+dapagliflozin,1.0
+insulin coverage glucose,0.75
+isotype 2 percentage,0.0
+abnormal glucose,0.75
+neuronal nuclear type 2 ab,0.0
+insulin free,0.75
+antibody identification number 2,0.0
+urine ketone two hour,0.5
+invert sugar,0.0
+insulin soluble,0.75
+glucose intracellular,0.5
+insulin lispro,0.75
+alpha 2 globulin,0.1
+beta 2 globulin,0.1
+2-hydroxyglutarate,0.1
+two additional markers reflex,0.25
+insulin isophane,0.75
+urinary glucose,0.75
+oligosaccharides,0.0
+cv2 igg,0.0
+hiv 2 ab signal/cutoff,0.0
+dulaglutide,1.0
+diagnosis code,0.0
+glucose test,0.75
+glucose corrected index,0.75
+glucose control,0.75
+insulin detemir,0.75
+glucose sensor,0.75
+beta 2-glycoprotein,0.1
+urine glucose qualitative,0.75
+fasting glucose,0.75
+lactate dehydrogenase 2/lactate dehydrogenase.total,0.1
+marrow comment 2,0.0
+type 1 diabetes with neurological manifestations,0.2
+dextrose/sodium chloride,0.1
+insulin pump user,0.75
+calculated average glucose,0.85
+adenovirus,0.0
+other abnormal glucose,0.75
+impaired fasting glucose,0.75
+dimethyl fumarate,0.1
+dacrocytes,0.0
+unit 2 compatibility,0.0
+igd,0.0
+adipate/creatinine,0.1
+amylase,0.2
+estimated average glucose,0.85
+dna double strand,0.0
+proinsulin,0.75
+aldolase,0.1
+eating disorder,0.1
+molecular class one and two typing,0.0
+second degree av block,0.1
+m2 spike percentage,0.0
+capillary blood glucose,0.75
+glucose/ketone test,0.75
+urine glucose test,0.75
+adenovirus ab,0.0
+glucose peripheral blood,0.75
+diabetes or abnormal glucose tolerance complicating pregnancy,0.75
+"gtt, 2 hour (group:2hrgtt)",0.75
+mean blood glucose concentration,0.85
+hyperglyceridemia,0.6
+glucose tolerance reference range,0.75
+calculated mean glucose,0.75
+type 1 diabetes with ophthalmic manifestations,0.2
+estimated mean blood glucose,0.75
+secondary hypothyroidism,0.1
+procalcitonin study day 2,0.0
+accu-chek blood glucose test,0.75
+celiac disease,0.2
+glucose tolerance 50 gram screen,0.75
+type 1 diabetes with ketoacidosis,0.2
+occult blood test date #2,0.1
+occult blood test type ii,0.1
+occult blood card test #2,0.1
+occult blood test day 2,0.1
+daily mean blood glucose concentration,0.75
+morbid obesity,0.6
+type 1 diabetes with renal manifestations,0.2
+beta-2 globulin concentration,0.1
+iddm patient ql,0.0
+glycated hemoglobin a1c,0.9
+major depressive disorder,0.1
+pancreatic cancer,0.2
+obesity,0.7
+polyneuropathy in diabetes,1.0
+occult blood screening day 2,0.1
+occult blood test (feces) #2,0.05
+occult blood guaiac high sensitivity test #2,0.1
+screen for occult blood test #2,0.1
+therapeutic drug monitoring studies,0.2
+fecal occult blood test #2,0.05
+"glucose, jackson-pratt drainage",0.1
+beta-2 globulin fraction concentration,0.1
+occult blood test #2,0.1
+deprecated mean glucose bld ghb est-acnc,0.75
+disorders of carbohydrate transport and metabolism,0.75
+acquired hypothyroidism,0.1
+alpha-2 globulin concentration,0.1
+serum glucose,0.75
+chronic pancreatitis,0.4
+basal (resting) blood glucose level,0.75
+graves' disease,0.1
+metformin,0.95
+insulins and antidiabetic agents causing adverse effects in therapeutic use,0.75
+colorectal cancer screening card test #2,0.0
+dysthymic disorder,0.0
+"insulin, regular, human",0.75
+hemoglobin a1c,0.95
+streptozocin,0.1
+normalized blood glucose magnesium,0.5
+deprecated glucose serpl-mcnc,0.75
+immunological fecal occult blood test 2,0.1
+diseases of pancreas,0.5
+alpha-2 globulin concentration in serum protein electrophoresis,0.1
+mobitz ii av block,0.1
+fecal occult blood card test 2,0.1
+glycated hemoglobin a1c as a percentage of total hemoglobin,0.95
+"occult blood, stool test #2",0.1
+essential hypertension,0.2
+acarbose,0.95
+open-angle glaucoma,0.25
+glipizide,0.95
+hypertension,0.25
+glyburide,0.95
+hyperlipidemia,0.5
+disorders of lipoid metabolism,0.5
+hemoglobin a1c/hemoglobin.total,0.9
+somatotropin,0.25
+albumin/creatinine,0.75
+corns and callosities,0.2
+chronic ulcer of leg or foot,0.65
+sitagliptin,0.95
+albumin,0.5
+empagliflozin,0.95
+"diseases of nail, nos",0.1
+pioglitazone,0.95
+"peripheral vascular disease, unspecified",0.5
+lisinopril,0.5
+glimepiride,0.95
+atorvastatin,0.2
+hypercholesterolemia,0.4
+peripheral angiopathy in diseases classified elsewhere,0.75
+glucose (poc) (group:glu-poc),0.75
+"overweight, obesity and other hyperalimentation",0.5
+mixed hyperlipidemia,0.5
+peripheral vascular disease,0.5
+"chronic kidney disease, stage iii",0.5
+isopropyl alcohol,0.05
+hypertensive heart and/or renal disease,0.3
+rosiglitazone,0.95
+ingrowing nail,0.1
+isosorbide mononitrate,0.1
+chronic ulcer of skin,0.4
+rosuvastatin,0.2
+liraglutide,0.95
+amlodipine,0.1
+cephradine,0.0
+atherosclerosis of the extremities,0.6
+arthropathy associated with neurological disorders,0.2
+exenatide,0.95
+"cellulitis and abscess of foot, toe",0.4
+losartan,0.5
+carvedilol,0.1
+cellulitis and abscess of fingers/toes,0.2
+atherosclerosis of native arteries of the extremities with ulceration or gangrene,0.75
+hypertensive chronic kidney disease,0.4
+repaglinide,0.95
+"chronic kidney disease, stage iv",0.5
+atherosclerosis,0.6
+fructosamine,0.75
+cascara sagrada,0.1
+simvastatin,0.2
+ascvd,0.5
+chlorambucil,0.0
+other forms of chronic heart disease,0.2
+coronary atherosclerosis,0.5
+aspirin,0.2
+fenofibrate,0.5
+diabetes type 1 with peripheral circulatory disorders,0.0
+chronic renal failure [ckd],0.5
+open wound of toe(s),0.2
+proteinuria,0.65
+clopidogrel,0.2
+glyburide / metformin,0.95
+sleep apnea,0.25
+ischemic heart disease,0.4
+gangrene,0.5
+irbesartan,0.5
+starch,0.0
+ethinyl estradiol / ethynodiol,0.1
+hydrochlorothiazide,0.25
+obstructive sleep apnea,0.3
+amputation of lower extremity,0.5
+dermatophytosis of nail,0.1
+althete's foot,0.1
+open wound of foot except toe(s) alone,0.3
+acute osteomyelitis,0.25
+dermatophytosis,0.1
+lancet,0.5
+needle/syringe,0.5
+destruction of lesion of retina and choroid,0.25
+retinal edema,0.7
+microalbumin spot,0.75
+dermatophytosis / dermatomycosis,0.1
+microalbumin/creatinine ratio,0.75
+ophthalmologic and otologic diagnosis and treatment,0.25
+cataract,0.5
+c-peptide,0.75
+needle,0.1
+other non-or therapeutic procedures on skin and breast,0.1
+other nondiabetic retinopathy,0.0
+"reservoir,minimed",0.75
+senile cataract,0.2
+low density lipoprotein cholesterol,0.4
+high density lipoprotein cholesterol,0.25
+arthropathy associated with other disorders classified elsewhere,0.5
+macular puckering of retina,0.4
+glaucoma,0.25
+other retinal disorders,0.5
+infusion set,0.5
+cystoid macular degeneration of retina,0.4
+prophylactic vaccinations and inoculations,0.1
+triglycerides,0.6
+glucagon,0.5
+chronic venous insufficiency [cvi],0.2
+"keratoderma, acquired",0.1
+erectile dysfunction [ed],0.5
+total cholesterol,0.4
+disorders of vitreous body,0.4
+"other chronic ischemic heart disease, unspecified",0.2
+"debridement of wound, infection or burn",0.25
+edema,0.3
+other disorders of pancreatic internal secretion,0.5
+symptoms involving skin and other integumentary tissue,0.2
+gout,0.2
+disorders of refraction and accommodation; blindness and low vision,0.2
+primary open angle glaucoma,0.2
+nephritis and nephropathy in diseases classified elsewhere,0.7
+other intraocular therapeutic procedures,0.1
+retinal hemorrhage/ischemia,0.7
+"chronic kidney disease, stage i or ii",0.4
+gout and other crystal arthropathies,0.1
+presbyopia,0.1
+retinal vascular changes and abnomalities,0.75
+other peripheral nerve disorders,0.4
+degeneration of macula and posterior pole of retina,0.75
+chorioretinal scars,0.2
+insulin glargine,0.75
+lot number capillary glucose,0.75
+cetyl lactate,0.0
+ccs:998,0.0
+"insulin aspart, human",0.75
+islet cell 512 ab,0.25
+calcium carbonate / cholecalciferol / magnesium oxide,0.1
+senna leaves,0.1
+glucose capillary (point of care),0.75
+pre transfusion blood type and rhesus factor determination,0.0
+post transfusion blood type and rhesus factor,0.0
+ascorbic acid/bioflavonoids,0.1
+ginkgo biloba extract / korean ginseng root extract,0.25
+cholesterol.in ldl/cholesterol.in hdl,0.5
+brassica oleracea var italica ab.igg.rast class,0.0
+dextromethorphan / guaifenesin / pseudoephedrine,0.0
+pancreatic islet cell ab,0.4
+ascorbic acid / ferrous fumarate / folic acid / liver stomach concentrate / vitamin b12,0.1
+amphetamine level,0.1
+potassium lactate,0.1
+calcium carbonate / magnesium carbonate,0.1
+metoprolol,0.1
+"other diagnostic procedures (interview, evaluation, consultation)",0.2
+levo-methamphetamine,0.0
+hydralazine / hydrochlorothiazide,0.1
+spinacia oleracea ab.igg.rast class,0.0
+"1,5-anhydroglucitol",0.75
+reslizumab,0.0
+torus fracture,0.0
+renal failure,0.7
+laboratory - chemistry and hematology,0.5
+"insulin glulisine, human",0.75
+urine protein electrophoresis: total volume,0.25
+metformin / pioglitazone,1.0
+"insulin isophane, human 50 unt/ml / insulin, regular, human 50 unt/ml injectable suspension [humulin]",0.75
+insulin glargine aglr 100 units/ml subcutaneous solution,0.75
+"insulin, regular, human 100 unt/ml injectable solution [velosulin]",0.75
+"apidra opticlik cartridge, 100 units/ml subcutaneous solution",0.9
+insulin novolin 70/30 inj innolet 3ml,0.75
+"insulin aspart protamine, human",0.75
+"insulin glargine, yfgn 100 units/ml subcutaneous solution",0.75
+"lantus opticlik cartridge, 100 units/ml subcutaneous solution",0.9
+"3 ml insulin isophane, human 100 unt/ml prefilled syringe [novolin n]",0.75
+"3 ml insulin, regular, human 100 unt/ml prefilled syringe [novolin r]",0.75
+"insulin lispro protamine, human",0.75
+insulin glargine 300 units/ml subcutaneous solution,0.75
+"novolin 70/30 penfill, human recombinant 70 units-30 units/ml subcutaneous suspension",0.95
+perflutren (protein-type a microspheres),0.05
+predicted glomerular filtration rate,0.65
+zinc acetate,0.1
+calcium carbonate / cholecalciferol / magnesium oxide / zinc oxide,0.1
+foundation for the accreditation of cellular therapy variable mutation-reviewer,0.0
+zanamivir,0.0
+maltodextrin,0.1
+silicon dioxide,0.0
+"tetanus immune globulin, human",0.0
+"insulin isophane / insulin, regular, human",0.75
+benzethonium,0.0
+becaplermin,0.5
+electrocardiogram,0.1
+tetanus immune globulin,0.0
+tetrahydrocannabinol,0.1
+"galectin-3, serum",0.25
+zinc transporter 8 ab,0.5
+dysmetabolic syndrome x,0.75
+ketones,0.5
+acquired acanthosis nigricans,0.75
+aspergillosis,0.1
+cholesterol in ldl,0.4
+astigmatism,0.0
+hypermetropia,0.05
+ancillary services,0.2
+mycoses,0.1
+cholesterol in vldl,0.4
+cholesterol,0.5
+insulin lispro protamine- and insulin lispro-containing product,0.75
+bronchiectasis,0.1
+vinblastine,0.0
+abnormal sputum,0.1
+cystic fibrosis,0.1
+hemoptysis,0.05
+"insulin isophane, human",0.75
+other chronic nonalcoholic liver disease,0.4
+cholesterol in hdl,0.4
+potassium acetate,0.1
+chronic airway obstruction,0.1
+tolterodine,0.0
+chronic liver disease and cirrhosis,0.3
+tobramycin,0.05
+vitamin k1,0.05
+chronic bronchitis,0.1
+beta hydroxybutyrate,0.5
+chronic sinusitis,0.05
+alcohol-related disorders,0.1
+itraconazole,0.1
+alcoholism,0.1
+glucocorticoid deficiency,0.1
+adrenal hypofunction,0.1
+ige,0.1
+posttraumatic stress disorder,0.1
+other diagnostic procedures on lung and bronchus,0.1
+myopia,0.1
+minocycline,0.05
+bipolar,0.0
+pancrelipase,0.1
+other mental disorder,0.1
+adjustment reaction,0.05
+other hypertrophic and atrophic conditions of skin,0.1
+budesonide / formoterol,0.05
+atenolol,0.1
+mood disorders,0.1
+retinol,0.0
+depression,0.2
+disorders of lacrimal system,0.1
+fluticasone / salmeterol,0.1
+ceftaroline,0.0
+other disorders of metabolism,0.2
+"influenza virus vaccine, inactivated",0.1
+pramlintide,0.75
+"insulin isophane, beef",0.75
+chromium picolinate,0.75
+degenerative skin disorders,0.2
+peripheral autonomic neuropathy,0.75
+retinal detachments and defects,0.4
+renal dialysis,0.5
+gastroparesis,0.75
+lipoprotein disorders,0.4
+renal failure nos,0.5
+tolbutamide,0.95
+nephritis and nephropathy without mention of glomerulonephritis,0.5
+acetohexamide,0.95
+disorders of other cranial nerves,0.1
+end stage renal disease,0.7
+tolazamide,0.95
+other hypertensive complications,0.3
+diagnostic endocrine procedures,0.5
+chromosomal anomalies,0.05
+hemodialysis,0.4
+iatrogenic endocrine disorders,0.1
+other disorders of lipoid metabolism,0.4
+nephritis and nephropathy with pathological lesion,0.5
+disorders resulting from impaired renal function,0.5
+"renal sclerosis, nos",0.5
+abnormal weight gain,0.25
+other specified peripheral vascular diseases,0.3
+kidney transplant,0.4
+nephrotic syndrome without mention of glomerulonephritis,0.4
+other endocrine disorders,0.2
+peritoneal dialysis,0.25
+renal osteodystrophy,0.25
+glimepride,0.95
+other disorders of the kidney and ureters,0.3
+disorders of phosphorus metabolism,0.2
+acute renal failure,0.25
+inflammatory and toxic neuropathy,0.5
+sodium polystyrene sulfonate,0.1
+lactate dehydrogenase,0.1
+glytrol,0.9
+diurnal urine glucose,0.75
+dissociative disorder,0.0
+phentermine,0.1
+microchamber,0.0
+conduct disorders,0.0
+lactic acid,0.25
+diffuse diseases of connective tissue,0.1
+alpha-2 globulin fraction,0.1
+doxycycline,0.05
+basophil percentage 2,0.1
+hydrophilic cream,0.1
+psychogenic disorder,0.05
+blood amylase,0.1
+multidex,0.1
+yeast,0.2
+immunity deficiency,0.1
+talc,0.0
+specimen type,0.0
+dry eyes,0.1
+cellulose/talc,0.0
+unna flex,0.1
+dme and supplies,0.5
+dementias,0.2
+beta-2-microglobulin,0.1
+drip collector,0.0
+renament,0.0
+impulse control disorder,0.1
+reflexed microorganism culture,0.1
+glucosamine,0.1
+cellulose,0.0
+differential cell count,0.1
+technologist,0.0
+thyrotoxicosis with or without goiter,0.1
+alpha-2 globulin fraction concentration,0.1
+ancillary blood glucose level,0.75
+unspecified diffuse connective tissue disease,0.0
+graft-versus-host disease,0.05
+occult blood fecal immunochemical test #2 of 3,0.1
+occult blood - liquid stool test #2,0.1
+laboratory reference glucose test,0.75
+"estimated average glucose, blood",0.75
+calculated average fasting blood sugar,0.8
+thyroid cancer,0.0
+dermatomyositis,0.05
+two occult blood tests,0.1
+abnormality of secretion of glucagon or gastrin,0.4
+occult blood test 2,0.1
+protein/creatinine,0.5
+elevated blood pressure reading without diagnosis of hypertension,0.2
+glomerulonephritis,0.25
+nephritis; nephrosis; renal sclerosis,0.5
+hyperpotassemia,0.25
+non-proliferative glomerulonephritis,0.25
+"chronic glomerulonephritis, nos",0.25
+labetalol,0.1
+anemia in chronic kidney disease,0.4
+epoetin alfa,0.1
+parathyrin.intact,0.1
+secondary hyperparathyroidism (of renal origin),0.1
+"acute glomerulonephritis, nos",0.2
+doxercalciferol,0.1
+minoxidil,0.0
+calcitriol,0.1
+"creation, revision and removal of arteriovenous fistula or vessel-to-vessel cannula for dialysis",0.2
+atherosclerosis of renal artery,0.4
+calcium acetate,0.1
+hydralazine,0.1
+anemia of chronic disease,0.3
+other diagnostic procedures of urinary tract,0.2
+disorders of the autonomic nervous system,0.2
+unspecified disorder of lipoid metabolism,0.4
+pentoxifylline,0.2
+dna double strand ab,0.05
+glutamine/creatinine,0.1
+mitochondria m2 ab,0.05
+fructose,0.2
+herpes simplex virus 2 ab,0.0
+arginine/creatinine,0.1
+alkaline phosphatase.liver 2/alkaline phosphatase.total,0.1
+potassium gluconate,0.1
+pca-2 ab,0.0
+ref lab name,0.0
+suberate,0.0
+respiratory complications,0.2
+modafinil,0.1
+cough,0.05
+personality disorders,0.05
+herpes simplex virus 2 igm,0.0
+adenovirus dna,0.05
+cardiac conduction disorders,0.2
+lactate,0.2
+creatinine,0.5
+alpha ketoglutarate,0.1
+muscular dystrophies,0.0
+thyroglobulin (tumor) (group:thygtm),0.0
+patient symptoms,0.5
+alpha-2-macroglobulin,0.2
+hypertensive heart disease,0.25
+breast cancer [female],0.0
+chronic graft-versus-host disease,0.1
+interpretation (thyroglobulin) (group:thyr-int),0.1
+tobacco use disorder,0.2
+mental disorders durring/after pregnancy,0.1
+hydrogen+methane/expired gas,0.1
+chronic thyroiditis,0.1
+functional digestive disorders,0.1
+other disorders of carbohydrate transport and metabolism,0.2
+parkinson's disease,0.1
+"hypertension complicating pregnancy, childbirth, and the puerperium",0.1
+cyst and pseudocyst of pancreas,0.2
+intestinal disaccharidase deficiencies and disaccharide malabsorption,0.1
+perinatal disorders of digestive system,0.0
+dyspepsia and other specified disorders of function of stomach,0.1
+glycosuria or acetonuria,0.5
+carcinoid syndrome,0.05
+iodine hypothyroidism,0.1
+breast cancer [male],0.0
+generalized anxiety disorder,0.1
+nontoxic multinodular goiter,0.0
+glucose-6-phosphate dehydrogenase,0.1
+paricalcitol,0.1
+proliferative glomerulonephritis,0.5
+other therapeutic procedures,0.2
+cinacalcet,0.1
+acidosis,0.4
+other and unspecified congenital anomalies,0.0
+endocrine and metabolic disturbances of fetus and newborn,0.1
+circulatory disease nec,0.2
+pituitary hypofunction,0.1
+develomental delays and disorders,0.05
+other and unspecified disorders of the nervous system,0.2
+disorders of calcium/phosphorus metabolism,0.2
+mental retardation,0.05
+sensorineural hearing loss,0.2
+disorders of porphyrin metabolism,0.1
+myopathy,0.3
+other disorders of purine and pyrimidine metabolism,0.1
+"complication of nervous system device, implant, and graft",0.1
+congenital osteodystrophies,0.0
+disease of capillaries,0.5
+other specified congenital anomalies of nervous system,0.0
+effects radiation nos,0.05
+coma,0.3
+amyloidosis,0.2
+other congenital musculoskeletal anomalies,0.0
+congenital anomaly of fingers/toes,0.0
+"encephalopathy, not elsewhere classified",0.2
+abnormal involuntary movements,0.1
+other disorders of soft tissues,0.1
+acquired absence of breast,0.05
+degenerative disease of the spinal cord,0.1
+cachexia,0.1
+"other conditions of brain, nos",0.1
+congenital anomalies of genital organs,0.0
+"lack of normal physiological development, unspecified",0.1
+hearing loss,0.2
+other deficiencies of circulating enzymes,0.1
+symptoms and disorders of the joints,0.2
+"anomalies of endocrine glands, congenital",0.1
+panniculitis,0.1
+arteritis nos,0.1
+chromosomal anomalies and genetic disorders,0.1
+lack of coordination,0.1
+cystic kidney disease,0.1
+congenital anomalies of skin,0.0
+congenital anomalies of the integument,0.0
+disturbances of amino-acid transport,0.1
+protein-calorie malnutrition,0.2
+cardiac congenital anomalies,0.05
+testicular hypofunction,0.1
+other nutritional deficiency,0.1
+other abnormal blood chemistry,0.2
+congenital anomalies of peripheral vascular system,0.1
+systemic lupus erythematosus,0.0
+hyperparathyroidism,0.1
+other perinatal conditions of fetus or newborn,0.0
+hereditary retinal dystrophies,0.05
+short stature,0.05
+weight,0.4
+hypercalcemia,0.1
+adrenogenital disorders,0.1
+carnitine deficiencies,0.2
+ubidecarenone,0.2
+drugs identified,0.5
+cholecalciferol,0.2
+angina pectoris,0.1
+sickle cell anemia,0.0
+drusen (degenerative) of retina,0.1
+"chorioretinal inflammations, scars, and other disorders of choroid",0.2
+ethacrynic acid,0.1
+hypovolemia,0.1
+neoplasm of uncertain behavior,0.1
+other complications of pregnancy nec,0.1
+syncope and collapse,0.1
+enalapril,0.4
+capsaicin,0.1
+ramipril,0.4
+benazepril,0.25
+valsartan,0.25
+fenoldopam,0.1
+somatropin,0.2
+trandolapril,0.2
+cholesterol non hdl,0.4
+thromboangiitis obliterans,0.1
+fosinopril,0.4
+disorder of skin and subcutaneous tissue nos,0.1
+other infectious and parasitic diseases,0.1
+symptoms affecting skin,0.2
+bacterial infection nos,0.1
+chronic ulcer of unspecified site,0.5
+other complications of the puerperium nec,0.1
+acute pain,0.1
+congenital anomalies of the eye,0.05
+atopic/contact dermatitis due to other or unspecified,0.0
+tuberculosis,0.05
+sexually transmitted infections (not hiv or hepatitis),0.0
+other tests,0.5
+other local infections of skin and subcutaneous tissue,0.2
+viral infection,0.1
+hemorrhage nos,0.1
+endocarditis,0.1
+fever of unknown origin,0.1
+infections specific to the perinatal period,0.0
+musculoskeletal symptoms referable to limbs,0.2
+meningitis,0.05
+streptococcus infection,0.1
+noninfectious disorders of lymphatic channels,0.1
+other dyschromia,0.1
+known or suspected fetal abnormality affecting management of mother,0.1
+vitamin b-complex deficiencies,0.2
+congenital anomalies of limbs,0.0
+myocarditis,0.1
+symptoms involving digestive system,0.2
+other disorders of intestine,0.1
+sepsis,0.2
+fracture of unspecified part of femur,0.1
+complications of surgical and medical procedures,0.2
+other anemias,0.1
+other disorders of bone and cartilage,0.1
+nausea and vomiting,0.1
+symptoms involving cardiovascular system,0.2
+superficial cellulitis and abscess,0.25
+atheroembolism,0.4
+body weight,0.4
+coenzyme q10,0.25
+hyperchylomicronemia,0.2
+hirsutism,0.2
+"albumin human, usp",0.2
+protein,0.1
+leukocyte esterase,0.1
+bacteria identified,0.05
+extrinsic allergic alveolitis,0.0
+alpha tocopherol / ascorbic acid / beta carotene / calcium carbonate / cholecalciferol / docusate / ferrous fumarate / folic acid / niacinamide / pantothenate / pyridoxine / riboflavin / thiamine / vitamin b12 / zinc oxide,0.1
+oxygen,0.1
+glucose / sodium chloride,0.25
+lmw heparin,0.1
+hepatitis c virus ab,0.1
+hemoglobin,0.75
+miscarriage; stillbirth,0.1
+unspecified osteomyelitis,0.3
+fish oils,0.25
+encephalitis,0.1
+diseases of white blood cells,0.1
+other diseases of blood and blood-forming organs,0.1
+"uveitis, noninfectious or nos",0.1
+symptoms of the muscles,0.2
+malaise and fatigue,0.2
+systemic sclerosis,0.1
+elevated white blood cell count,0.1
+other demyelinating diseases of central nervous system,0.0
+procedure,0.0
+intestinal helminthiases,0.05
+hypothermia/chills,0.1
+hyperhidrosis,0.1
+other cerebral degenerations,0.1
+helminthiases,0.0
+disorders involving the immune mechanism,0.1
+crushing or internal injury to organs,0.05
+other specified congenital anomalies of kidney,0.05
+"allergies, other",0.0
+digestive congenital anomalies,0.05
+noninfectious gastroenteritis,0.1
+migraine,0.1
+acute pericarditis,0.1
+other ill-defined and unknown causes of morbidity and mortality,0.1
+primary/intrinsic cardiomyopathies,0.2
+sarcoidosis,0.05
+pericarditis,0.1
+abdominal pain,0.1
+cardiac and circulatory congenital anomalies,0.1
+"viremia, nos",0.1
+other disorders of arteries and arterioles,0.3
+nonspecific chest pain,0.1
+complications of transplants and reattached limbs,0.1
+lung disease due to external agents,0.1
+abnormal serum enzyme levels,0.2
+other disorders of male genital organs,0.1
+intestinal infection,0.1
+other diseases of lung,0.1
+rheumatoid arthritis,0.0
+"hiv infection, symptomatic",0.1
+diseases of spleen,0.05
+other specified disorders involving the immune mechanism,0.1
+hiv genotype,0.0
+splenomegaly,0.1
+hereditary and idiopathic peripheral neuropathy,0.2
+spinocerebellar disease,0.0
+degenerative and vascular disorders of ear,0.1
+myoneural disorders,0.1
+preeclampsia and eclampsia,0.1
+myeloproliferative disease,0.1
+complication of internal orthopedic device,0.1
+ichthyosis congenita,0.0
+adverse drug events and drug allergies,0.1
+nutritional marasmus,0.0
+other degenerative diseases of the basal ganglia,0.1
+polyphagia,0.75
+polydipsia,0.75
+linagliptin,0.95
+glycated hemoglobin,0.9
+hypothyroidism,0.1
+nateglinide,0.95
+whole blood glucose monitoring,0.75
+diabetic urinalysis protein test,0.75
+fingerstick glucose,0.75
+insulin degludec / liraglutide,0.95
+"insulin, pediatric",0.5
+linagliptin / metformin,1.0
+glycosylated hemoglobin,0.9
+calculated average plasma glucose,0.75
+glucose (bedside glucometer),0.75
+metformin / saxagliptin,0.95
+metformin / sitagliptin,0.95
+raynaud's syndrome,0.1
+glucose dial 2,0.5
+diabetes with cc,0.8
+type 2,0.95
+insulin dependent diabetes mellitus,0.5
+"glucose tolerance, 2 hour",0.8
+glucose 2 hour,0.75
+type 2 crystals,0.0
+hiv 2,0.0
+creatinine dial 2,0.2
+lactate dehydrogenase 2,0.1
+glucose 2h pp,0.75
+igg2 subclass,0.1
+glucose 2hr pp,0.75
+interleukin 2,0.1
+monogenic diabetes,0.1
+vd2+,0.0
+urea dial 2,0.1
+dosage a-d 2,0.0
+ectopy type 2,0.0
+duration time 2,0.0
+nomenclature 2,0.0
+cv2,0.0
+information 2,0.95
+insulin regular,0.75
+c2 dosage,0.0
+volume 2,0.0
+diuresis time 2,0.1
+insulin - regular,0.75
+2nd tube,0.0
+info 2,0.0
+beta 2,0.0
+sample nature 2,0.0
+mi-2,0.0
+measure 2 to date,0.0
+lactate 2°c,0.0
+location discovery 2,0.0
+=dextrose,0.5
+factor 2,0.0
+f2 gene,0.1
+diabetes without cc/mcc,0.75
+xr second read,0.1
+class ii ac,0.0
+day 2: weight,0.2
+creatinine urine test 2,0.25
+insulin pump,0.75
+cycle t2,0.0
+cmf 2nd tube,0.0
+"diabetes mellitus, unspecified, without complications",0.75
+"diabetes mellitus, unspecified, with multiple complications",0.75
+"diabetes mellitus, unspecified, with other specified complications",0.75
+"diabetes mellitus, unspecified, with ketoacidosis",0.75
+"diabetes mellitus, unspecified, with ophthalmic complications",0.75
+"diabetes mellitus, unspecified, with neurological complications",0.75
+glucose control - prophy,0.75
+"mody 2, 3, or 5",0.5
+mody genotype conclusion,0.1
+hyperglycemia,0.75
+=insulinhumanregiv,0.75
+glucose large artwork delayed,0.0
+"diabetes mellitus, unspecified, with renal complications",0.75
+blood glucose,0.75
+blood glucose level,0.75
+glucose tolerance fasting (do not order alone),0.75
+personal history of gestational diabetes,0.5
+"diabetes mellitus, unspecified, with coma",0.75
+blood glucose test,0.75
+igtcr - sample 02,0.0
+"poct glucose, unsolicited",0.75
+poct glucose,0.75
+"glucose, ob/post dose",0.8
+glucose-6-phosphate dehydrogenase (g6pd) deficiency without anemia,0.1
+screening for diabetes mellitus,0.75
+glucose fasting,0.8
+ingested glucose dose,0.5
+blood sugar,0.75
+glucose tolerance 60 min(do not order alone),0.75
+glucose tolerance 120 min(do not order alone),0.75
+capillary glucose (mg/dl),0.75
+glucose mg/dl,0.75
+"glucose tolerance, 3 hour",0.75
+glucose wb neo (bkr),0.75
+glucose (research),0.5
+=insulinhumanregsubq,0.75
+macroamylase,0.1
+glucose blood sugar 20 minutes,0.75
+glucose fpg,0.75
+hemoglobin a1c/hemoglobin.total | blood | hematology and cell counts,0.9
+somatotropin | serum or plasma | chemistry - non-challenge,0.25
+albumin/creatinine | urine | chemistry - non-challenge,0.75
+glucose | blood | chemistry - non-challenge,0.75
+"encounter for long-term (current) use of anticoagulants, antithrombotics, aspirin",0.1
+pravastatin,0.2
+encounter for long-term (current) use of aspirin,0.1
+blindness and low vision,0.5
+"other conditions or status of the mother complicating pregnancy, childbirth, or the puerperium",0.1
+"benign neoplasm of eye, uveal",0.05
+benign neoplasm of eye,0.1
+blister,0.05
+acquired toe deformities,0.4
+vitamin deficiency,0.1
+ketone test,0.5
+urine creatinine concentration,0.25
+drug unknown,0.1
+clever choice comfort ez 31gx5mm pen,0.8
+cast application,0.05
+one touch ultra mini kit (blue),0.9
+consult / referral to podiatry,0.5
+insulin 31gx5,0.8
+dme no coding prodigy test,0.85
+b-d # syr/ndl 1ml 29gx1/2 sg,0.75
+pen needle,0.75
+accu-chek    tes smart,0.95
+one touch verio iq bloodglucose kt,0.95
+nicotine & cotinine urine,0.1
+b-d ultra-fine 33 lancets 100's,0.75
+consult / referral to certified diabetes educator,0.9
+consult / referral to optometry,0.25
+consult / referral to medical nutrition therapy,0.75
+one tch lanc delica dev,0.8
+bd pen needl mis 31gx5/16,0.75
+bd microtain mis lancets,0.75
+islet cell 512,0.5
+accu-chek    kit aviva pl,0.95
+advocate     mis lancets,0.75
+bd ins syr 0.3/31g/6mm mis,0.75
+dexcom g6    mis tra,0.9
+accu-chek,0.9
+freestyle    tes insulinx,0.9
+cotinine,0.1
+diseases of thymus gland,0.0
+consult / referral to foot care clinic,0.75
+b-d #8440 s/n 0.3ml 31gx5/16 1/2unt,0.8
+unfine pntp  mis 32gx4mm,0.1
+easy comfort pen ndl 33g 4mm,0.8
+dexcom g6    mis sen,0.9
+clever chek  tes voice,0.95
+bayer breeze kit 2 system,0.8
+clever choice comfort ez 32gx4mm pen,0.9
+consult / referral to smart study,0.1
+consult / referral to remedies4d study,0.0
+citrus bioflavonoids,0.2
+bayer contor bld gl tes baye,0.85
+hemoglobin a1c (hgba1c),0.9
+advocate     tes redicode,0.0
+"underdosing of insulin and oral hypoglycemic [antidiabetic] drugs, initial encounter",0.95
+novotwist    mis 32gx5mm,0.8
+thioctate,0.65
+one tch refl verio kit,0.9
+other congenital myopathy,0.0
+"lactic acid,plasma (quest)",0.25
+dexmedetomidine20mcg/5mlorsyringe,0.0
+monospot @,0.0
+latanoprost / netarsudil,0.05
+one tch flex verio kit,0.95
+one touch ultra mini kit (pink),0.9
+insulin glargine / lixisenatide,0.95
+derived oxygen saturation (point-of-care testing),0.1
+consult / referral to neuro ophthalmology,0.2
+family history of malignant neoplasm of other genital organs,0.0
+freestyle    kit sensor,0.85
+acetoacetate,0.5
+ketamine_10mg/ml_5ml_syringe,0.0
+"aftercare following surgery of the skin and subcutaneous tissue, nec",0.1
+=mepivacaine2%,0.0
+"person boarding or alighting a car injured in noncollision transport accident, initial encounter",0.0
+electronic consult / referral to nephrology,0.5
+b-d ultrafine pen ndl 32gx6mm 100s,0.75
+ascensia breeze 2,0.95
+local residential or business street as the place of occurrence of the external cause,0.0
+antipyrine / benzocaine,0.0
+truetrack    tes,0.9
+glucosamine sulfate,0.1
+trifluridine,0.0
+freestyle lite test strip,0.95
+ticlopidine,0.1
+lovastatin,0.1
+vitamin b complex,0.2
+prostate specific ag,0.0
+diphenhydramine / zinc acetate topical product,0.0
+ivacaftor,0.0
+glutamate decarboxylase 65 ab,0.2
+propafenone,0.0
+iatrogenic pulmonary embolism and infarction,0.1
+Insulin human Ab,0.5
+primary angle-closure glaucoma,0.1
+cancer ag 19-9,0.1
+disorders of conjunctiva,0.1
+acute pancreatitis,0.25
+temazepam,0.05
+colistimethate,0.0
+other disorders of thyroid,0.1
+6-monoacetylmorphine,0.0
+nontoxic uninodular goiter,0.0
+norhydrocodone,0.0
+hydrocodone,0.0
+noroxycodone,0.0
+oxycodone,0.05
+oxymorphone,0.0
+hydromorphone,0.0
+codeine,0.0
+morphine,0.05
+infection with drug-resistant microorganisms,0.2
+"thyroidectomy, partial or complete",0.05
+gemfibrozil,0.25
+arterial embolism and thrombosis,0.2
+psychogenic and somatoform disorders,0.05
+keratoconjunctivitis,0.1
+Zinc transporter 8 Ab,0.2
+c peptide,0.75
+lung transplant,0.05
+fluoride topical,0.05
+amikacin,0.05
+peripheral retinal degenerations,0.4
+thyroglobulin,0.1
+other nonspecific findings on examination of urine,0.2
+acetylcysteine,0.1
+ventral hernia,0.1
+sciatica,0.1
+cholesterol.total/cholesterol.in hdl,0.4
+"persons with potential health hazards related to socioeconomic, psychosocial, and other circumstances",0.1
+"esophagitis, gerd and related diseases",0.1
+electrolyte imbalance,0.4
+chronic pain,0.2
+constipation,0.1
+anxiety disorder,0.1
+hypothyroidism nos,0.1
+shortness of breath,0.2
+family history,0.5
+respiratory failure,0.1
+tachycardia nos,0.1
+asthma,0.0
+pain in limb,0.2
+"potential health hazards related to communicable diseases
+potential health hazards related to communicable diseases",0.0
+atrial fibrillation and flutter,0.1
+abnormal findings examination of lungs,0.1
+pain in joint,0.2
+acid-base balance disorder,0.2
+acquired absence of organs,0.1
+altered mental status,0.2
+vitamin d deficiency,0.2
+hypotension nos,0.1
+dysphagia,0.1
+insomnia,0.1
+cerebral ischemia,0.4
+"injury, nos",0.0
+"iron deficiency anemias, unspecified or not due to blood loss",0.1
+myocardial infarction,0.25
+urinary tract infection,0.2
+heart failure with reduced ef [systolic or combined heart failure],0.25
+back pain,0.05
+effects of other external causes,0.1
+thrombocytopenia,0.2
+osteoarthritis; localized,0.1
+substance addiction and disorders,0.1
+screening for infectious and parasitic diseases,0.1
+symptoms involving nervous and musculoskeletal systems,0.3
+swelling of limb,0.2
+other dyspnea,0.1
+endometriosis,0.1
+screening for malignant neoplasms,0.1
+disorders of magnesium metabolism,0.2
+pleurisy; pleural effusion,0.1
+pulmonary collapse; interstitial and compensatory emphysema,0.0
+diarrhea,0.1
+deep vein thrombosis [dvt],0.2
+other venous embolism and thrombosis,0.1
+"noninflammatory disorders of ovary, fallopian tube, and broad ligament",0.1
+skull and face fracture and other intercranial injury,0.0
+"symptoms concerning nutrition, metabolism, and development",0.6
+adverse effects of antibacterials (not penicillins),0.05
+screening for other diseases and disorders,0.5
+congestive heart failure (chf) nos,0.2
+heart failure with preserved ef [diastolic heart failure],0.25
+other headache syndromes,0.1
+cardiomegaly,0.2
+pneumonia,0.1
+cardiac arrest and ventricular fibrillation,0.1
+osteoarthrosis nos,0.1
+other upper respiratory disease,0.05
+aphasia/speech disturbance,0.1
+hallux valgus (bunion),0.1
+postmenopausal bleeding,0.1
+staphylococcus infections,0.1
+dependence on respirator [ventilator] or supplemental oxygen,0.1
+glucagen,0.25
+50 ml glucose 500 mg/ml prefilled syringe,0.1
+metformin hydrochloride 500 mg oral tablet,0.95
+% hemoglobin a1c,0.9
+glucose 0.4 mg/mg oral gel,0.5
+troponin t,0.1
+"albumin, urine",0.75
+eag,0.0
+"albumin/creatinine, urine",0.75
+aspirin 81 mg chewable tablet,0.2
+"heparin sodium, porcine 5000 unt/ml injectable solution",0.1
+"sennosides, usp 8.6 mg oral tablet",0.1
+gerd,0.1
+urea nitrogen,0.2
+green top hold (plasma),0.1
+estimated gfr (mdrd equation),0.5
+"creatine kinase, mb isoenzyme",0.1
+omeprazole 20 mg delayed release oral capsule,0.1
+pantoprazole 40 mg delayed release oral tablet,0.05
+hyaline casts,0.2
+blue top hold,0.0
+uhold,0.0
+light green top hold,0.0
+lantus,0.95
+creatine kinase (ck),0.1
+glipizide 5 mg oral tablet,0.95
+humalog,0.9
+trazodone hydrochloride 50 mg oral tablet,0.1
+ciprofloxacin 500 mg oral tablet,0.1
+magnesium,0.25
+"cholesterol, ldl, measured",0.25
+dok,0.0
+potassium,0.2
+24 hr metformin hydrochloride 500 mg extended release oral tablet,0.95
+simvastatin 40 mg oral tablet,0.2
+"cholesterol, hdl",0.4
+chloride,0.1
+cholesterol ratio (total/hdl),0.25
+sodium,0.1
+acetaminophen 325 mg oral tablet,0.1
+"cholesterol, total",0.25
+bicarbonate,0.25
+anion gap,0.25
+amlodipine 5 mg oral tablet,0.1
+rdw,0.1
+mchc,0.1
+mch,0.0
+mcv,0.1
+red blood cells,0.1
+white blood cells,0.1
+"calcium, total",0.1
+"cholesterol, ldl, calculated",0.4
+or received,0.0
+lisinopril 5 mg oral tablet,0.4
+phosphate,0.2
+platelet count,0.1
+rbc,0.1
+bacteria,0.0
+wbc,0.1
+epithelial cells,0.05
+urobilinogen,0.1
+bilirubin,0.1
+nitrite,0.1
+blood,0.1
+ketone,0.5
+ph,0.0
+leukocytes,0.1
+specific gravity,0.1
+urine appearance,0.2
+inr(pt),0.1
+pt,0.0
+1000 ml sodium chloride 4.5 mg/ml injection,0.1
+ntprobnp,0.1
+hematocrit,0.1
+length of urine collection,0.1
+folate,0.1
+personal history of long-term (current) use of other drugs,0.1
+personal history of long-term (current) use of anticoagulants,0.0
+"nebivolol+hydrochlorothiazide 5 mg+25 mg (temeritduo), tablet aip mwi be",0.1
+"esomeprazole 40 mg (alter lab), gastro-resistant tablet",0.05
+"diamicron 80 mg, tablets",0.95
+"malnutrition-related diabetes mellitus, neurological complications",0.1
+"empagliflozin - jardiance, 25 mg tablet",0.95
+miglitol,0.95
+"esomeprazole 20 mg (alter lab), gastro-resistant tablet",0.1
+"polyionic 2ag10 (pg10), bag 500 ml",0.0
+"naaxia (spaglumic acid), eye drops",0.0
+"bipreterax 10 mg/2.5 mg, aip bba cz tablets",0.2
+"nebivolol+hydrochlorothiazide 5 mg+12.5 mg (temeritduo), tablet aip mwi be",0.1
+perindopril,0.25
+"lansoprazole 15 mg (almus pharma lab), gastro-resistant capsule",0.1
+"rosuvastatin+ezetimibe 10 mg+10 mg (liporosa), capsule aip pla pl",0.2
+"iron 33 mg (ascofer), capsule",0.1
+"insulin glargine 300 u/ml (toujeo), inj sol, pen 3 ml (doublestar)",0.9
+"silodosine 8 mg (arrow lab), capsule",0.0
+"nebivolol 5 mg (temerit), quarter-scored tablets aip mwi lt",0.1
+"rosuvastatin+ezetimibe 10 mg+10 mg (twicor), tab",0.2
+diabetic arthropathy,0.75
+"permixon 160 mg, capsule aip itt bg",0.0
+"rosuvastatin+ezetimibe 20 mg+10 mg (twicor), tab",0.2
+"ezetimibe+simvastatin 10 mg+20 mg (inegy), tablets aip mwi it",0.2
+"perindopril arginine+amlodipine 10 mg+10 mg (coveram), sugar-coated tablet dpd lt",0.1
+myasthenic syndrome in endocrine diseases,0.1
+"esomeprazole 40 mg (almus lab), gastro-resistant capsule",0.05
+"recurrent myocardial infarction, unspecified site, other care",0.3
+"dutasteride 0.5 mg (arrow lab), caps",0.0
+"insulin aspart 100 u/ml (fiasp), injection solution, cartridge 3 ml (penfill)",0.75
+presence of an artificial limb (complete) (partial),0.1
+"nebivolol+hydrochlorothiazide 5 mg+12.5 mg (temeritduo), tablet aip bba be",0.1
+"perindopril arginine+indapamide 10 mg+2.5 mg (bipreterax), aip coated tablet",0.2
+"release of the distal end of the catheter from an implanted infusion system for intraperitoneal insulin therapy, by laparoscopy",0.75
+"dulaglutide 3 mg (trulicity), inj sol, pen 0.5 ml",0.95
+levocabastine,0.0
+"rilmenidine 1 mg (hyperium), tablets aip mwi cz",0.1
+"permixon 160 mg, soft capsule aip bba lt",0.0
+"rupatadine 10 mg (arrow lab), tablets",0.0
+"nebivolol+hydrochlorothiazide 5 mg+25 mg (temeritduo), tablet aip bba be",0.1
+"ramipril+amlodipine 10 mg+10 mg (preminor), capsule",0.2
+"ezetimibe+simvastatin 10 mg+20 mg (biogaran lab), tablets",0.1
+"insulin aspart 100 u/ml (fiasp), injection solution, vial 10 ml",0.75
+"insulin - abasagar, 100 u/ml, pen",0.75
+"pantoprazole 20 mg (inipomp), gastro-resistant tablet aip mwi pl",0.1
+"glimepiride, 2 mg tablet, scored",0.95
+"amlodipine+valsartan 10 mg+160 mg (accord lab), tablet",0.1
+"rosuvastatin, 20 mg tablets",0.2
+"insulin aspart 100 u/ml (fiasp), injection solution, cartridge 1.6 ml (pumpcart)",0.75
+"actrapid insulin, novolet pen",0.8
+"ezetimibe+simvastatin 10 mg+20 mg (almus lab), tablets",0.2
+"diltiazem, er 300 mg capsule er",0.1
+"acebutolol, 400 mg tablet",0.1
+"insulin degludec 100 u/ml (tresiba), injection solution, cartridge 3 ml",0.9
+"esomeprazole 20 mg (almus lab), gastro-resistant capsule",0.1
+"gliclazide mr 60 mg (biogaran lab), modified-release tablet",0.95
+"dutasteride 0.5 mg (accord lab), caps",0.0
+fluvastatin,0.1
+pitavastatin,0.25
+hypopotassemia,0.2
+hyposmolality and/or hyponatremia,0.2
+nisoldipine,0.1
+clevidipine,0.1
+ezetimibe / simvastatin,0.2
+rosuvastatin calcium 20 mg oral tablet,0.2
+pravastatin sodium 20 mg oral tablet,0.2
+atorvastatin 40 mg oral tablet,0.2
+atorvastatin 10 mg oral tablet,0.2
+crestor,0.1
+rosuvastatin calcium 5 mg oral tablet,0.2
+atorvastatin 20 mg oral tablet,0.25
+atorvastatin 80 mg oral tablet,0.2
+pravastatin sodium 10 mg oral tablet,0.2
+simvastatin 10 mg oral tablet,0.2
+pravastatin sodium 40 mg oral tablet,0.2
+lipitor,0.4
+nitroglycerin,0.1
+captopril,0.5
+amlodipine / atorvastatin,0.1
+unstable angina (intermediate coronary syndrome),0.2
+"lercanidipine, 20 mg film-coated tablet",0.1
+amlodipine / olmesartan,0.1
+nicardipine,0.1
+candidiasis,0.3
+amlodipine / valsartan,0.1
+"caldine 4 mg, tablets",0.0
+amlodipine 2.5 mg oral tablet,0.1
+isradipine,0.1
+norvasc,0.1
+24 hr nifedipine 60 mg extended release oral tablet,0.1
+24 hr nifedipine 30 mg extended release oral tablet,0.1
+nifediac,0.1
+24 hr felodipine 2.5 mg extended release oral tablet,0.1
+"nsfp nidrel 20 mg, tablet",0.0
+nifedipine,0.1
+nifedipine 10 mg oral capsule,0.1
+procardia xl,0.1
+"manidipine 20 mg (teva lab), tablets",0.5
+cardene,0.1
+adalat,0.2
+nimodipine 30 mg oral capsule,0.1
+felodipine,0.1
+lupus (localized and systemic),0.1
+moexipril,0.1
+amlodipine / benazepril,0.1
+quinapril,0.2
+septicemia,0.1
+captopril 12.5 mg oral tablet,0.4
+capoten,0.5
+lisinopril 2.5 mg oral tablet,0.25
+"tanatril (imidapril) 10 mg, tab",0.2
+"zofenil (zofenopril) 15 mg, tablet",0.1
+"cilazapril 2.5 mg teva, tablets",0.2
+enalapril maleate 10 mg oral tablet,0.4
+accupril,0.5
+captopril 25 mg oral tablet,0.4
+lisinopril 10 mg oral tablet,0.4
+lisinopril 20 mg oral tablet,0.4
+Interleukin 2,0.05
+tb 2 antigen,0.0
+creatinine blood test 2,0.2
+creatinine clearance t2,0.75
+alpha 2 organic liquid,0.0
+family history of diabetes mellitus,0.75
+semaglutide,1.0
+glutamic acid decarboxylase antibody,0.1
+freestyle    mis reader,0.1
+easy tch ndl 32gx5/32 pen,0.1
+hepaptitis b surface antigen,0.0
+accu-chek    tes gui,0.85
+droplet ndl 32gx4mm pen,0.1
+freesty libr mis 2 r,0.85
+pub truetrack meter,0.85
+outcomes tip/claim $10,0.0
+true test blood glucose strip 100's,0.85
+outcomes cmr $50,0.0
+one touch ultramini meter,0.85
+microalbumin 24 hrs,0.85
+contact with and (suspected) exposure to other potentially hazardous chemicals,0.05
+"activity, vacuuming",0.0
+urine glucose,0.85
+mirixa refusal $0,0.0
+insulin syrg mis 0.5/29g,0.85
+=nesiritide,0.0
+family history of infectious and parasitic diseases,0.0
+family history of other genitourinary diseases,0.05
+bd safetgld ins 0.5 ml 8mmx30g,0.1
+psyllium,0.2
+health insurance,0.0
+ids_insulin_aspart_100_units/ml_10ml,0.85
+forms,0.0
+outcomes tip/claim refusal $2,0.0
+comfortouch  mis lancet,0.1
+one tch lanc del plus dev,0.85
+consult / referral to diabetes self management training,1.0
+prior auth form ppi,0.05
+accu-chek softclix lancet lancets mis,0.85
+snf,0.0
+bayer contor next e kit baye,0.85
+"nail entering through skin, initial encounter",0.05
+occupational exposure to toxic agents in other industries,0.0
+Cholesterol.in LDL/Cholesterol.in HDL,0.1
+qc unifine pentips 32gx5/32,0.85
+myocardial rest,0.1
+electrolyte panel,0.2
+renal func panel w/egfr,0.3
+sure-touch   mis unv lanc,0.1
+"fall into unspecified water causing other injury, initial encounter",0.0
+hm true metrix bg monitor,0.85
+furosemide,0.1
+easymax v speaking,0.0
+potassium chloride,0.1
+magnesium chloride,0.1
+1000 ml glucose 50 mg/ml / sodium chloride 4.5 mg/ml injection,0.2
+magnesium sulfate,0.05
+sodium chloride,0.01
+sodium bicarbonate,0.05
+calcium chloride / potassium chloride / sodium chloride,0.0
+1000 ml sodium chloride 9 mg/ml injection,0.0
+isosorbide dinitrate,0.05
+sodium acetate,0.05
+50 ml magnesium sulfate 40 mg/ml injection,0.0
+polyethylene glycol 3350 / potassium chloride / sodium bicarbonate / sodium chloride,0.05
+dexpanthenol / magnesium sulfate / manganese sulfate / niacinamide / pyridoxine / riboflavin / thiamine / vitamin b 12 / zinc sulfate,0.1
+alanine / arginine / calcium chloride / dibasic potassium phosphate / glucose / glycine / histidine / isoleucine / leucine / lysine / magnesium chloride / methionine / phenylalanine / proline / serine / sodium acetate / sodium chloride / threonine / tryptophan / tyrosine / valine,0.05
+aspirin / citric acid / sodium bicarbonate,0.0
+zinc sulfate,0.1
+alanine / arginine / aspartate / cysteine / glutamate / glycine / histidine / isoleucine / leucine / lysine / methionine / phenylalanine / proline / serine / sodium acetate / sodium chloride / sodium metabisulfite / taurine / threonine / tryptophan / tyrosine / valine,0.0
+ascorbic acid / polyethylene glycol 3350 / potassium chloride / sodium ascorbate / sodium chloride / sodium sulfate,0.05
+magnesium sulfate / potassium sulfate / sodium sulfate,0.0
+glucose / potassium chloride / sodium chloride,0.1
+potassium chloride 10 meq extended release oral tablet,0.05
+potassium chloride 20 meq extended release oral tablet,0.05
+potassium chloride / sodium chloride,0.05
+calcium chloride / glucose / lactate / potassium chloride / sodium chloride,0.1
+omeprazole / sodium bicarbonate,0.05
+zinc chloride,0.0
+klor-con,0.1
+sodium phosphate,0.05
+polyethylene glycol 3350 / potassium chloride / sodium bicarbonate / sodium chloride / sodium sulfate,0.05
+calcium chloride 0.001 meq/ml / glucose 50 mg/ml / potassium chloride 0.004 meq/ml / sodium chloride 0.103 meq/ml / sodium lactate 0.028 meq/ml injectable solution,0.1
+calcium carbonate / magnesium oxide / zinc sulfate,0.0
+chromic chloride / copper sulfate / manganese sulfate / zinc sulfate,0.05
+citric acid / potassium bicarbonate / sodium bicarbonate,0.05
+calcium chloride / magnesium chloride / potassium chloride / sodium acetate / sodium chloride / sodium citrate,0.05
+trophamine 10 %,0.0
+chromic chloride / copper sulfate / manganese sulfate / selenious acid / zinc sulfate,0.05
+1000 ml glucose 50 mg/ml / potassium chloride 0.02 meq/ml / sodium chloride 9 mg/ml injection,0.2
+1000 ml glucose 50 mg/ml / potassium chloride 0.04 meq/ml / sodium chloride 4.5 mg/ml injection,0.2
+sodium chloride 30 mg/ml inhalation solution,0.0
+deep sea,0.0
+500 ml sodium chloride 30 mg/ml injection,0.0
+kay ciel,0.0
+500 ml sodium chloride 9 mg/ml injection,0.0
+100 ml sodium chloride 9 mg/ml injection,0.0
+chromous chloride / copper sulfate / manganese sulfate / selenious acid / zinc sulfate,0.05
+colyte,0.0
+zinc sulfate 220 mg oral capsule,0.05
+150 ml sodium chloride 9 mg/ml injection,0.01
+ammonium chloride,0.05
+50 ml potassium chloride 0.4 meq/ml injection,0.0
+clinimix e 4.25/5,0.1
+100 ml magnesium sulfate 40 mg/ml injection,0.0
+1000 ml glucose 50 mg/ml / potassium chloride 0.02 meq/ml / sodium chloride 4.5 mg/ml injection,0.2
+1000 ml glucose 50 mg/ml / potassium chloride 0.04 meq/ml / sodium chloride 9 mg/ml injection,0.25
+golytely,0.0
+"heparin, porcine",0.05
+"disorders of fluid, electrolyte, and acid-base balance",0.2
+frequency of urination and polyuria,0.85
+ascorbic acid / copper gluconate / docosahexaenoate / eicosapentaenoate / lutein / vitamin e / zeaxanthin / zinc oxide,0.05
+ascorbic acid / ferrous fumarate,0.05
+ascorbic acid / cuprous oxide / lutein / vitamin e / zinc oxide,0.05
+ascorbic acid / niacin,0.1
+"250 ml heparin sodium, porcine 100 unt/ml injection",0.0
+ascorbic acid / beta carotene / cuprous oxide / vitamin e / zinc oxide,0.05
+rapamune,0.05
+ascorbic acid / polysaccharide iron complex,0.05
+propranolol,0.1
+ascorbic acid,0.05
+inosine,0.05
+ascorbic acid / iron carbonyl,0.05
+heparin,0.05
+ascorbic acid / folic acid / iron carbonyl / vitamin b12,0.05
+alpha tocopherol / ascorbic acid / biotin / cholecalciferol / dexpanthenol / folic acid / niacinamide / pyridoxine / riboflavin / thiamine / vitamin a / vitamin b12 / vitamin k1,0.1
+ascorbic acid 35 mg/ml / cholecalciferol 0.01 mg/ml / vitamin a 0.45 mg/ml oral solution,0.05
+"heparin sodium, porcine 10 unt/ml prefilled syringe",0.05
+neoral,0.1
+ascorbic acid / bacillus coagulans / cranberry preparation,0.05
+ascorbic acid / ferrous fumarate / folic acid / vitamin b12,0.05
+cyclosporine ophthalmic product,0.05
+"500 ml heparin sodium, porcine 2 unt/ml injection",0.0
+vitamin a/vitamin d,0.05
+activase,0.0
+infuvite,0.1
+sandimmune,0.0
+ascorbic acid / cranberry preparation,0.05
+lifitegrast,0.0
+acetylcysteine 200 mg/ml inhalation solution,0.0
+glucose / heparin,0.1
+"heparin sodium, porcine 10000 unt/ml injectable solution",0.05
+dexpanthenol,0.05
+primary pulmonary hypertension,0.05
+interpretation,0.0
+"immediate or delayed resuscitation of the newborn in life-threatening distress, involving any ventilation technique, with or without intubation, and associated procedures, with a report being made",0.0
+oliguria and anuria,0.1
+hyperosmolality and/or hypernatremia,0.25
+"manual ventilation of a newborn at birth, with a face mask, with intravenous administration of pharmacological agent and/or solution",0.0
+"continuous transcutaneous monitoring of blood partial pressure of oxygen [po2] and/or carbon dioxide [pco2] in the newborn, per 24 hours",0.05
+platelets,0.05
+"medical stabilization and monitoring of a newborn for medical transfer to a specialized center, with a report preparation",0.0
+anemia during pregnancy,0.05
+platelet # fld auto,0.05
+alteplase,0.0
+infectious and parasitic complications affecting pregnancy,0.05
+wbc # bld manual,0.05
+"manual ventilation of a newborn at birth, with a face mask",0.0
+biopsy of the minor salivary glands,0.05
+intravenous administration of pharmacological agent and/or solute in the newborn at birth,0.0
+transfusion of non-red blood cell labile blood products in the newborn,0.0
+glucose bld-scnc,0.85
+hematological disorders of newborn,0.0
+right heart catheterization and cardiac output measurement by transcutaneous venous approach,0.05
+vitamin b12,0.1
+fetal distress and abnormal forces of labor,0.05
+"cerebral artery occlusion, with cerebral infarction",0.1
+"high-frequency oscillatory ventilation, per 24 hours",0.0
+erythrocytes,0.05
+"transthoracic echocardiography and doppler of the heart and intrathoracic vessels, with intravenous injection of ultrasound contrast agent not crossing the lung",0.05
+partial pressure of carbon dioxide in tissues,0.05
+occlusion and stenosis of precerebral arteries,0.1
+intracranial hemorrhage,0.0
+visual field defects,0.2
+cardiogenic shock,0.1
+"carotid bifurcation thromboendarterectomy with patch angioplasty, by cervicotomy without vascular bypass",0.05
+neonatal bradycardia or tachycardia,0.0
+"extrarenal purification by peritoneal dialysis for acute renal failure, per 24 hours",0.1
+iron deficiency anemias,0.1
+non-hodgkins lymphoma,0.0
+obstetric unit monitoring of a child requiring incubator care or short-term treatment,0.0
+"supplement for the use of cinefluorography, in 35 mm during a conventional radiology examination",0.0
+"intraluminal dilation of the trunk of the intracranial internal carotid artery with stenting, by transcutaneous arterial route",0.05
+placement of an umbilical arterial catheter,0.0
+prothrombin time (pt),0.05
+ascorbic acid / biotin / folic acid / niacin / pantothenate / pyridoxine / riboflavin / thiamine / vitamin b12,0.1
+subdural hemorrhage,0.0
+"intraluminal dilation of the carotid bifurcation with stenting, via transcutaneous arterial route",0.05
+cerebrovascular disease,0.25
+"extracranial internal carotid artery intraluminal dilatation with stent placement, via transcutaneous arterial route",0.1
+acute bronchitis and bronchiolitis,0.0
+pseudomonal pneumonia,0.05
+cannabidiol,0.1
+benzethonium / benzocaine,0.0
+attention deficit hyperactivity disorder,0.0
+troponin i.cardiac,0.05
+prilocaine,0.0
+nebulizer (compressor and supplies),0.05
+paralytic strabismus,0.05
+spontaneous ecchymoses,0.1
+6-minute walk distance on flat ground with monitoring of oxygen saturation by transcutaneous measurement,0.1
+"transcranial doppler ultrasonography of intracranial vessels, with pharmacodynamic test",0.05
+"selective arteriography of 3 or more cervicocephalic axes, by transcutaneous arterial route",0.05
+"intraluminal dilation of the brachiocephalic trunk or intrathoracic common carotid artery with stent placement, via transcutaneous arterial route",0.05
+intracerebral hemorrhage,0.05
+conclusion,0.0
+"evacuation of a chronic subdural hematoma, unilateral, by craniotomy",0.0
+hba1c comment,1.0
+urine microalbumin concentration,0.85
+"insulin degludec 200 u/ml (tresiba), injection solution, 3 ml pen",1.0
+colesevelam,0.75
+albiglutide,1.0
+dapagliflozin propanediol,1.0
+"insulin aspart 100 u/ml (fiasp), inj sol, pen 3 ml (flextouch)",1.0
+commentary,0.0
+unspecified erythematous condition,0.1
+decubitus ulcer,0.1
+adverse effect: h2 histamine receptor inhibitor,0.05
+csf pcr for meningitis,0.0
+pruritus and related conditions,0.1
+polycythemia vera,0.05
+consult / referral to case management,0.1
+consult / referral to primary care physician for follow-up,0.2
+abnormal heart sounds,0.1
+shock,0.05
+deprecated hdlc serpl-mcnc,0.0
+disturbance of skin sensation,0.65
+bp goal 150/90,0.1
+deprecated ldlc serpl-mcnc,0.1
+hydrochlorothiazide 12.5 mg oral capsule,0.25
+"amlodipine+valsartan 5 mg+80 mg (biogaran lab), tablet",0.1
+aspirin / butalbital / caffeine,0.0
+aspirin- and butalbital- and caffeine-containing product,0.05
+hla-b*58:01,0.05
+sodium tetradecyl sulfate,0.0
+levemir,1.0
+b d pen needles ultrafine ndl orig pen,0.85
+istat  specimen type,0.0
+time 1,0.0
+time 3,0.0
+succinate,0.05
+pyruvate kinase,0.1
+fumarate,0.1
+hemolyzed sample,0.0
+rhabdomyolysis,0.05
+Disaccharidases,0.1
+reducing substances,0.2
+D-Lactate,0.1
+micromethod,0.1
+renin,0.1
+polidocanol,0.0
+gamma hydroxybutyrate,0.0
+coronary artery bypass graft (cabg),0.1
+see clinical and biological assessment,0.1
+nc biochem lab,0.1
+anorexia,0.1
+other disorders of liver,0.1
+galactose 1 phosphate uridyl transferase,0.05
+chlorpropamine quantity,0.85
+site/collection time,0.0
+index 1,0.85
+gamma glutamyl transferase,0.1
+adverse effect: therapeutic gases,0.0
+admission for suspected myocardial infarction,0.1
+a1 microglob urine,0.25
+glipizide every day,0.9
+appearance,0.0
+impaction of intestine,0.05
+prot i4bis screen,0.1
+bumetanide,0.1
+potassium iodide,0.0
+toxic effect of noxious substances eaten as food,0.05
+peritonitis and retroperitoneal infections,0.05
+localized adiposity,0.25
+chronic hepatitis,0.05
+anal and rectal conditions,0.1
+hypocalcemia,0.1
+sulfate,0.0
+peptic ulcer (excl. esophageal),0.05
+nonspecific abnormal findings in stool contents,0.05
+xifaxan,0.0
+cellcept,0.0
+hypoventilation,0.1
+pulmonary congestion and hypostasis,0.05
+cisapride,0.05
+gastrointestinal hemorrhage,0.1
+metFORMIN,1.0
+aminoacid/dextrose(custom)500ml,0.1
+bethanechol,0.0
+dextran,0.1
+one,0.0
+pyelonephritis,0.1
+epistaxis or throat hemorrhage,0.0
+prednisolone,0.1
+triamterene,0.1
+chlorpheniramine,0.0
+"cellulitis and abscess of leg, except foot",0.1
+bronchial lavage color,0.0
+nausea and vomiting (ciwa),0.1
+magnesium carbonate,0.05
+darolutamide,0.0
+rickets or osteomalacia,0.05
+acetic acid,0.05
+magnesium citrate,0.05
+pain,0.1
+drowsiness,0.2
+tretinoin,0.05
+lisdexamfetamine,0.01
+blood biochemistry,0.2
+poisoning/allergy of sulfonamides,0.0
+"poisoning by water, mineral, and uric acid metabolism drugs",0.1
+hyperaldosteronism,0.1
+"esophagitis, gastroenteritis and miscellaneous digestive disorders without mcc",0.05
+hormone resistant malignancy status,0.05
+pyoderma,0.1
+tolvaptan,0.1
+candida sp rrna,0.05
+anxiety,0.1
+cyproheptadine,0.05
+yohimbine,0.05
+ranitidine,0.01
+cod liver oil,0.05
+apomorphine,0.05
+dextroamphetamine,0.0
+glomerular filtration rate,0.3
+acid phosphatase.prostatic,0.0
+see stability message,0.0
+tremor (ciwa),0.1
+diet type,0.2
+~time in minutes,0.0
+orlistat,0.65
+slurred speech,0.1
+consult / referral to gastroenterology,0.1
+diazepam 10 mg oral tablet,0.0
+nocturnal respiratory polygraphy,0.1
+diaphragmatic hernia,0.0
+activity tolerance,0.1
+propantheline,0.1
+evaluation of peritoneal dialysis dose by single blood and dialysate sampling,0.1
+carditis,0.05
+transesophageal doppler echocardiography of the heart and intrathoracic vessels,0.05
+measurement of peritoneal clearances by 24-hour dialysate collection,0.05
+monitoring of labor by a practitioner different from the one performing the delivery,0.0
+"right atrioventricular valve replacement with mechanical or bioprosthetic valve with stent, via thoracotomy with cpb",0.05
+Urate/Creatinine,0.1
+other hereditary hemolytic anemias,0.0
+"pediaven newborn 1, 115 kcal/250 ml ap-hp, solution for infusion, bi-compartment biofine bag",0.0
+"ezetimibe+atorvastatin 10 mg+20 mg (reselip), tab",0.2
+24-hour urine output,0.2
+"aortic valve replacement with prosthesis in non-anatomical position, by thoracotomy with cpb",0.0
+igg urine,0.1
+familial dilated cardiomyopathy,0.05
+"mental and behavioral disorders due to acute intoxication: volatile solvents, delirium",0.0
+"ascending thoracic aorta replacement without aortic valve replacement, with reimplantation of the coronary arteries, via thoracotomy with cpb",0.05
+"electronic monitoring of the contractions of the pregnant uterus and/or fetal heart rate, via the uterine route",0.05
+"removal of a palliative anastomosis for congenital heart disease, with enlargement angioplasty of a branch of the pulmonary artery, via thoracotomy with cpb",0.0
+"left atrioventricular valve replacement with prosthesis in non-anatomical position, by thoracotomy with cpb",0.0
+qualitative platelet defects,0.05
+aneurysm and dissection of heart,0.0
+acute and subacute necrosis of liver,0.05
+paralytic ileus,0.05
+consult / referral to diabetic educator,1.0
+viral hepatitis,0.05
+capillary passage,0.05
+hcv genotype (hybrid),0.0
+glucose oxidase,0.1
+clerical check,0.0
+serial number for other lab test,0.1
+nutritional cnslng - bs999,0.75
+tuberculin purified protein derivative,0.05
+product identification,0.0
+diclofenac,0.05
+alprostadil,0.05
+cancer of bronchus; lung,0.0
+alpha-2 macroglobulin,0.05
+tacrolimus,0.05
+clemastine,0.0
+paregoric,0.0
+the patient has,0.0
+prednisone,0.1
+physician instructions,0.0
+kidney biopsy histopathological examination with special staining for non-carcinological disease diagnosis,0.1
+pancreatic graft harvesting from a brain-dead donor,0.0
+Glucose-6-Phosphate dehydrogenase phenotype,0.1
+"replacement of the ascending thoracic aorta and the horizontal aorta without replacement of the aortic valve, with reimplantation of the coronary arteries, by thoracotomy with cpb",0.05
+erythrocyte glucose-6-phosphate dehydrogenase,0.1
+pericardial drainage by percutaneous approach,0.0
+"personal history of complications of pregnancy, childbirth, and the puerperium",0.05
+"ascending thoracic aorta replacement for aneurysm rupture, by thoracotomy with cardiopulmonary bypass",0.05
+removal of an implanted infusion system and intraventricular or intracystic cerebral catheter,0.0
+erythrocyte pyruvate kinase,0.1
+intraoperative transesophageal echocardiography and doppler of the heart and intrathoracic vessels for monitoring of cardiocirculatory failure following cardiopulmonary bypass.,0.05
+"excision of lesion or stripping of the mucosa of the glottic plane, by direct laryngoscopy without laser",0.0
+other traumatic heart injuries without open thoracic wound,0.0
+"poisoning by psychotropic substances, unspecified - school and public place",0.0
+"extrarenal purification by hemodialysis, hemodiafiltration, or continuous hemofiltration for acute renal failure, per 24 hours",0.1
+"conjunctival disinsertion at the limbus [peritomy], without autograft",0.0
+"midfoot or forefoot amputation or disarticulation, with hindfoot stabilization",0.85
+"excision of a heart tumor, by thoracotomy with cpb",0.0
+vascular disorders of kidney/hypertrophy,0.75
+"gastric fluid aspiration by tubing, without pharmacological test",0.05
+"mumps virus vaccine live, jeryl lynn strain",0.0
+"sequential transplantation of both lungs, by thoracotomy without cpb",0.0
+fgf-23 intact,0.1
+"prolonged or resumed circulatory support by extracorporeal circulation in the operating room at the end of a cardiovascular procedure, for more than half an hour",0.05
+carcinological histopathological examination of heart tumor resection specimen,0.0
+"pediaven g20, 880 kcal/1,000 ml ap-hp, solution for infusion, dual-chamber biofine bag",0.1
+"continuous intravenous injection of dobutamine or dopamine at a rate greater than 8 micrograms per kilogram per minute [µg/kg/min], of epinephrine or norepinephrine outside the neonatal period, per 24 hours",0.05
+personal history of female genital mutilation,0.0
+diphtheria-tetanus-pertussis [dtp] vaccination requirement,0.0
+hosp. prep: acetylsalicylic acid 5mg capsule,0.05
+doppler ultrasound of the digestive vessels,0.05
+"left main coronary artery enlargement angioplasty, by thoracotomy with cardiopulmonary bypass",0.05
+participation of a second surgeon during a cardiac surgery act,0.0
+transcatheter intraluminal dilation of the pulmonary valve orifice without perforation of the atretic valve,0.0
+pulmonary perfusion scintigraphy,0.05
+"pulseless electrical activity, not elsewhere classified",0.0
+"resection or consolidation of an infarcted myocardial zone, by thoracotomy with cpb",0.05
+"coronary arteriography with angiography of a coronary bypass without left ventriculography, via transcutaneous arterial route",0.1
+primary sclerosing cholangitis,0.05
+unilateral or bilateral hip ultrasound of the newborn,0.0
+rubella virus vaccine live (wistar ra 27-3 strain),0.0
+gradual closure of an omphalocele or gastroschisis,0.0
+"foreign body removal or excision of intracardiac vegetation or clot, by thoracotomy with cardiopulmonary bypass",0.0
+tracheal stenosis resection and/or dilation session by endoscopy without laser,0.0
+extramucosal pyloromyotomy by laparotomy,0.05
+portomesenteric vein thrombectomy by laparotomy,0.05
+"repair of supravalvular aortic stenosis, by thoracotomy with cardiopulmonary bypass",0.0
+"measles virus vaccine live, enders' attenuated edmonston strain",0.0
+"homolateral subclavian-axillary bypass, by direct approach",0.05
+primary closure of an omphalocele or gastroschisis,0.0
+hammer toe (acquired),0.1
+autologous breast reconstruction with pedicled musculocutaneous flap from the autologous latissimus dorsi muscle [ald [autologous latissimus dorsi]] without placement of a prosthetic implant,0.0
+"horizontal thoracic aorta replacement, by thoracotomy with cpb",0.05
+single breech delivery by natural means with extraction in a primipara,0.0
+"replacement of the descending thoracic aorta and juxtadiaphragmatic aorta, by thoraco-phreno-laparotomy with cpb",0.05
+percutaneous bone drilling or intraosseous injection,0.0
+"excision or destruction of arrhythmogenic focus for ventricular tachycardia, by thoracotomy with cardiopulmonary bypass",0.0
+bladder evacuation by transient catheterization [evacuative bladder catheterization],0.05
+hip disarticulation,0.0
+"adverse effect: agents primarily alpha-sympathomimetic, nec",0.1
+urate/creat ur-srto,0.1
+"water for injection (labo lavoisier), solution for injection preparation, bottle 250 ml",0.01
+adenosine deaminase,0.05
+creatinine urine,0.25
+"coronary revascularization with an arterial graft and venous graft with 3 distal anastomoses, by thoracotomy with cpb",0.1
+adverse effect: inhaled anesthetics,0.05
+implantation of a permanent pacemaker in the right ventricle via transcutaneous venous route,0.0
+unilateral or bilateral transcutaneous ultrasound of the kidney and lumbar region,0.05
+fluid overload,0.1
+"extrarenal purification by continuous hemodialysis or hemofiltration for acute renal failure in the newborn, per 24 hours",0.05
+small bowel radiography with contrast medium administered through a nasoduodenal tube [enteroclysis],0.05
+6-minute walk distance on flat ground with monitoring of oxygen saturation by transcutaneous measurement and measurement of useful oxygen flow,0.1
+"anti-ma2 antibody, right cerebrospinal fluid",0.05
+deoxyhemoglobin/hemoglobin.total,0.1
+"anti-ma1 antibody, right cerebrospinal fluid",0.0
+"lymphoid leukemia, acute",0.0
+bone marrow or stem cell transplant,0.0
+human leukocyte antigen - dr,0.05
+liver function tests,0.2
+placement of a bowel bag in a newborn at birth,0.0
+"bedside radiography, 1 or 2 views",0.05
+intra-arterial coronary ultrasound and/or doppler ultrasound during a percutaneous vascular procedure,0.1
+"suturing of recent wound or rupture of the diaphragm dome, by laparoscopy",0.0
+"sodium alginate+sodium bicarbonate 250 mg+133.5 mg/5 ml (gaviscon), oral susp, bottle 250 ml",0.05
+"resection of a ventricular wall aneurysm of the heart, by thoracotomy with cpb",0.0
+pelvic girdle [pelvis] radiography with 1 view and unilateral hip joint radiography with 1 or 2 views,0.05
+mucopolysaccharidosis protocol,0.0
+glucose dialysis,0.25
+dextrose50%50mlvial,0.2
+glucose_tablet,0.25
+plasma fatty acids and rbc,0.2
+"recurrent and persistent hematuria with minor glomerular abnormalities, iga deposits",0.05
+glucose dial 1,0.2
+insulin syrg mis 0.3/31g,0.75
+glucose dial 3,0.25
+repaglinide plasma,0.85
+glucose arterial (point of care),0.65
+glucose dial 4,0.25
+c-peptide with insulin,0.85
+canagliflozin / metformin,1.0
+glipizide / metformin,1.0
+"glucose, random",0.75
+adverse effect: insulin and oral hypoglycemics [antidiabetics],1.0
+pleural fluid ph,0.05
+pleural fluid albumin,0.05
+microscopic observation,0.05
+midazolam,0.0
+borrelia burgdorferi igm,0.0
+lysozyme,0.05
+deficiency of humoral immunity,0.05
+congenital anomalies of face and neck,0.0
+other and unspecified coagulation defects,0.05
+methotrexate,0.0
+intact parathyroid hormone,0.1
+adenosine,0.0
+volume 1,0.0
+"herpesvirus 3, human",0.0
+bacterial pneumonia,0.0
+cancer of brain,0.0
+"1,25-dihydroxyvitamin d",0.1
+Dabigatran,0.05
+intestinal malabsorption (non-celiac),0.1
+Ritonavir,0.1
+osmolality,0.2
+varicella zoster virus igg,0.05
+myelemia,0.0
+sars-cov-2 (covid-19) rna,0.0
+nmdar subunit 1 ab,0.0
+pleural fluid proteins,0.05
+volume 3,0.0
+pleural ldh/serum ldh,0.05
+pleural fluid ldh,0.05
+progesterone,0.05
+abdominal hernia,0.05
+visual disturbances,0.65
+adptest conclusion,0.1
+lidocaine,0.01
+"aftercare following surgery of the circulatory system, nec",0.05
+Aspergillus fumigatus DNA,0.0
+Coagulation factor XIII activity actual/Normal,0.0
+fact xiii act/nor ppp chro,0.0
+1-methylhistidine 24 hour urine,0.1
+volume 5,0.0
+nocturnal pulse ox,0.05
+amblyopia,0.0
+=oxytocin30units/500ml,0.0
+purpura and other hemorrhagic conditions,0.05
+ammonia,0.0
+viral hepatitis a,0.0
+abnormal arterial blood gases,0.1
+other disorders of eye,0.25
+abnormality of red blood cells,0.2
+collar secured plate patch,0.0
+galactorrhea,0.05
+number commentary,0.0
+sequence (group:seq),0.0
+consult / referral to vascular surgery,0.2
+dextrose 10% in water,0.1
+cvs ultra thin lancets,0.85
+long-term (current) use of other medications,0.25
+cholecalciferol / glucose,0.25
+beta hydroxybutyrate comment,0.25
+fondaparinux,0.05
+cardiac shunt/ heart septal defect,0.05
+protoporphyrin,0.05
+dermatomycoses,0.05
+alopecia,0.05
+ebv vca igg urg,0.0
+calamine / zinc oxide,0.0
+urgent cmv igm,0.05
+emergency vca igg index,0.0
+"rheumatism, unspecified and fibrositis",0.05
+multi lumen,0.0
+d-dimer,0.05
+cmv igm index urgent,0.0
+milk,0.0
+histoplasmosis,0.0
+enalaprilat,0.1
+vascular disorders of skin,0.65
+lindane,0.0
+"miscellaneous, pleural",0.0
+coccidioidomycosis,0.0
+vital cap,0.0
+erythema nodosum,0.1
+ebna igg index urg,0.0
+nasal swab,0.05
+candidiasis of skin and nails,0.1
+digoxin,0.0
+side rails,0.0
+danazol,0.05
+tranylcypromine,0.0
+vascular hamartomas and non-neoplastic nevi,0.05
+14 gauge site appear,0.0
+benign neoplasm of bone and articular cartilage,0.05
+hiv indeterminate urgent diagnosis,0.0
+"nevus, non-neoplastic",0.0
+segmented neutrophil,0.05
+ebna igg urg,0.0
+high density lipoprotein percentage,0.2
+adapter humidifier,0.0
+telemedicine visit return,0.1
+aortic ectasia,0.05
+leptin,0.3
+hemogram w/platelet,0.1
+rocuronium,0.0
+urgent cmv igg,0.05
+milk (bottle/breastfeeding),0.0
+education topic,0.75
+color vision deficiencies,0.05
+"infestation (lice, mites)",0.0
+cancer of bone and connective tissue,0.0
+Toxocara canis Ab,0.05
+albendazole,0.0
+catheter plug,0.0
+Filaria IgG,0.0
+chronic obstructive pulmonary disease with mcc,0.05
+health care proxy,0.0
+cobalt blood,0.0
+insulin antibody test,0.25
+saccharide,0.1
+anti-class ii antibodies,0.05
+chronic pain syndrome,0.1
+human leukocyte antigen dq2 molecular,0.05
+hypoglycemia_protocol,0.25
+post-operative day 2,0.0
+igg2 level measurement,0.05
+redundant type org 2,0.0
+fluorescence 2,0.0
+human leukocyte antigen dq2 serological equivalent,0.05
+hla luminex class ii dsa,0.0
+sterilance lde 2,0.0
+consult / referral to certified diabetes educator (internal),1.0
+30 ml sodium chloride 234 mg/ml injection,0.0
+glycophos,0.2
+250 ml sodium chloride 9 mg/ml injection,0.0
+sodium chloride 0.0769 meq/ml,0.0
+vitamin a,0.05
+chromous chloride / copper sulfate / manganese chloride / zinc chloride,0.0
+calcium chloride,0.0
+magnesium chloride / potassium chloride / sodium acetate / sodium chloride / sodium gluconate,0.05
+calcium carbonate / magnesium chloride,0.0
+calcium chloride / lactate / potassium chloride / sodium chloride,0.0
+potassium acetate / potassium bicarbonate / potassium citrate,0.05
+potassium chloride 20 meq powder for oral solution,0.1
+calcium chloride / glucose / lactate / magnesium chloride / sodium chloride,0.05
+citric acid / simethicone / sodium bicarbonate,0.05
+50 ml sodium bicarbonate 84 mg/ml injection,0.05
+clinimix e 5/15,0.1
+calcium chloride 0.0014 meq/ml / potassium chloride 0.004 meq/ml / sodium chloride 0.103 meq/ml / sodium lactate 0.028 meq/ml injectable solution,0.0
+20 ml potassium chloride 2 meq/ml injection,0.05
+sodium bicarbonate 650 mg oral tablet,0.05
+"sodium phosphate / sodium phosphate, monobasic",0.05
+calcium chloride / magnesium chloride / potassium chloride / sodium acetate / sodium chloride,0.0
+calcium chloride / icodextrin / lactate / magnesium chloride / sodium chloride,0.0
+sodium chloride 9 mg/ml injection,0.0
+potassium phosphate/sodium phosphate,0.1
+ocean brand of sodium chloride,0.0
+sodium chloride nasal product,0.0
+sodium glycerophosphate,0.1
+500 ml magnesium sulfate 40 mg/ml injection,0.0
+20 ml sodium acetate 2 meq/ml injection,0.05
+50 ml sodium chloride 9 mg/ml injection,0.01
+sodium chloride 1000 mg oral tablet,0.0
+100 ml potassium chloride 0.1 meq/ml injection,0.05
+calcium chloride 0.0014 meq/ml / glucose 50 mg/ml / potassium chloride 0.024 meq/ml / sodium chloride 0.103 meq/ml / sodium lactate 0.028 meq/ml injectable solution,0.1
+1000 ml potassium chloride 0.02 meq/ml / sodium chloride 9 mg/ml injection,0.05
+10 ml potassium chloride 2 meq/ml injection,0.05
+50 ml sodium bicarbonate 84 mg/ml prefilled syringe,0.0
+1000 ml glucose 50 mg/ml / sodium chloride 9 mg/ml injection,0.2
+10 ml calcium chloride 100 mg/ml prefilled syringe,0.0
+benzyl alcohol / sodium chloride,0.0
+calcium chloride / fibrinogen / fibrinolysis inhibitor / thrombin,0.0
+rate,0.0
+time ratio 2,0.0
+microalbuminuria,0.85
+collection time,0.0
+sicca syndrome,0.1
+anti-ia2 antibody test,0.2
+method,0.0
+etco2,0.0
+auranofin,0.0
+sirolimus,0.05
+monocytes,0.1
+oxalate,0.05
+tacro t 2,0.0
+cl/creat ratio t2,0.85
+moviprep,0.0
+user,0.95
+abnormal constituents,0.2
+evaluation of peritoneal dialysis dose by multiple blood and dialysate samples,0.05
+any requesting ug,0.0
+sepsis and sirs,0.05
+pathology,0.1
+citrate,0.05
+"dpa physioneal 40, ca=1.25, 2.27% glucose, single pouch luer2. 5l (ref rpb5293r)",0.1
+oxalate/creatinine ratio,0.1
+ac uri que /creat,0.1
+cystinuria,0.0
+Oxalate/Creatinine,0.1
+proteins,0.05
+cells,0.0
+esmolol,0.05
+aspirin 325 mg oral tablet,0.05
+"postoperative monitoring of a cardiac surgery patient with cpb, level 1",0.05
+"dpa nutrineal, 1.1% glucose, single luer bag 2.5l (ref dpb9674r)",0.25
+alcoholic liver damage,0.1
+crystalluria conclusion,0.1
+ammonia 2°c,0.0
+pnp2 patient,0.0
+neutrophil count,0.1
+t2 time,0.0
+transfer receiver,0.0
+neutrophils,0.05
+alternate absolute lymphocyte count,0.05
+alpha 2 ur,0.05
+lymphocytes,0.05
+abnormal results of function study of kidney,0.2
+quantitative microalbuminuria test,0.85
+ulcerative colitis,0.05
+arterial blood gas,0.1
+magnesium/calcium,0.1
+mononuclear cell collection by cytapheresis for cell therapy,0.05
+mycology volume 2,0.0
+torsemide,0.1
+Cell Fractions/Differential,0.1
+other findings,0.1
+asphyxia and hypoxemia,0.05
+coronary risk profile (q),0.3
+abnormal findings on examination of urine,0.3
+anti-gad65 antibody test,0.2
+herpes simplex,0.0
+lower modal number (2),0.0
+creatinine microalbumin ratio,0.65
+microalbumin-to-creatinine ratio,0.85
+2-anti-c,0.0
+anti-mi2 antibodies,0.05
+monocyte lymphocyte count,0.1
+24 hr creatinine,0.1
+creatinine random urine test,0.25
+treatment parameters 2,0.0
+hetastarch,0.0
+white blood cell count,0.05
+cd34+ viable leukocytes,0.0
+lactate t2: lactate threshold 2,0.0
+tunneling present #2,0.05
+herpes simplex virus type 2,0.0
+urine albumin-creatinine ratio,0.85
+orotic aciduria type 2,0.05
+loperamide hydrochloride 2 mg oral capsule,0.0
+"loperamide, 2 mg capsule",0.0
+microalbumin excretion rate,0.85
+microalbumin to creatinine ratio,0.85
+basophils/100 leukocytes,0.05
+flutamide,0.0
+neutrophil,0.05
+automated lymphocyte count,0.05
+ph time 2,0.0
+retinal screening,0.85
+diazepam 2 mg oral tablet,0.0
+tolterodine_2_mg_tab,0.1
+creatinine and urine albumin measurements in urine sample,0.75
+regional enteritis,0.05
+gonococcal infections,0.0
+decreased white blood cell count,0.1
+glutarate,0.05
+papaverine,0.0
+calculus of kidney,0.05
+ventricular fibrillation and flutter,0.05
+paroxysmal ventricular tachycardia,0.05
+5'-nucleotidase,0.1
+breast cancer,0.0
+alkalosis,0.05
+spo2 desat limit,0.05
+glyburide 2.5 mg oral tablet,1.0
+xr exam chest 2 views,0.0
+hydronephrosis,0.1
+hyperplasia of prostate,0.05
+glucose-whole blood,0.75
+average blood glucose,0.85
+poc hemoglobin a1c (glycated),1.0
+"malignant neoplasm of kidney, except pelvis",0.05
+urinary albumin concentration,0.85
+insulinhumanregrecomb250units/2.5ml,0.85
+dianeal1.5%dextroselowcaw/lytes2500ml,0.1
+pancreatic polypeptide,0.1
+glucose elimination,0.25
+=glucagon,0.25
+glucose fasting blood sugar,0.85
+glucose level,0.85
+pyruvate 2,0.05
+pancreatin,0.1
+mutation 2,0.1
+neurofibromatosis 2,0.0
+blood glucose test strips,0.85
+diabetic educator nc,0.85
+type 1,0.0
+type 3,0.0
+blood glucose level t3,0.25
+"malnutrition-related diabetes mellitus, with other specified complications",0.85
+"malnutrition-related diabetes mellitus, coma",0.85
+heparin-induced thrombocytopenia type 2,0.05
+blood glucose test t4,0.25
+glucose fasting t1c,0.85
+ett type,0.0
+boost glucose control (full),0.85
+glucose fasting t13,0.75
+bolus if hyperglycemia >2.5g/l - insulin pump (novorapid),0.85
+amiloride,0.1
+bioch nutri (1purp),0.1
+com enr bio spe,0.0
+triacylglycerol lipase,0.1
+"postoperative monitoring of a cardiac surgery patient with cpb, level 2",0.05
+other cardiomyopathy,0.1
+"potassium canrenoate - soludactone, 100 mg/2 ml injection",0.05
+granulocytes,0.1
+neutrophils/100 leukocytes,0.05
+lymphocytes/100 leukocytes,0.05
+insulin pump self administered,0.75
+ofloxacin,0.0
+tetracycline,0.0
+nebivolol,0.1
+trazodone,0.0
+miconazole,0.05
+nephrocaps,0.1
+"heparin sodium, porcine 1000 unt/ml injectable solution",0.05
+ascorbic acid / ferrous sulfate / folic acid,0.05
+mannitol,0.1
+ascorbic acid / beta carotene / cuprous oxide / lutein / sodium selenate / vitamin e / zinc oxide,0.1
+ascorbic acid / cranberry preparation / lactobacillus sporogenes,0.05
+ascorbic acid / biotin / folic acid / mecobalamin / niacinamide / pantothenate / pyridoxine / riboflavin / thiamine,0.1
+cysteamine,0.0
+ascorbic acid 500 mg oral tablet,0.05
+riboflavin,0.05
+cyclosporine,0.05
+Urea/Creatinine,0.1
+ascorbic acid / beta carotene / calcium carbonate / cholecalciferol / cupric oxide / docusate / folic acid / iron carbonyl / magnesium oxide / niacinamide / pyridoxine / riboflavin / thiamine / vitamin b12 / vitamin e / zinc oxide,0.05
+immature granulocytes,0.05
+ascorbic acid / d-biotin / folic acid / niacinamide / pantothenate / pyridoxine / riboflavin / thiamine / vitamin b12,0.1
+"cyclosporine, modified",0.1
+calcium.ionized,0.05
+oxygen saturation,0.05
+hct vfr.df bldv,0.0
+occult blood panel,0.05
+bicarbonates,0.1
+ph temp adj bldc,0.0
+methemoglobin,0.05
+patient temperature,0.0
+Urea nitrogen/Creatinine,0.1
+carboxyhemoglobin,0.05
+hepatitis c virus igg,0.05
+total nk percent,0.0
+cd56 percent,0.0
+cd3+cd8 percent,0.05
+ra+cd62l+cd4 percent,0.05
+ra + cd62l + cd8mm,0.0
+cd45ra+cd3 percent,0.0
+ra+cd62l+cd4 mm,0.05
+cd3+cd8 mm,0.05
+cd16 percent,0.0
+ra+cd62l+cd3 mm,0.0
+cd45ra+cd3 mm,0.0
+cd3+cd4 percent,0.05
+cd3 percent,0.0
+cd3+cd4 mm,0.05
+cd2 mm,0.0
+cd3 mm,0.0
+cd3+ti ab percent,0.05
+cd3+ti ab mm,0.0
+cd20 percent,0.0
+cd45ro/ra+cd3 mm,0.0
+cd45ro+cd3 mm,0.05
+total nk mm,0.0
+cd56 mm,0.0
+cd16 mm,0.0
+ra+cd62l+cd3 percent,0.05
+cd3+cd4:cd3+cd8 ratio,0.05
+cd10 normal control percent,0.0
+cd45ro/ra+cd3 percent,0.05
+patient facs lt#,0.0
+cd56 normal control percent,0.0
+ra + cd62l + cd8 normal control percent,0.05
+cd45ro+cd3 normal control percent,0.0
+lymph sum normal control,0.0
+cd2 percent,0.0
+patient wbc,0.05
+patient absolute lymphs,0.1
+cd45 mm,0.0
+cd20 mm,0.0
+cd3+ti gb  mm,0.0
+cd45+cd14+ normalcontrol percent,0.0
+cd45+cd14+ percent,0.05
+saxagliptin,1.0
+chlorpropamide,1.0
+deoxyhemoglobin,0.1
+cd40 normal control percent,0.0
+cd3+cd4 normal control percent,0.05
+cd3+ti ab normal control percent,0.05
+cd45ro/ra+cd3 normal control percent,0.05
+total nk normal control percent,0.05
+cd20 normal control percent,0.0
+cd3 normal control percent,0.05
+cd2 normal control percent,0.05
+cd19 normal control percent,0.0
+cd3+ti gd percent,0.05
+cd16 normal control percent,0.0
+cd3+cd4:cd3+cd8 ratio normal control,0.05
+dizziness and giddiness (light-headedness and vertigo),0.2
+lactulose 667 mg/ml oral solution,0.1
+dexrazoxane,0.0
+lactulose,0.1
+venous,0.0
+cytomegalovirus,0.05
+differential (manual),0.0
+lymphosarcoma,0.0
+filter,0.0
+empagliflozin / metformin,1.0
+metformin hydrochloride 850 mg oral tablet,1.0
+alcohol withdrawal,0.05
+request accuracy,0.85
+histamine,0.05
+drug and medication abuse rehabilitation,0.0
+sucrase,0.05
+Acetylcholinesterase,0.0
+beta galactosidase,0.05
+angiotensin converting enzyme,0.2
+plasma adh,0.1
+jaundice (not of newborn),0.05
+excessive administration of blood or other fluid - transfusion or infusion,0.05
+stomatitis and mucositis (ulcerative),0.1
+device,0.1
+intravenous contrast material injection supplement during a radiographic or ct examination,0.1
+biopsy of lesion of the perianal region and/or anal canal,0.05
+laboratory examination ordered as part of a routine general medical examination,0.1
+"adverse effect: vaccine or biological substance, unspecified",0.05
+result,0.85
+other laboratory examination,0.2
+secondary gingivoalveolar hemostasis following tooth extraction,0.05
+r.pcr.m.pneumoliq,0.0
+mineral deficiency nec,0.1
+abnormal spermatozoa,0.05
+cardiopulmonary resuscitation with tracheal intubation outside of a medical-technical unit,0.0
+insulin aspart protamine- and insulin aspart-containing product,1.0
+"adverse effect: barbiturates, nec",0.05
+population(s) gated,0.0
+"injection, aflibercept, 1 mg, ziv-aflibercept",0.05
+atrial fibrillation,0.1
+cancer of prostate,0.0
+cirrhosis of liver without mention of alcohol,0.1
+biperiden,0.0
+dapagliflozin / metformin,1.0
+other toe(s) amputation status,0.75
+rena-vite rx  tab,0.1
+benzocaine / butamben / tetracaine,0.0
+lidocaine 0.05 mg/mg medicated patch,0.0
+pramoxine / zinc oxide,0.0
+ptt,0.0
+advair,0.0
+cholecalciferol 0.025 mg oral tablet,0.1
+humulin r,1.0
+abnormal electrocardiogram [ecg] [ekg],0.1
+consult / referral to nephrology,0.3
+transthoracic echo (tte) complete,0.05
+bisoprolol,0.1
+amoxicillin,0.0
+spasm of muscle,0.0
+ampicillin,0.0
+dexlansoprazole,0.05
+candesartan,0.2
+amlexanox,0.0
+lansoprazole,0.05
+cefotaxime,0.0
+pantoprazole,0.05
+rabeprazole,0.05
+meropenem,0.0
+aspirin 325 mg delayed release oral tablet,0.05
+telmisartan,0.25
+clopidogrel 75 mg oral tablet,0.1
+postoperative infection,0.05
+cefpodoxime proxetil,0.0
+metolazone,0.2
+aluminum hydroxide,0.05
+omeprazole,0.05
+cefpodoxime,0.0
+warfarin,0.1
+betaxolol,0.05
+iodine,0.0
+metoprolol tartrate,0.1
+disorders of copper metabolism,0.05
+24 hr metoprolol succinate 25 mg extended release oral tablet,0.0
+esomeprazole,0.05
+paroxetine,0.05
+naproxen,0.05
+metoprolol tartrate 25 mg oral tablet,0.1
+convulsions,0.1
+atenolol 25 mg oral tablet,0.1
+cefixime,0.0
+acebutolol,0.0
+hyoscyamine,0.05
+famotidine,0.05
+dysuria,0.1
+abnormal results of function study of liver,0.1
+azithromycin,0.0
+fluvoxamine,0.1
+nexium,0.0
+prevacid,0.0
+lansoprazole 30 mg disintegrating oral tablet,0.05
+magnesium oxide,0.1
+niacinamide,0.1
+niacin,0.1
+magnesium oxide 400 mg oral tablet,0.1
+olmesartan,0.1
+toprol,0.1
+"celiprolol 200 mg (viatris lab), scored tablet",0.0
+isosorbide,0.05
+"irbesartan+hydrochlorothiazide 300 mg+12.5 mg (arrow lab), tablet",0.25
+"enalapril+lercanidipine 20 mg+10 mg (teva lab), tablets",0.2
+e. coli,0.0
+phlebitis and thrombophlebitis,0.1
+influenza,0.0
+human immunodeficiency virus [hiv] disease,0.0
+contusion,0.0
+psychosis,0.05
+complication of amputation stump,0.65
+anticoagulants causing adverse effects,0.1
+poisoning by psychotropic agents,0.0
+pyogenic arthritis,0.05
+eosinophilia,0.05
+hematuria,0.05
+gastric ulcer,0.05
+empyema and pneumothorax,0.0
+muscle weakness,0.25
+hereditary hemochromatosis,0.05
+acetazolamide,0.05
+other symptoms,0.1
+lovastatin / niacin,0.2
+adverse effect: psychostimulants subject to abuse,0.05
+cirrhosis and alcoholic hepatitis with mcc,0.05
+indomethacin,0.05
+tizanidine,0.0
+dorzolamide,0.0
+lorazepam,0.01
+"magnesium chloride / potassium chloride / potassium phosphate / sodium acetate / sodium chloride / sodium gluconate / sodium phosphate, dibasic",0.05
+glyburide 5 mg oral tablet,1.0
+glipizide 10 mg oral tablet,1.0
+ketone bodies (research),0.3
+irritable bowel syndrome,0.05
+supplement for specific examination prior and subsequent to the fitting of a mandibular advancement device in the treatment of obstructive sleep apnea-hypopnea syndrome,0.05
+"supplement for the performance of a radiological examination by a mountain doctor during the diagnostic and therapeutic management of a traumatic bone and joint, musculotendinous, or soft tissue injury at the same time.",0.0
+"first-line treatment of cases requiring technical procedures (intravenous infusion, oxygen administration, cardio-respiratory resuscitation care, etc.) and prolonged presence of the physician (outside of a healthcare facility) in the following situations: - respiratory distress; - cardiac distress; - allergic distress; - acute state of agitation; - status epilepticus; - traumatic distress.",0.05
+radiography of the hemiskelet or the complete skeleton in adults,0.05
+ra + cd62l + cd8 percent,0.05
+cd45ro+cd3 percent,0.05
+ra+cd62l+cd4 normal control percent,0.0
+patient percent lymphs,0.05
+control or surveillance ultrasound of fetal or maternal pregnancy pathology during a multifetal pregnancy,0.05
+alogliptin,1.0
+methylene blue,0.05
+dexamethasone,0.1
+calcium carbonate,0.05
+epoprostenol,0.05
+contact irradiation for malignant disease,0.0
+humulin,1.0
+"vildagliptin - galvus, 50 mg tab",1.0
+citric acid / magnesium oxide / picosulfurate,0.05
+time 9,0.0
+beta-hydroxybutyrate,0.25
+dextrose pn,0.2
+"glucose, poc",0.75
+body fluid glucose,0.75
+"glucose,syn fluid",0.25
+"glucose, confirmatory",0.85
+bio liquid glucose,0.2
+glycolysis enzyme,0.1
+beta hydroxybutyrate - point of care,0.2
+point of care glucose test,0.85
+hemoglobinuria,0.2
+"glucose, pericardial fluid",0.05
+oxygen device,0.05
+alpha-1-antitrypsin deficiency,0.05
+"glucose, ascites",0.2
+"insulin lispro / insulin lispro protamine, human",1.0
+admin interval,0.0
+eprosartan,0.1
+breaths,0.0
+multiple sclerosis,0.0
+babesia duncani ab,0.0
+autoimmune disease nec,0.1
+coxsackievirus b2 ab,0.05
+bariatric surgery,0.65
+triglyceride,0.65
+interferon alfa-2b,0.05
+mitochondria ab,0.05
+psoriasis,0.05
+acid alpha glucosidase,0.1
+beta 2 glycoprotein 1 igm,0.1
+igg,0.0
+takayasu's disease,0.0
+metabolic disorders screen (group:mdscrn),0.65
+indapamide,0.75
+cushing's syndrome,0.1
+aurothioglucose,0.05
+other hypertrophic cardiomyopathy,0.1
+herpes simplex virus 2 igg,0.0
+insulin-like growth factor-i,0.2
+guar gum,0.1
+senile dementia,0.05
+facial weakness,0.05
+fecal occult blood test 2,0.05
+insulin-like growth factor ii,0.1
+easivent,0.0
+occult blood test - 2,0.1
+urinalysis glucose test,0.85
+blood type,0.0
+point of care urine glucose,0.85
+"injection, insulin, per 5 units",1.0
+tolcapone,0.1
+Lactate dehydrogenase 2/Lactate dehydrogenase.total,0.1
+Alpha-2-Microglobulin,0.1
+Interleukin 2 Receptor Soluble,0.05
+2-Methylcitrate,0.05
+glucarpidase,0.1
+defibrotide,0.0
+Oligosaccharides pattern,0.1
+polycose,0.1
+intramuscular immunoglobulin,0.05
+DNA index,0.0
+allergy studies,0.0
+chemistry studies,0.1
+infective connective tissue disorders,0.05
+midodrine,0.05
+fat,0.1
+neurological disorders,0.1
+serology studies,0.2
+dinutuximab,0.0
+erythrocyte distribution width,0.1
+critic-aid,0.0
+tension headache,0.05
+imiglucerase,0.0
+insulin isophane-insulin regular,1.0
+Beta-2 transferrin,0.05
+abnormal results of function study of thyroid,0.1
+premenstrual tension syndromes,0.0
+secondary malignant neoplasm,0.0
+perinatal jaundice,0.0
+toxic multinodular goiter,0.0
+"gastritis and duodenitis, nos",0.05
+excessive vomiting in pregnancy,0.05
+secondary/extrinsic cardiomyopathies,0.1
+polyglandular activity in multiple endocrine adenomatosis,0.2
+Thyroid stimulating immunoglobulins actual/Normal,0.05
+streptococcus pneumoniae danish serotype 2 igg,0.0
+amylase.pancreatic,0.1
+lipase,0.1
+peptide,0.2
+Insulin-like growth factor binding protein 2,0.1
+hiv 1+2 ab,0.0
+beta globulin,0.1
+osteoporosis,0.1
+fungus,0.0
+beta 2 glycoprotein 1 igg,0.05
+lyme disease,0.0
+lactose,0.05
+helicobacter pylori ag,0.05
+testosterone,0.1
+helicobacter pylori ab,0.05
+pituitary dwarfism,0.0
+thyroiditis,0.1
+dental caries,0.05
+Beta-2-Microglobulin/Creatinine,0.1
+other high-risk pregnancy,0.1
+polycystic ovaries,0.65
+vitamin a deficiency,0.05
+thiamine,0.1
+"polycythemia vera, secondary",0.05
+cancer of other endocrine glands,0.05
+somatoform disorder,0.05
+insulin-like growth factor binding protein 3,0.2
+Herpes simplex virus 1+2 IgM,0.0
+mitochondria m2 igg,0.05
+diazoxide,0.85
+torsion dystonia,0.0
+orthostatic hypotension,0.2
+gadopentetate dimeglumine,0.0
+anterior horn cell disease,0.0
+dantrolene,0.0
+desethylamiodarone,0.05
+amiodarone,0.05
+charcoal,0.0
+complex regional/central pain syndrome,0.05
+fedex 2nd day delivery,0.0
+bhread2,0.0
+muscle formula  2 dbcgt,0.0
+lab work 2,0.1
+duplicate charge,0.0
+ct second read,0.0
+celtic standard delivery 2.,0.0
+protocol communication 2,0.0
+telemed,0.1
+nursing orders 2,0.1
+fluid amylase,0.05
+rh type,0.0
+bhreadpf2,0.0
+urine amylase,0.1
+ins not linked,0.0
+glucose tolerance 30 min(do not order alone),0.85
+"twin gestation, dichorionic/diamniotic (two placentae, two amniotic sacs)",0.05
+glucose tol. 100gm 2hr,0.85
+=insulinlispro,1.0
+glucose (bedside test),0.5
+amylase/lipase/protease_109-20-68_dr_cap,0.05
+hemoglobin a2,0.1
+direct antiglobulin test blood bank,0.05
+healthpro glucose test str,0.75
+immunoelectrophoresis: alpha 2 globulin,0.05
+long term (current) use of oral hypoglycemic drugs,1.0
+"glucose, whole blood immediate testing analysis test",0.85
+glucose whole blood,0.75
+multiple sclerosis panel 2,0.0
+c26 0,0.0
+angiotensin ii,0.1
+venous blood gas glucose,0.25
+see below,0.0
+vitamin b2,0.05
+"hla typing, celiac disease",0.05
+beta hydroxybutyrate (millimoles per liter),0.2
+"insulin aspart protamine, human / insulin aspart, human",1.0
+tb 2 antigen rflx,0.0
+mcs t2,0.85
+ige allergen ara h 2,0.0
+beta-2 microglobulin,0.1
+poc i stat glucose,0.65
+dehydronorketamine quantitative,0.0
+mcs b2,0.0
+eddp quantitative,0.1
+"p02,prime",0.0
+poc d-dimer,0.05
+citric acid,0.0
+other,0.0
+learning disorder,0.0
+tyr external,0.0
+"poc tco2, capillary",0.1
+drvvt,0.0
+phentermine quantitative,0.1
+other immunological findings,0.05
+pulmonary heart disease,0.05
+glucose-wb - confirmation,0.85
+"fio2, capillary",0.05
+rbc ratio,0.05
+spe alpha 2,0.0
+recipient history number,0.0
+mixed count,0.0
+hidradenitis,0.05
+acute rheumatic heart disease,0.0
+nil rflx,0.0
+water,0.0
+alpha glucosidase - blood,0.25
+sweat chloride site 2 result,0.05
+target dose,0.1
+anti-beta 2 glycoprotein 1igg,0.05
+recipient date of birth (mm/dd/yyyy),0.0
+average blood glucose (calc),0.85
+dil russell vip venom conf,0.0
+hb a2%,0.25
+spe m-spike 2,0.1
+"glucose, whole blood",0.75
+regadenoson,0.0
+erythropoietin,0.1
+neurofibromatosis,0.0
+inr,0.0
+epilepsy,0.0
+iga,0.0
+chronic fatigue syndrome,0.1
+other %,0.0
+gran type i - normal,0.0
+gran type ii - partial flaer/cd24 deficiency,0.05
+rbc type ii - partial cd59 deficiency,0.0
+rbc type i - normal,0.0
+gran type iii - complete flaer/cd24 deficiency,0.0
+gp iib/iiia (epitope 2) control cutoff,0.05
+t4/t8 ratio,0.1
+rbc clone size type ii & type iii combined,0.0
+extrapyramidal disease and abnormal movement disorders,0.05
+hemiplegia,0.05
+delirium due to conditions classified elsewhere,0.1
+pan2,0.0
+special diet,0.75
+ectopy frequency 2,0.05
+incision dressing #2,0.0
+ucu2,0.0
+neuro drain #2 type,0.0
+two cal hn (full),0.0
+secondary diagnosis,0.1
+ct #2 dressing,0.0
+compression device # 2,0.05
+angio dressing # 2,0.05
+dual signal screen,0.05
+incision drainage #2,0.0
+dialysate fluid,0.1
+dialysate rate,0.05
+bipolar disorders,0.0
+novolin r,0.9
+diovan,0.1
+cough type,0.0
+neuro drain #2 level,0.0
+hm ii- flow,0.0
+device (vad),0.0
+demerol,0.0
+novolog,1.0
+or sent,0.0
+"glucose, pleural",0.1
+cdt027,0.0
+insulin - humalog,0.85
+cough/deep breath,0.0
+adacel,0.0
+incision drainage amount #2,0.0
+ct #2 drainage,0.0
+hm ii- power,0.0
+double stranded dna,0.0
+delta d3,0.0
+recombivax,0.0
+dialysis catheter type,0.05
+o2 flow,0.05
+dilantin,0.0
+cd2,0.0
+peco2,0.0
+d5lr,0.0
+d5ns,0.0
+renvela,0.1
+cleocin,0.0
+dressing status #2,0.0
+constitutional,0.0
+macrophages,0.1
+xucu,0.0
+replacement rate,0.0
+expiratory ratio,0.05
+required o2,0.05
+hm ii- pi,0.0
+impaired skin drainage #2,0.1
+other cell,0.0
+constulose,0.0
+depacon,0.1
+nutrition,0.5
+disorders of pancreas except malignancy without cc/mcc,0.25
+250 ml glucose 50 mg/ml injection,0.25
+250 ml glucose 100 mg/ml injection,0.25
+gi #2 tube mark (cm),0.0
+gi #2 tube status,0.05
+hypertension without mcc,0.1
+pressure ulcer stage #2,0.1
+gi #2 tube type,0.0
+gi #2 tube drainage,0.0
+disorders of pancreas except malignancy with cc,0.25
+"bilirubin, indirect",0.05
+metabolic disturbance ncp - problem resolved,0.3
+metabolic disturbance ncp - expected outcomes,0.65
+pressure ulcer #2- dressing status,0.1
+2 ml digoxin 0.25 mg/ml injection,0.0
+impaired skin  - dressing status #2,0.2
+pt splint status #2,0.0
+glydo,0.0
+pressure ulcer #2- type,0.1
+dexamethasone 2 mg oral tablet,0.1
+"g6pd, qualitative",0.05
+quantitative g6pd,0.05
+impaired skin #2- type,0.25
+secondary thrombocytopenia,0.05
+alcohol abuse & dependence,0.05
+hm ii- mean bp,0.05
+glucerna (full),0.85
+2 ml glycopyrrolate 0.2 mg/ml injection,0.05
+malignant neoplasm of female breast,0.0
+glucerna 1.2 (full),0.85
+gi #2 intub site,0.0
+insulin - glargine,1.0
+l,0.0
+response,0.95
+i,0.0
+svo2,0.05
+cardiovascular,0.3
+activity,0.0
+invega,0.05
+d5 1/2ns,0.0
+veletri,0.0
+lr,0.0
+dialysis patient,0.2
+polys,0.1
+impaired skin type #2,0.1
+ectopy type 1,0.0
+mdi #2 drug,0.75
+type (tandem heart),0.0
+pain type,0.05
+sto2,0.0
+insulin - nph,1.0
+impaired skin type #3,0.1
+impaired skin #3- type,0.25
+dextrose 50%,0.25
+non invasive blood pressure diastolic,0.05
+dextrose 10%,0.2
+impaired skin type #4,0.1
+zyprexa,0.1
+impaired skin type #7,0.1
+impaired skin #7- type,0.2
+impaired skin type #10,0.1
+impaired skin type #1,0.1
+impaired skin type #8,0.1
+impaired skin #4- type,0.2
+impaired skin #6- type,0.25
+impaired skin type #6,0.1
+impaired skin #1- type,0.25
+impaired skin #5- type,0.2
+humalog mix,0.85
+"peripheral, cranial & autonomic nerve disorders",0.65
+humulin n,1.0
+24 hr isosorbide mononitrate 60 mg extended release oral tablet,0.05
+dementia with cerebral degenerations,0.1
+vs 2nd hour,0.0
+second technique interpretation,0.0
+half donor,0.0
+cen method 2,0.0
+resistance profile 2,0.1
+m2 blot dias research,0.1
+variant 2a,0.0
+conclusion2,0.0
+insulin-like growth factor 2,0.1
+dr+ g- ul,0.0
+adult igtcr,0.85
+gm2: gangliosidosis,0.0
+glucosesg 15mn: glucose blood sugar 15 minutes,0.25
+neuroendocrine tumor net2,0.05
+serum date 2,0.0
+glut1 deficiency syndrome,0.05
+gd1b,0.0
+blood glucose level at time 1,0.25
+id. following sequence no. 2,0.0
+glucose fasting level,0.85
+error 2,0.0
+coloperls2,0.0
+glucagon test,0.3
+glucose fasting t4,0.25
+biochemistry,0.1
+t2 hyperintensity,0.1
+glucose blood test t5,0.75
+congenital disorder of glycosylation type ic,0.05
+glucose blood sugar 10 minutes,0.25
+glucose blood sugar 30 minutes,0.25
+device type,0.1
+glucose sg t10,0.25
+glucose fasting t5 {c,0.75
+"glucose 30% (g30), 10 ml ampule",0.1
+sulfa.hypoglyce.uri.,0.2
+ciprofloxacin,0.0
+tirofiban,0.05
+abciximab,0.0
+selexipag,0.05
+treprostinil,0.01
+cangrelor,0.0
+eptifibatide,0.01
+iloprost,0.05
+prasugrel,0.05
+effient,0.0
+brilinta,0.0
+clopidogrel 300 mg oral tablet,0.05
+cilostazol,0.05
+cilostazol 100 mg oral tablet,0.1
+plavix,0.0
+integrilin,0.0
+enalapril maleate 5 mg oral tablet,0.2
+dipyridamole,0.1
+ticagrelor,0.05
+chlordiazepoxide,0.0
+cocaine,0.0
+urea,0.1
+cd10+,0.0
+"glucose 10% (g10), pe bottle 500 ml kabipac",0.1
+carbohydrate to hemoglobin ratio,0.25
+"insulin humulin nph, cart",0.85
+acetone,0.1
+hemoglobin a1/hemoglobin.total,0.85
+"acquired absence of both lower limbs [any level, except toes alone]",0.05
+dimethicone,0.0
+doripenem,0.0
+"bromazepam 6 mg (teva lab), quadri-scored tablet",0.0
+clorazepate,0.0
+levetiracetam 500 mg oral tablet,0.0
+stiripentol,0.0
+gabapentin 300 mg oral capsule,0.0
+oxazepam,0.0
+paliperidone,0.05
+gabapentin 100 mg oral capsule,0.05
+lamotrigine 25 mg oral tablet,0.05
+"ospolot 50 mg, tablets",0.0
+lamotrigine 100 mg oral tablet,0.0
+levetiracetam 250 mg oral tablet,0.0
+lamictal,0.0
+levetiracetam 100 mg/ml oral solution,0.0
+lyrica,0.0
+zonisamide 100 mg oral capsule,0.1
+vimpat,0.0
+topamax,0.05
+topiramate 25 mg oral tablet,0.1
+keppra,0.0
+gabapentin 400 mg oral capsule,0.05
+gabapentin 50 mg/ml oral solution,0.0
+diazepam,0.0
+prazepam,0.0
+lorazepam 1 mg oral tablet,0.0
+alprazolam 1 mg oral tablet,0.0
+2 ml diazepam 5 mg/ml cartridge,0.0
+"veratran 10 mg, tablets",0.1
+"victan 2 mg, tablets",0.25
+1 ml lorazepam 2 mg/ml cartridge,0.0
+onfi,0.0
+oxazepam 15 mg oral capsule,0.0
+alprazolam 0.25 mg oral tablet,0.0
+amitriptyline / chlordiazepoxide,0.1
+amitriptyline- and chlordiazepoxide-containing product,0.1
+alprazolam,0.0
+5 ml levetiracetam 100 mg/ml injection,0.0
+pregabalin,0.1
+piperacillin,0.0
+ticarcillin,0.0
+chlordiazepoxide / clidinium,0.0
+"nordaz 7.5 mg, tablets",0.1
+ertapenem,0.0
+"temocillin - negaban, 1 g inj",0.0
+verapamil,0.1
+sertraline,0.1
+topiramate,0.05
+doxazosin,0.1
+diazepam 5 mg oral tablet,0.0
+phentermine / topiramate,0.2
+ferratab,0.1
+droperidol,0.01
+cefdinir,0.0
+levothyroxine,0.05
+ceftazidime,0.0
+tamsulosin hydrochloride 0.4 mg oral capsule,0.0
+eosinophils,0.05
+pindolol,0.1
+carteolol,0.0
+cervicalgia,0.0
+cholesterolosis of gallbladder,0.05
+medium chain triglycerides,0.1
+consult / referral to health risk assessment completion,0.25
+cholestyramine resin,0.1
+deprecated vldlc serpl-mcnc,0.0
+lipoprotein.beta,0.1
+omega-3 fatty acids,0.1
+form1,0.0
+ezetimibe,0.1
+vertical auto profile triglyceride measurement cholesterol test,0.25
+alirocumab,0.1
+leukoplakia of oral mucosa,0.05
+vaping-related illness,0.0
+unspecified place or not applicable,0.0
+nicotine,0.05
+nicotine remove patch,0.05
+buprenorphine,0.05
+transurethral resection of prostate (turp),0.05
+blood in stool,0.05
+disorders of esophageal motility,0.05
+abdominal aortic aneurysm,0.0
+osteoarthrosis,0.05
+"excision, lysis peritoneal adhesions",0.0
+red blood cell concentrate transfusion of a volume less than half a blood mass,0.05
+"bilateral total arthrectomy and/or posterior osteotomy for rigid spinal deformity with arthrodesis, instrumental correction, and anterior transpedicular osteotomy, on 6 to 9 vertebrae, via posterior approach",0.0
+percutaneous transluminal coronary angioplasty (ptca),0.1
+ct scan abdomen,0.1
+"extracorporeal lithotripsy, urinary",0.05
+abdominal paracentesis,0.05
+igm,0.0
+"incision of pleura, thoracentesis, chest drainage",0.0
+therapeutic radiology,0.05
+cholecystectomy and common duct exploration,0.05
+nordiazepam,0.0
+other hernia repair,0.0
+conversion of cardiac rhythm,0.05
+alcohol and drug rehabilitation/detoxification,0.05
+"tracheostomy, temporary and permanent",0.0
+blood transfusion,0.05
+iron,0.05
+other or upper gi therapeutic procedures,0.1
+gastric bypass and volume reduction,0.25
+other or procedures on vessels other than head and neck,0.1
+base excess,0.1
+alpha-1-fetoprotein,0.05
+"treatment, fracture or dislocation of hip and femur",0.05
+lithium,0.05
+choriogonadotropin (pregnancy test),0.05
+"insertion, revision, replacement, removal of cardiac pacemaker or cardioverter/defibrillator",0.05
+heart valve procedures,0.05
+electroencephalogram (eeg),0.0
+cardiac stress tests,0.1
+proctoscopy and anorectal biopsy,0.05
+swan-ganz catheterization for monitoring,0.05
+methemoglobin/hemoglobin.total,0.05
+aldosterone,0.1
+small bowel resection,0.05
+"upper gastrointestinal endoscopy, biopsy",0.05
+cancer chemotherapy,0.0
+"other vascular catheterization, not heart",0.1
+endoscopy and endoscopic biopsy of the urinary tract,0.05
+mastectomy,0.0
+cortisol,0.2
+arterial blood gases,0.1
+"diagnostic cardiac catheterization, coronary arteriography",0.1
+myelogram,0.01
+immunoglobulin light chains.kappa/immunoglobulin light chains.lambda,0.05
+color,0.0
+"transurethral excision, drainage, or removal urinary obstruction",0.05
+prolactin,0.05
+lens and cataract procedures,0.2
+granular casts,0.05
+exploratory laparotomy,0.05
+"other or therapeutic procedures, male genital",0.05
+ureteral catheterization,0.05
+reticulocytes,0.05
+respiratory intubation and mechanical ventilation,0.01
+choriogonadotropin.beta subunit (pregnancy test),0.05
+arthrocentesis,0.05
+extracorporeal circulation auxiliary to open heart procedures,0.0
+"insertion, replacement, or removal of extracranial ventricular shunt",0.0
+thyrotropin,0.05
+colonoscopy and biopsy,0.05
+other or therapeutic procedures of urinary tract,0.1
+25-hydroxyvitamin d3,0.1
+transferrin,0.1
+thyroxine,0.05
+thyroxine free,0.05
+"microscopic examination (bacterial smear, culture, toxicology)",0.05
+other laboratory,0.1
+generic code,0.0
+nutritional counseling,0.75
+medications,0.75
+suicidal ideation or attempt,0.05
+dextrose 20% and water,0.2
+dextrose 50% and water,0.2
+dextrose 30% and water,0.2
+glucose 50 mg/ml,0.2
+glycopyrrolate,0.1
+hepatomegaly,0.2
+trihexyphenidyl,0.01
+acquired absence of right foot,0.1
+artificial rupture of membranes to assist delivery,0.05
+schedule general surgery,0.05
+dd latex,0.0
+abnormality in fetal heart rate or rhythm,0.05
+cesarean section,0.05
+other disorders of peritoneum,0.05
+other procedures to assist delivery,0.0
+umbilical cord complications during labor and delivery,0.05
+fentanyl2mcg/mlbupivacaine0.083%epid,0.0
+misoprostol,0.05
+appendectomy,0.0
+routine postpartum follow-up,0.05
+great toe amputation status,0.25
+acquired absence of unspecified foot,0.2
+laparoscopic surgical procedure converted to open procedure,0.05
+obstetrical/birth trauma,0.0
+dinoprostone,0.0
+oxytocin,0.0
+"forceps, vacuum, and breech delivery",0.0
+carboprost,0.0
+normal delivery,0.0
+repair of current obstetric laceration,0.0
+late pregnancy and failed induction,0.1
+encounter for surgical aftercare following surgery on the digestive system,0.1
+39 weeks gestation of pregnancy,0.05
+esophageal bleeding (varices/hemorrhage),0.05
+"extracorporeal shock wave, other than urinary",0.05
+delivery healthy beginnings,0.05
+portal hypertension,0.05
+sulindac,0.0
+oxaprozin,0.05
+reserpine,0.05
+isoflurane,0.0
+aphasia,0.0
+encounter for long-term (current) use of anticoagulants,0.1
+brimonidine,0.0
+coagulation defects,0.1
+terazosin,0.1
+balanoposthitis,0.05
+cardiac pacemaker in situ,0.05
+cardiac pacemaker/device in situ,0.05
+latanoprost,0.05
+other symptoms/disorders or the urinary system,0.25
+bundle branch block,0.05
+naphazoline / pheniramine,0.0
+dutasteride,0.01
+vertiginous syndromes and other disorders of vestibular system,0.05
+elevated prostate specific antigen [psa],0.05
+cramp of limb,0.05
+hydrocele,0.0
+psoriasis and related disorders,0.05
+"macular degeneration, dry",0.1
+peripheral enthesopathies and allied syndromes,0.1
+other disorders of prostate,0.0
+essential tremor,0.05
+sleep disorders,0.25
+other disorders of testis,0.0
+impacted cerumen,0.0
+synovitis and tenosynovitis,0.1
+psoriasis vulgaris,0.05
+actinic keratosis,0.0
+hearing devices and audiology supplies,0.0
+diseases of sebaceous glands,0.05
+testicular dysfunction,0.1
+erythematous conditions,0.1
+varicose veins,0.05
+otitis media and eustachian tube disorders,0.0
+degenerative skin conditions and other dermatoses,0.1
+ectropion or entropion,0.0
+benign neoplasm of colon,0.05
+acquired foot deformities,0.65
+prostate-specific antigen,0.0
+pco2 (poct),0.05
+cytomegalovirus antibody (immunoglobulin g),0.05
+exparel+bupiv0.25%orbupiv0.25%,0.0
+24 hour urine protein electrophoresis,0.1
+"ld,isoenzymes",0.05
+antithrombin ag,0.05
+cefazolin1gm/10mlswfisyringe,0.0
+us retroperitoneal complete,0.05
+"total lipids, stool",0.05
+xr foot minimum 3 views left,0.05
+"motorized mobility scooter colliding with stationary object, initial encounter",0.0
+smart sense thin 26g lancets,0.85
+closure time collagen/adenosine diphosphate,0.05
+capsaicin / lidocaine / menthol,0.1
+clostridioides difficile toxin b tcdb gene,0.0
+collect time(hrs)+total vol. (oo),0.0
+total homovanillic acid 24 hour urine,0.1
+cryoproteins,0.1
+complete needle collection system,0.0
+"fluorescence in situ hybridization, myelodysplastic syndromes panel, chromosomes 5, 7, 8,",0.0
+"creatinine, plasma",0.2
+tibc,0.0
+"poisoning by drugs affecting uric acid metabolism, accidental (unintentional), initial encounter",0.05
+"reducing substances, feces",0.1
+clonidine,0.1
+hydrocortisone_powder_10gm,0.05
+aluminum,0.0
+ranitidine_45mg/3ml_syrup_(15mg/ml),0.05
+careone unifine pen 32g x 4 mm misc,0.75
+urine creatinine(raw data) (oo),0.1
+severe acute respiratory syndrome coronavirus 2 immunoglobulin m antibody,0.05
+resolution,0.0
+specimen submitted,0.0
+deficiencies of neck and trunk,0.05
+"toxic effect of other specified inorganic substances, accidental (unintentional), initial encounter",0.0
+feosol_200_mg_tablet,0.05
+clopidogrel_75_mg_tab_2pk,0.1
+olanzapine_0.625_mg_(1/4_x_2.5_mg)_tab,0.05
+"miscellaneous viral culture, final report",0.0
+human leukocyte antigen-a,0.05
+garage of other non-institutional residence as the place of occurrence of the external cause,0.0
+b-d #5125 needles 25gx1 hypo,0.1
+n-terminal probnp,0.05
+magic swizzle,0.0
+bd home sharps container,0.1
+cerebroventricular lining cells in cerebrospinal fluid,0.0
+cerebrospinal fluid lymphocyte percentage,0.05
+cerebrospinal fluid other cell type percentage,0.05
+cerebrospinal fluid monocyte percentage,0.05
+opioid abuse with withdrawal,0.0
+unspecified personal history presenting hazards to health,0.1
+bd lancet uf mis 30g,0.1
+morphine_drip_(mk)_100_ml,0.0
+ids_sterile_water,0.0
+ocr-002_or_placebo_200_mg/ml_50_ml_vial_(study_med,0.1
+"cannabis abuse, in remission",0.0
+accidental fall on or from escalator,0.0
+insulin syrg mis 0.3/30g,0.85
+parathyroid hormone,0.05
+patient recall,0.05
+insulin syrg 0.5/31g mis,0.8
+cannabinoids,0.1
+benzodiazepines,0.0
+amphetamines,0.0
+opiates,0.0
+benzoylecgonine,0.0
+barbiturates,0.0
+amphetamine,0.0
+prenatal multivitamin,0.01
+choriogonadotropin,0.05
+antisocial/borderline personality disorder,0.0
+carboxy tetrahydrocannabinol,0.0
+hepatitis b virus surface ag,0.0
+severe protein-calorie malnutrition,0.1
+acute posthemorrhagic anemia,0.05
+other disorders of stomach and duodenum,0.1
+acute pulmonary heart disease,0.05
+antineoplastic and immunosuppressive drugs causing adverse effects,0.1
+hemorrhage of gastrointestinal tract,0.05
+iron deficiency anemia secondary to blood loss (chronic),0.05
+simethicone 80 mg chewable tablet,0.01
+"iron binding capacity, total",0.05
+tramadol hydrochloride 50 mg oral tablet,0.05
+tab-a-vite with beta carotene tablet,0.1
+men-phor,0.0
+aluminum hydroxide 40 mg/ml / magnesium hydroxide 40 mg/ml / simethicone 4 mg/ml oral suspension,0.0
+ceftriaxone 1000 mg injection,0.0
+red top hold,0.0
+gray top hold (plasma),0.05
+ferritin,0.1
+sertraline 50 mg oral tablet,0.1
+lorazepam 0.5 mg oral tablet,0.0
+furosemide 20 mg oral tablet,0.1
+cepacol sore throat from post nasal drip,0.0
+exposure to sunlight - other specified places,0.0
+autohemotherapy or subconjunctival adhesion release after fistulizing surgery,0.0
+shortening of the levator muscle of the upper eyelid,0.05
+"extracapsular extraction of the lens by phacoemulsification, with implantation of an artificial lens in the posterior chamber of the eye, with implantation of an ab interno trabecular drainage device.",0.05
+"empagliflozin+metformin hydrochloride 12.5 mg+1,000 mg (synjardy), tablet",1.0
+irradiation in cyclotron therapy by accelerator in fractions of 20 centigrays for beams of 5 to 7.9 mev,0.0
+median nerve release in the carpal tunnel by video surgery,0.1
+"bilateral skin, muscle, and/or fat resection at the level of the upper eyelids, via skin approach",0.05
+posterior sclerotomy vitrectomy with transscleral retinal coagulation without tamponade,0.1
+primary pterygium excision with conjunctival or mucosal autograft,0.0
+"intracapsular or extracapsular extraction of the lens, with implantation of an artificial lens in the anterior chamber of the eye in case of impossibility of implantation in the posterior chamber",0.05
+high-dose-rate intracavitary vaginal brachytherapy with two-dimensional dosimetry,0.0
+irradiation in cyclotron therapy by accelerator in fractions of 2 grays for beams of 5 to 7.9 mev,0.0
+biological liquid aspect,0.0
+carcinological anatomopathological examination of accessory eye organ excision specimen,0.0
+upper eyelid crease reformation,0.0
+"palmodigital fasciectomy [aponeurectomy] on several rays of the hand, by direct approach",0.05
+"macrogol 4000, 10 g (arrow lab), powder for oral solution, sachet",0.05
+irradiation of less than 300 cm² in fixed fields by accelerator per fraction of 20 centigrays for beams of 5 to 7.9 mev,0.0
+transperineal prostate biopsy with ultrasound guidance,0.0
+"gliclazide 80 mg alter, tablets",1.0
+"ezetimibe+simvastatin 10 mg+40 mg (arrow lab), tablets",0.1
+"enlargement plasty of tendon reflection pulley, by direct approach",0.05
+"intestinal lesion hemostasis with laser, by jejunoscopy",0.05
+"destruction of the dorsal branch of a spinal nerve, percutaneous with radiologic guidance",0.0
+"therapeutic infiltration of posterior vertebral joint, percutaneous, with radiological guidance",0.05
+nonspecific tumor-seeking scintigraphy with a single-photon emitter,0.05
+"radiofrequency ablation of vertebral facet joints, percutaneous, under fluoroscopic guidance",0.05
+"removal of a periurethral penile or bulbomembranous urinary sphincter prosthesis, by direct approach",0.05
+"mixtard 30 insulin, novolet pen",1.0
+bladder neck obstruction,0.05
+"repositioning of the free edge of the eyelid, without autograft or flap",0.05
+carcinological anatomopathological examination of laryngeal cordectomy specimen,0.0
+"liraglutide 6 mg/ml (saxenda), inj sol, pen 3 ml",1.0
+"other forms of mental retardation, minimal or no behavioral impairment",0.0
+"radiofrequency occlusion of the great saphenous vein above the middle third of the leg via transcutaneous venous route with ultrasound guidance and homolateral phlebectomy, and/or ligation of perforating vein of the homolateral great saphenous vein.",0.05
+excision of synovial or mucoid cyst of a joint or fibrous sheath of the hand,0.05
+"renal tumor destruction by radiofrequency, percutaneous with ct guidance",0.05
+"multiple excisions of branches of the great saphenous vein and/or the small saphenous vein under general or regional anesthesia, by direct approach",0.05
+"palmodigital fasciectomy [aponeurectomy] on one ray of the hand, by direct approach",0.05
+"dorsal branch of spinal nerve anesthetic infiltration with diagnostic and prognostic evaluation, with radiological guidance",0.0
+destruction of 10 or more skin lesions with continuous co2 laser,0.05
+"enlargement section or plastie of the cruciate part of the digital fibrous sheath [flexor tendon muscle pulley of the fingers] on a ray of the hand, by direct approach",0.05
+"urapidil lp 60 mg (labo stragen), sustained-release capsule",0.1
+"destruction of skin lesion over 5 cm² to 20 cm², with pulsed or scanned co2 laser, or with erbium yag laser",0.05
+external otitis due to fungi,0.0
+"perindopril tosilate+indapamide 10 mg+2.5 mg (teva lab), tablets",0.25
+"enalapril+lercanidipine 20 mg+10 mg (labo biogaran), tablets",0.2
+"cervicocystopexy with synthetic suburethral sling, via transvaginal and transcutaneous approach, with endoscopic guidance",0.05
+"travoprost 0.004% (40 ug/ml labo arrow), eye drops, bottle 2.5 ml",0.0
+"excision of lesion of the conjunctiva, without autograft",0.0
+"solifenacin 5 mg (eg lab), tablets",0.05
+"fat injection into the vocal fold [vocal cord], by direct laryngoscopy",0.0
+presence of orthopedic joint implants,0.05
+"enalapril+lercanidipine 20 mg+20 mg (arrow lab), tablets",0.2
+"ezetimibe+atorvastatin 10 mg+40 mg (reselip), tab",0.2
+external irradiation session by machine with power less than 5 megavolts [mv],0.0
+bromelains,0.1
+"posterior sclerotomy vitrectomy, with vitreous cortex dissection [peeling] and internal gas tamponade",0.0
+laryngeal cordectomy by direct laryngoscopy with laser,0.0
+unilateral or bilateral electric eyelash hair removal session,0.0
+"accidents with orthopedic devices - implants, equipment, and accessories",0.05
+"sequelae of traumatic injury of lower limb, unspecified",0.05
+esotracheal voice prosthesis change by endoscopy,0.0
+"acromioplasty without prosthesis with acromioclavicular arthroplasty by resection of the lateral end of the clavicle, by arthroscopy",0.0
+"excision of lesion or stripping of the mucosa of the glottic plane, by direct laryngoscopy with laser",0.0
+endoscopic destruction session of a heterotopia of the lower esophageal mucosa,0.05
+"excision of lesion of the oral mucosa or oropharynx less than 2 cm in greatest dimension, via intraoral approach",0.05
+"superficial vein ligation of the limbs or neck, by direct approach",0.05
+duloxetine,0.2
+triamcinolone,0.1
+24 hr venlafaxine 150 mg extended release oral capsule,0.05
+esketamine,0.05
+polymyxin b,0.0
+"mianserine 30 mg (sandoz lab), scored tablet",0.05
+laboratory comment,0.0
+other diagnostic ultrasound,0.05
+other physical therapy and rehabilitation,0.1
+albumin/protein.total,0.2
+diltiazem,0.1
+eplerenone,0.1
+palatinase,0.0
+lipoprotein associated phospholipase a2,0.1
+duration time 1,0.0
+urine urea,0.1
+pca medication,0.1
+time duration 7,0.0
+iron overload,0.1
+factor 7,0.05
+chronic cough,0.05
+beta tester,0.0
+long qt,0.05
+fasting status,0.2
+fasting specimen,0.1
+time duration 6,0.0
+total co2,0.1
+primary site cancer,0.0
+urea vein,0.05
+o2 capacity,0.05
+kidney check,0.65
+dislocation,0.0
+t4 duration,0.0
+impossible formula,0.0
+duodenitis,0.05
+alpha 1,0.0
+timepc,0.0
+po intake,0.1
+patient body temperature,0.05
+urine cocaine test,0.0
+oral care,0.1
+t3 duration,0.05
+neomycin,0.0
+down syndrome,0.0
+eribulin,0.0
+latent tuberculosis,0.0
+t-spot,0.0
+pco2,0.0
+chart diagnosis,0.0
+drug use,0.1
+allergen,0.0
+farr test,0.1
+aspiration site,0.05
+living situation,0.0
+psa,0.0
+time urine protein,0.25
+hb lead,0.0
+periostitis,0.05
+free t4,0.05
+transcortin,0.05
+betaine,0.1
+peramivir,0.0
+blood ur,0.1
+cystitis,0.05
+cancer of bladder,0.0
+urine drug screen,0.05
+closed thumb fracture,0.0
+calciuria,0.2
+ropinirole,0.0
+cancer of larynx,0.0
+patient under treatment,0.25
+polymyositis,0.05
+cancer of stomach,0.0
+birch v1,0.0
+sotalol,0.0
+4-anti dipole,0.0
+etomidate,0.0
+tf-witness1,0.0
+cancer of tongue,0.0
+amoxapine,0.0
+eluxadoline,0.05
+neckerparis,0.0
+gi prophy,0.05
+f256 nuts,0.0
+diseases of esophagus,0.05
+vitamin d,0.1
+megestrol,0.1
+vibegron,0.0
+retinopathy of prematurity,0.0
+fracture of foot,0.1
+trileptal,0.0
+pnp1 patient,0.0
+zithromax,0.0
+vascular disorders of penis,0.25
+cisatracurium,0.0
+vitamin c,0.05
+treatment = none,0.0
+heptimax trademark,0.0
+tinidazole,0.0
+howtohla,0.0
+other specified infectious diseases,0.0
+covid-19,0.0
+desogestrel,0.0
+zolpidem,0.0
+labor and delivery admission,0.05
+12-hour creatinine,0.1
+myasthenia gravis,0.0
+march 1,0.0
+cancer ag 125,0.0
+bretylium,0.0
+vap - prophy,0.05
+mustard f89,0.0
+accidental fall from bed,0.0
+sumatriptan,0.0
+zileuton,0.0
+argatroban,0.0
+Argatroban,0.0
+gi guaiac,0.05
+nomenclature 1,0.0
+cancer of eye,0.0
+copper,0.0
+interleukin 6,0.1
+gds commentary,0.0
+clozapine,0.05
+1 egg white,0.0
+protein commentary,0.0
+difficulty in walking,0.25
+athena m1 prototype,0.0
+beta 2 micro liquid biopsy,0.05
+tck patient,0.0
+ulcer of esophagus,0.05
+ondansetron,0.0
+home accidents,0.0
+urine glucose- ketonuria,0.85
+glucose 1 hour challenge,0.75
+ertugliflozin,1.0
+"cartridge,animas",0.1
+"inserter,minimed",0.2
+metabolic disturbance ncp - interventions,0.65
+metoclopramide 5 mg oral tablet,0.1
+"amylase, pericardial fluid",0.0
+urinary glucose concentration,0.85
+metabolic disturbance ncp - plan revised,0.65
+human leukocyte antigen blood draw 1 red,0.05
+erythromycin_base_250mg_tab_ec_4pak,0.0
+methaqualone,0.0
+lancets sterile  30g (lrd),0.2
+iabp placement confirmed by x-ray,0.0
+dextrose 5% and water,0.1
+25 ml glucose 50 mg/ml injection,0.25
+100 ml glucose 50 mg/ml injection,0.25
+500 ml glucose 50 mg/ml injection,0.25
+150 ml glucose 50 mg/ml injection,0.25
+50 ml glucose 50 mg/ml injection,0.25
+1000 ml glucose 50 mg/ml injection,0.25
+1000 ml glucose 100 mg/ml injection,0.25
+citric acid / glucose / sodium citrate,0.1
+acetone titer,0.1
+Islet cell 512 IgG,0.1
+anti c21 hydroxy,0.05
+insulin 30gx5,0.85
+metoclopramide 10 mg oral tablet,0.1
+other physical therapies,0.1
+drug screen - serum/plasma,0.05
+cd19,0.0
+prochlorperazine 25 mg rectal suppository,0.0
+potential hydrogen (venous),0.05
+mirapex,0.05
+one touch ultra system,0.85
+methionine,0.05
+temperature setting=+5°c,0.0
+procedure and treatment not carried out due to patient leaving prior to being seen by health care provider,0.0
+motorcyclist - collision with living being - traffic,0.0
+occult blood test x 3,0.05
+estrone,0.1
+"osteoarticular tumorectomy of a limb, percutaneous with ct guidance",0.0
+malassezia spp,0.01
+gastrostomy status,0.1
+fabrication of a rigid lower limb immobilization device including the knee,0.05
+hemolysis interference index,0.0
+cd4+,0.0
+"excision of non-cholesteatomatous tumor of the middle ear, extended to all cavities of the middle ear, without laser",0.0
+troponin test,0.05
+"1ml syr/need mis 26gx5/8""",0.1
+pathologist review,0.05
+encounter for surveillance of contraceptive pills,0.05
+=atropine0.4mg/ml,0.0
+pyruvate,0.1
+"sodium bicarbonate, 500 mg capsule",0.05
+bag,0.0
+100% hemolysis control,0.0
+hemoglobin barts/hemoglobin.total,0.05
+"poct istat creatinine, unsolicited",0.1
+valine ur,0.05
+Mitochondria rRNA targeted mutation analysis,0.05
+fracture of hand or wrist,0.05
+bands,0.0
+metanephrine,0.05
+impaired skin site #5,0.2
+urinary mercury,0.0
+detrol,0.05
+septicemia or severe sepsis without mv >96 hours with mcc,0.05
+macadamia (macadamia spp) ige,0.01
+or colloid intake,0.0
+other triglyceride battery,0.2
+f5 gene mutations tested for,0.05
+platelet mean volume,0.1
+reagent,0.0
+Creatinine/body weight,0.1
+"dressing,biopatch",0.0
+mean corpuscular hemoglobin,0.1
+lactobacillus-containing product,0.1
+docusate-senna,0.0
+nctransport immuno,0.0
+von willebrand factor 2nd tube,0.05
+band neutrophils percentage manual,0.05
+nomenclature 5,0.0
+exploratory laparoscopic oophorectomy,0.0
+uranium phosphate,0.0
+daclatasvir,0.0
+human papilloma virus 16 dna,0.0
+peritoneal or intestinal adhesions,0.05
+current smoker,0.2
+endoscopic ultrasound (upper),0.05
+red cell distribution width,0.2
+alloisoleucine (singular),0.05
+human leukocyte antigen-dr,0.05
+esophagram with contrast material [barium swallow],0.05
+o2 inspired,0.0
+mrsa survl nares dna (admit)*ic,0.0
+fentanyl_2500_mcg/ns_100_ml_premix_(do_not_use),0.0
+streptococcus pyogenes enzyme ab,0.0
+betamethasone / betamethasone acetate,0.1
+methylenedioxypyrovalerone liquid chromatography-mass spectrometry test,0.05
+reticulin ab,0.05
+influenza virus a+b ag,0.0
+cardiac rehabilitation,0.1
+ammonia t 0,0.0
+placement of an intravesical catheter via suprapubic transcutaneous route,0.0
+brucella canis igg and igm,0.0
+negative occult control,0.0
+"excision of lesion of the maxillary bone and/or body of the mandible from 2 cm to 4 cm in major axis, via intraoral approach",0.0
+traca.inter anap hl,0.0
+3- cd19-/cd38+,0.0
+iatrogenic hypotension,0.1
+hepavih pro std protocol,0.0
+corrected ca++/ph 7.4,0.05
+chromogranin a,0.1
+2-Hydroxyisovalerate/Creatinine,0.1
+Mast cells/100 cells,0.0
+"gefitinib, oral, 250 mg",0.0
+activated partial thromboplastin time (aptt) + prothrombin time (pt),0.05
+"physical therapy exercises, manipulation, and other procedures",0.1
+subacromial bursa exploration by arthroscopy [subacromial bursoscopy],0.0
+ca 27-29 (cancer antigen 27-29),0.05
+cells.cd19+kappa+/100 cells,0.0
+chlorine remover,0.0
+ttpatient (acc),0.0
+herpes simplex virus type 1 and type 2 deoxyribonucleic acid by polymerase chain reaction,0.0
+"lansoprazole 30 mg (arrow lab), orodispersible tablet",0.05
+irregular menstrual bleeding,0.1
+exposure to excessive natural cold - unspecified place,0.0
+altered skin integrity ncp - plan revised,0.25
+phenylephrine20mg/ns250mlpremix(cabinetuseon,0.0
+myeloid leukemia,0.0
+urine osmolality,0.2
+lipoprotein midband a serpl-mcnc,0.1
+t5 duration,0.0
+latency time,0.0
+"influenza vaccine - efluelda, srg 0.7 ml (patients > 65 years)",0.05
+friedreich's ataxia,0.0
+"new image drain pouch 2-3/4""",0.0
+specific gravity - urine @shy,0.1
+label-free analysis,0.0
+% saturation,0.05
+direct debit,0.0
+luminex donor-specific antibody,0.0
+prescription date,0.0
+amino acid change,0.1
+fluav rna resp ql naa+probe,0.0
+Chikungunya virus IgM,0.0
+indication,0.0
+hla-drb1*,0.0
+ph(t),0.0
+contact with sharp object - undetermined intent - street or highway,0.0
+celery (apium graveolens) ige,0.05
+for validation label,0.85
+collision with or by other objects - school and public place,0.0
+tiotropium,0.05
+tucatinib,0.0
+p34,0.0
+coal tar,0.0
+"decompression of the medulla for malformation of the occipitocervical junction, without dural opening, via posterior approach",0.0
+nasal congestion,0.0
+cultivation condition,0.0
+beta aminoisobutyrate/creatinine,0.05
+ephedrine_sulf_10_mg/ml_5_ml_syringe,0.01
+"1,25-dihydroxyvitamin d2",0.1
+cfu-e (per 10^6 cells),0.0
+daily weight,0.25
+alpha rapid thromboelastography,0.05
+total suppressor cells (cluster of differentiation 8),0.1
+oxygen content (calculated),0.05
+anti-b antibody,0.05
+impaired skin odor #7,0.1
+mut fv result,0.0
+oxybate,0.0
+=ciprofloxacin,0.0
+acquired absence of right leg below knee,0.05
+aquaporin 4 water channel igg,0.05
+anti-dust mite,0.0
+irradiation of less than 300 cm² in fixed fields by telecobalt per fraction of 28 centigrays for beams of 0.5 to 4.9 mev,0.0
+gadoteridol,0.0
+monocyte percentage,0.1
+"excision of recurrent pterygium, with autograft of conjunctiva or mucosa",0.0
+crizotinib,0.0
+dextran 70 / glycerin / hypromellose,0.05
+HIV 1 p17 Ab,0.0
+puh icu panel b,0.1
+hemoglobin p3,0.2
+average number of abl1/100ng cdna,0.0
+pcr flu b / secretion,0.0
+"skin graft for burn of the head, covering 5% to 7.5% of the body surface area",0.0
+pa catheter placed in outside facility,0.05
+west nile virus igm,0.0
+ibuprofen 400 mg oral tablet,0.0
+disorders of optic nerve and visual pathways,0.2
+phenylephrine0.5%nasalspray15ml,0.0
+atypical liver resection by laparotomy,0.05
+hepatitis c virus antibody,0.05
+"vertebral corporotomy [somatotomy] for spinal cord decompression, with arthrodesis and/or osteosynthesis, via anterior or anterolateral cervicotomy",0.0
+loperamide hydrochloride 0.2 mg/ml oral solution,0.0
+oxyhemoglobin,0.05
+"fluconazole, 200 mg capsule",0.01
+po2(a/a)(t),0.0
+diatrizoate,0.0
+"corporectomy of a malformed vertebra, by laparotomy or by lumbotomy",0.0
+colcrys,0.0
+aftercare without cc/mcc,0.1
+fractional methemoglobin,0.05
+aspergillus fumigatus ab.ige.rast class,0.0
+lactate dehydrogenase 3,0.1
+loose body in joint,0.0
+earwax 2ml dose,0.0
+"orthopedic reduction of a traumatic dislocation of the hip joint, with fracture or epiphyseal detachment of the femoral head",0.05
+triazolam,0.0
+mfi trap (bx1) t,0.0
+clostridium difficile toxin,0.0
+hemoglobin c/hemoglobin.total,0.65
+urine globulins,0.1
+"motor vehicle traffic accident due to loss of control, without collision on the highway, injuring driver of motor vehicle other than motorcycle",0.0
+factor viii chromogenic,0.0
+equipment,0.0
+other antibiotic,0.05
+"aspiration of fluid as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",0.05
+"fall, being carried or supported by others - home",0.05
+restraint device (violent),0.0
+ursodiol,0.0
+"mri of 3 or more segments of the spine and its contents, without intravenous contrast injection",0.05
+sanger sequencing for point mutation detection,0.05
+consult / referral to comprehensive breast center,0.0
+serine protease,0.05
+packed erythrocytes units available,0.0
+Calcium.ionized/Calcium.total,0.05
+gastrin,0.05
+anti m2 mitochondrial ab - igg,0.05
+aspirin / oxycodone hydrochloride / oxycodone terephthalate,0.0
+rozerem,0.0
+lymphocytic choriomeningitis virus igg,0.0
+non-traumatic intracerebral hematoma evacuation by craniotomy,0.0
+anti-nf 186 antibodies,0.05
+bictegravir / emtricitabine / tenofovir alafenamide,0.0
+"buprenorphine screen, urine",0.05
+flecainide,0.0
+"closure of spina bifida with myelomeningocele, via posterior approach",0.0
+baclofen 10 mg oral tablet,0.0
+"surfactant deficiency, congenital protein",0.0
+liquid amylase,0.05
+urinary creatinine and magnesium per deciliter,0.2
+serum chloride concentration,0.1
+threonine,0.0
+matutes score,0.1
+"bilateral total arthrectomy and/or posterior osteotomy for rigid spinal deformity with arthrodesis and instrumental correction, on 10 or more vertebrae, via posterior approach",0.0
+complementary conclusion,0.0
+"macrogol (generic forlax 4 g), sachet (pediatric use only)",0.01
+nailfold capillaroscopy,0.1
+self-inflicted injury by unspecified means - home,0.0
+total carnitine,0.1
+mature basophils percentage,0.05
+laparoscopic posterior hysteropexy [promontofixation],0.0
+"destruction of several foci and/or interruption of several ventricular arrhythmogenic circuits with radiofrequency current, by transcutaneous vascular route",0.0
+epstein barr virus nuclear ab,0.0
+Latex recombinant (rHev b) 5 IgE,0.05
+eosinophils/100 leukocytes,0.05
+other laboratory controls,0.1
+"catheter,external",0.1
+mutated gck gene,0.2
+"pedal cycle driver injured in noncollision transport accident in traffic accident, subsequent encounter",0.0
+bee rapid api 214 square meters,0.0
+arctic sun/alsius set temp,0.0
+"recanalization of an upper limb artery with placement of a covered stent, via transcutaneous arterial route",0.1
+anabasine,0.0
+14 g phlebitis scale,0.0
+acetazolamide 250 mg oral tablet,0.05
+gpiiia (y2/51),0.0
+jc virus dna,0.0
+urea dial 3,0.1
+sideroblastic anemia,0.0
+pnn flaer-/cd24- (types 2 and 3),0.25
+mid-cell percentage - predicted,0.05
+serum collected on,0.0
+cd2 cells nfr bld,0.05
+blood product unit id,0.0
+HIV 2 gp36 Ab,0.0
+dry pellet packaging,0.0
+aspartate,0.1
+hemoglobin a1c test - differential cell count type,0.85
+"coronary revascularization with 2 arterial grafts and 2 distal anastomoses, through thoracotomy with cpb",0.1
+"other urethral stricture, male, unspecified site",0.0
+normoblasts nfr mar manual,0.0
+"calcium heparin (generic calciparine), 5,000 iu/0.2 ml injection",0.0
+g6pd/pk ratio,0.05
+"t(9;22)(q34.1;q11)(abl1,bcr) b2a2+b3a2 fusion transcript/control transcript (international scale)",0.0
+sodium ur tp,0.05
+factor xii 1/10,0.0
+screening for other and unspecified deficiency anemia,0.1
+knee disarticulation,0.05
+pbiom receptor,0.1
+one touch suresoft lancing dev/gent,0.85
+ana test result,0.1
+"resection of a cervical rib, via supraclavicular approach",0.0
+pathology findings,0.1
+"hand or wrist procedures, except major thumb or joint procedures with cc/mcc",0.05

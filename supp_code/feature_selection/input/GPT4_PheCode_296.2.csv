@@ -1,0 +1,3593 @@
+desc,gpt4
+psychological and psychiatric evaluation and therapy,0.75
+alcohol and drug rehabilitation/detoxification,0.5
+ophthalmologic and otologic diagnosis and treatment,0.0
+pathology,0.1
+ancillary services,0.2
+sexual abstinence duration,0.2
+interpretation,0.0
+clozapine,0.75
+venlafaxine,0.9
+dexamethasone,0.1
+lithium,0.75
+amitriptyline,0.75
+character,0.0
+temazepam,0.5
+suberate,0.0
+carbamazepine,0.5
+clomipramine,1.0
+fluoxetine,1.0
+nortriptyline,0.9
+trazodone,0.75
+imipramine,0.9
+ref lab name,0.0
+hypochromia,0.0
+hypothyroidism,0.2
+hypothyroidism nos,0.2
+diabetes mellitus,0.2
+type 2 diabetes with ketoacidosis,0.1
+hypoglycemia,0.2
+vitamin deficiency,0.2
+hypercholesterolemia,0.0
+hypovolemia,0.0
+other persistent mental disorders due to conditions classified elsewhere,0.5
+neurological disorders,0.5
+memory loss,0.5
+schizophrenia and other psychotic disorders,0.25
+psychosis,0.5
+mood disorders,0.9
+bipolar,0.75
+depression,1.0
+major depressive disorder,1.0
+suicidal ideation or attempt,0.9
+suicidal ideation,0.85
+suicide or self-inflicted injury,0.85
+"anxiety, phobic and dissociative disorders",0.75
+anxiety disorder,0.75
+generalized anxiety disorder,0.5
+"agorophobia, social phobia, and panic disorder",0.75
+obsessive-compulsive disorders,0.5
+dysthymic disorder,1.0
+acute reaction to stress,0.5
+personality disorders,0.5
+antisocial/borderline personality disorder,0.5
+sexual and gender identity disorders,0.25
+adjustment reaction,0.7
+eating disorder,0.5
+other mental disorder,0.5
+pervasive developmental disorders,0.5
+attention deficit hyperactivity disorder,0.3
+substance addiction and disorders,0.7
+alcohol-related disorders,0.5
+alcoholism,0.5
+tobacco use disorder,0.2
+sleep disorders,0.7
+insomnia,0.7
+organic or persistent insomnia,0.7
+chronic pain,0.5
+chronic pain syndrome,0.5
+disorders of the globe,0.0
+other retinal disorders,0.0
+other nondiabetic retinopathy,0.0
+corneal opacity and other disorders of cornea,0.0
+glaucoma,0.0
+primary angle-closure glaucoma,0.0
+cataract,0.0
+senile cataract,0.0
+disorders of refraction and accommodation; blindness and low vision,0.0
+blindness and low vision,0.2
+visual disturbances,0.2
+disorders of lacrimal system,0.0
+dry eyes,0.2
+disorders of optic nerve and visual pathways,0.0
+optic neuritis/neuropathy,0.0
+other disorders of eye,0.0
+angina pectoris,0.0
+ill-defined descriptions and complications of heart disease,0.0
+hypotension,0.2
+asthma,0.0
+dependence on respirator [ventilator] or supplemental oxygen,0.1
+urinary incontinence,0.2
+absent or infrequent menstruation,0.2
+irregular menstrual bleeding,0.2
+dysmenorrhea,0.2
+disturbance of skin sensation,0.1
+alopecia,0.1
+osteoporosis,0.1
+back pain,0.2
+contusion,0.0
+mirtazapine,0.9
+amphetamine / dextroamphetamine,0.25
+clonazepam,0.75
+lamotrigine,0.75
+escitalopram,1.0
+paroxetine,1.0
+doxepin,0.75
+sertraline,1.0
+topiramate,0.25
+bupropion,0.75
+haloperidol,0.25
+quetiapine,0.75
+hydroxyzine,0.25
+naltrexone,0.5
+duloxetine,0.75
+aripiprazole,0.75
+pituitary hypofunction,0.25
+anorexia,0.5
+lack of normal physiological development,0.3
+delayed milestones,0.2
+"lack of normal physiological development, unspecified",0.2
+neutropenia,0.0
+other specified nonpsychotic and/or transient mental disorders,0.5
+alteration of consciousness,0.3
+altered mental status,0.5
+psychogenic and somatoform disorders,0.75
+somatoform disorder,0.5
+conduct disorders,0.3
+tics and stuttering,0.2
+autism,0.25
+learning disorder,0.25
+mental retardation,0.2
+coma,0.1
+myopia,0.0
+strabismus and other disorders of binocular eye movements,0.0
+cardiomyopathy,0.1
+congestive heart failure (chf) nos,0.0
+hypotension nos,0.1
+apnea,0.2
+decubitus ulcer,0.0
+open wound or laceration of eye or eyelid,0.0
+risperidone,0.75
+guanfacine,0.2
+"infestation (lice, mites)",0.0
+hypocalcemia,0.1
+immunity deficiency,0.2
+dementias,0.5
+vascular dementia,0.25
+hallucinations,0.5
+schizophrenia,0.25
+paranoid disorders,0.25
+posttraumatic stress disorder,0.75
+decreased libido,0.7
+psychogenic disorder,0.75
+mental disorders durring/after pregnancy,0.75
+impulse control disorder,0.3
+parasomnia,0.3
+circadian rhythm sleep disorder,0.5
+degeneration of macula and posterior pole of retina,0.0
+macular degeneration (senile) of retina nos,0.0
+open-angle glaucoma,0.0
+diplopia and disorders of binocular vision,0.1
+visual field defects,0.1
+subjective visual disturbances,0.2
+disorders of conjunctiva,0.0
+other disorders of eyelids,0.0
+ptosis of eyelid,0.0
+disorders of vitreous body,0.0
+cardiac arrest,0.1
+sinoatrial node dysfunction (bradycardia),0.0
+lurasidone,0.75
+buspirone,0.75
+chlorpromazine,0.5
+buprenorphine / naloxone,0.25
+fluvoxamine,0.9
+olanzapine,0.75
+prazosin,0.25
+phobia,0.5
+dissociative disorder,0.5
+anorexia nervosa,0.7
+retinal vascular changes and abnomalities,0.1
+"chorioretinal inflammations, scars, and other disorders of choroid",0.0
+chorioretinal scars,0.0
+inflammation of the eye,0.0
+inflammation of eyelids,0.0
+anomalies of pupillary function,0.1
+poisoning by psychotropic agents,0.5
+tranylcypromine,0.9
+desipramine,0.9
+disulfiram,0.0
+atomoxetine,0.5
+paliperidone,0.5
+benign neoplasm of eye,0.0
+nutritional marasmus,0.1
+senile dementia,0.5
+progressive myopia,0.0
+retinal detachments and defects,0.0
+cystoid macular degeneration of retina,0.0
+macular puckering of retina,0.0
+drusen (degenerative) of retina,0.0
+peripheral retinal degenerations,0.0
+hereditary retinal dystrophies,0.0
+corneal opacity,0.0
+corneal degenerations,0.0
+corneal dystrophy,0.0
+primary open angle glaucoma,0.0
+astigmatism,0.0
+hypermetropia,0.0
+amblyopia,0.0
+anisometropia,0.0
+ectropion or entropion,0.0
+dermatochalasis,0.0
+optic atrophy,0.0
+strabismus (not specified as paralytic),0.0
+disorders of iris and ciliary body,0.0
+non-healing surgical wound,0.1
+vilazodone,0.9
+schizoid personality disorder,0.3
+"macular degeneration, dry",0.0
+abnormal posture,0.2
+congenital anomalies of the eye,0.0
+congenital anomalies of posterior segment of eye,0.0
+nonsenile cataract,0.0
+pseudoexfoliation glaucoma,0.0
+traumatic cataract,0.0
+congenital cataract and lens anomalies,0.0
+tricyclic antidepressants,1.0
+norsertraline,0.5
+amphetamines,0.25
+opiates,0.5
+cocaine,0.0
+cannabinoids,0.2
+norclomipramine,0.75
+norfluoxetine,0.0
+imipramine+desipramine,0.9
+visual aids and other optical supplies,0.0
+benzodiazepines,0.5
+mask,0.0
+supply,0.0
+dressing,0.0
+pain,0.5
+debility unspecified,0.2
+pad,0.0
+bag,0.0
+specimen type,0.0
+diarrhea,0.1
+adapt,0.0
+presbyopia,0.0
+tablet,0.0
+container,0.0
+drain,0.0
+resource,0.0
+syringe,0.0
+lotion,0.0
+gentle cream,0.0
+cold cream,0.0
+amoxapine,0.75
+kit,0.0
+negative occult control,0.0
+protriptyline,0.75
+trimipramine,0.9
+maprotiline,0.9
+syncope,0.2
+chart diagnosis,0.0
+clinical impression,0.5
+comment,0.0
+consultant,0.0
+device,0.0
+diagnosis code,0.0
+dimorphism,0.0
+dose,0.0
+draw and hold,0.0
+low-density lipoprotein cholesterol risk interpretation,0.1
+medications,0.5
+message,0.0
+negative control (point of care),0.0
+phenotype,0.0
+product code,0.0
+product identification,0.0
+rate,0.0
+reason,0.0
+released by,0.0
+report,0.0
+resolution,0.0
+result,0.0
+see below,0.0
+source,0.0
+specimen,0.0
+stressors,0.75
+supernatant,0.0
+time low,0.0
+titer,0.0
+rh,0.0
+procedure,0.0
+medication prescribed,0.5
+class,0.0
+nidus,0.0
+clinical info,0.0
+specimen condition,0.0
+specimen container,0.0
+symptom,0.0
+citation,0.0
+laboratory comment,0.0
+composition,0.0
+levomilnacipran,1.0
+naldemedine,0.0
+lithium carbonate,0.75
+lithium citrate,0.75
+carbamazepine free,0.5
+clomipramine+norclomipramine,0.9
+dorzolamide,0.0
+yellow hornet (dolichovespula arenaria) ige,0.0
+peanut (arachis hypogaea) native (nara h) 3 ige,0.0
+ethyl glucuronide,0.0
+congenital anomalies of intestine,0.0
+cholesterol,0.0
+clotting time,0.0
+trametinib,0.0
+ceruloplasmin,0.0
+igg clearance/albumin clearance,0.0
+salmon (salmo salar) ige,0.0
+platelets,0.0
+frequency of urination and polyuria,0.1
+gardnerella vaginalis dna,0.0
+tissue transglutaminase igg,0.0
+procedures on the urethra,0.0
+other therapeutic endocrine procedures,0.1
+alpha hydroxyalprazolam,0.0
+indinavir,0.0
+arsenic,0.0
+voltage-gated calcium channel p/q type binding ab,0.1
+alprazolam,0.75
+late effects of cerebrovascular disease,0.25
+dementia with cerebral degenerations,0.5
+other physical therapy and rehabilitation,0.2
+anastrozole,0.1
+coxiella burnetii phase 2 igg,0.0
+hydroxyproline,0.0
+beta 1 globulin,0.0
+norepinephrine,0.75
+hfe gene mutations tested for,0.1
+abnormal tumor markers,0.1
+citrulline/creatinine,0.0
+ovalbumin ige,0.0
+eszopiclone,0.5
+chlamydia trachomatis igg,0.0
+"gastrectomy, partial and total",0.0
+follitropin,0.0
+congenital coagulation defects,0.0
+leukocytes,0.0
+n-methylhistamine/creatinine,0.0
+erythematosquamous dermatosis,0.0
+base deficit,0.0
+"inflammatory disease of cervix, vagina, and vulva",0.0
+fine granular casts,0.0
+lorazepam,0.75
+oral aphthae,0.1
+brucella sp igm,0.0
+leukocyte phosphatase,0.0
+glucose,0.1
+glomerular filtration rate.predicted among blacks,0.0
+glutamate decarboxylase 65 ab,0.1
+other cns infection and poliomyelitis,0.0
+desoximetasone,0.0
+throat pain,0.1
+painful respiration,0.2
+clindamycin,0.0
+carbon dioxide (poc) (group:co2-poc),0.0
+mononuclear cells,0.0
+"creatinine, time ur (mg/dl) (group:tu-cre)",0.0
+hemoglobin o-arab/hemoglobin.total,0.0
+simeprevir,0.0
+human papilloma virus 16+18+31+33+35+45+51+52+56 dna,0.0
+norbuprenorphine-glucuronide (group:norbup-gluc),0.0
+brazil nut (bertholletia excelsa) ige,0.0
+"tco2, cap, nicu (group:tco2cn)",0.0
+alpha 1 antitrypsin,0.0
+gas delivery source,0.0
+drvvt,0.0
+cyclosporine,0.0
+cladosporium herbarum ige,0.0
+open wounds of extremities,0.0
+adenovirus ab,0.0
+glucose-6-phosphate dehydrogenase,0.0
+coarse granular casts,0.0
+other diagnostic procedures on lung and bronchus,0.0
+cardiac and circulatory congenital anomalies,0.0
+"protein, timed urine (mg/tv) (group:utpmgtv)",0.0
+specimen volume,0.0
+"docusate / sennosides, usp",0.0
+chlamydophila pneumoniae ab,0.0
+guaifenesin / pseudoephedrine,0.0
+infectious and parasitic complications affecting pregnancy,0.0
+coagulation factor x activity actual/normal,0.0
+stress fracture,0.1
+alcoholic liver damage,0.25
+nontraumatic compartment syndrome,0.0
+hepatitis d virus ab,0.0
+hct (bg) (group:hct bg),0.0
+nausea and vomiting,0.2
+creatinine dialysis fluid clearance,0.0
+fat emulsion,0.0
+penicillium notatum ige,0.0
+primidone,0.0
+fiber,0.0
+deprecated c trach rrna xxx ql prb,0.0
+sjogrens syndrome-b extractable nuclear ab,0.2
+cocksfoot (dactylis glomerata) ige,0.0
+"other diagnostic procedures (interview, evaluation, consultation)",0.5
+deprecated mean glucose bld ghb est-acnc,0.0
+tetrahydrocannabinol,0.2
+ethanol,0.2
+barbiturates,0.5
+phencyclidine,0.2
+oxazepam,0.75
+choriogonadotropin,0.0
+leptin,0.0
+epithelial cells,0.0
+bacteria,0.0
+clue cells,0.0
+yeast,0.0
+m-chlorophenylpiperazine,0.75
+ibuprofen,0.0
+methamphetamine,0.5
+6-monoacetylmorphine,0.0
+benzoylecgonine,0.0
+methadone,0.2
+amphetamine,0.25
+sleep related movement disorders,0.3
+restless legs syndrome,0.25
+migraine,0.25
+ethanol (tox panel) (group:tox1),0.2
+ats (tox panel) (group:tox2),0.1
+barbiturates (tox panel) (group:tox3),0.2
+benzo (tox panel) (group:tox4),0.2
+tricyclics (tox panel) (group:tox5),0.75
+other findings (tox) (group:otfi),0.1
+develomental delays and disorders,0.25
+nicotine polacrilex,0.1
+barbiturates concentration,0.2
+other signs and symptoms involving emotional state,0.75
+other tests,0.0
+"persons with potential health hazards related to socioeconomic, psychosocial, and other circumstances",0.75
+drug screen creatinine concentration,0.0
+"down syndrome interpretation, risk",0.2
+persons encountering health services in circumstances related to reproduction,0.2
+amphetamine resin complex,0.2
+venlafaxine hydrochloride,1.0
+medication organizer,0.0
+cetyl lactate,0.0
+"other diagnostic procedures, female organs",0.0
+mammography,0.0
+phenylpropanolamine,0.0
+choriogonadotropin (pregnancy test),0.0
+deprecated cyanocobalamin.true ser-mcnc,0.0
+buprenorphine,0.25
+hydromorphone,0.0
+17-hydroxypregnenolone,0.2
+ovarian dysfunction,0.2
+other endocrine disorders,0.2
+disorders of the autonomic nervous system,0.2
+other headache syndromes,0.2
+palpitations,0.3
+irritable bowel syndrome,0.25
+abnormal findings on mammogram or breast exam,0.0
+lump or mass in breast,0.0
+other nonmalignant breast conditions,0.0
+inflammatory diseases of female pelvic organs,0.1
+vaginitis and vulvovaginitis,0.0
+disorders of menstruation and other abnormal bleeding from female genital tract,0.2
+irregular menstrual cycle/bleeding,0.2
+menopausal and postmenopausal disorders,0.3
+symptomatic menopause,0.5
+diseases of sebaceous glands,0.1
+acne,0.0
+myalgia and myositis unspecified,0.1
+symptoms of the muscles,0.2
+abnormal papanicolaou smear of cervix and cervical hpv,0.0
+mild cognitive impairment,0.3
+cervical intraepithelial neoplasia [cin] [cervical dysplasia],0.0
+voice disturbance,0.2
+benign mammary dysplasias,0.0
+cystic mastopathy,0.0
+ovarian cyst,0.0
+papanicolaou smear of cervix or vagina with atypical squamous cells,0.0
+interpretation (tox) (group:toxint),0.0
+galactorrhea,0.1
+hirsutism,0.2
+other disorders of carbohydrate transport and metabolism,0.1
+"rheumatism, unspecified and fibrositis",0.2
+cocaethylene,0.0
+cocaine+benzoylecgonine,0.2
+urine cocaine test,0.1
+chlamydia trachomatis and neisseria gonorrhoeae dna,0.0
+chlamydia trachomatis+neisseria gonorrhoeae dna,0.0
+chlamydia trachomatis+neisseria gonorrhoeae rrna,0.0
+oxycodone quantitative analysis by gas chromatography-mass spectrometry,0.0
+contact lens cleaning solution,0.0
+tramadol concentration,0.1
+urine oxycodone qualitative screening,0.0
+ccs:998,0.0
+ccs:999,0.0
+african american,0.0
+carboxy tetrahydrocannabinol,0.0
+inr,0.0
+fentanyl,0.0
+leukocyte clumps,0.0
+cotinine,0.0
+naloxone,0.0
+bifidobacterium longum,0.0
+albiglutide,0.0
+chamomile oil,0.0
+aspirin / calcium carbonate,0.0
+extrapyramidal disease and abnormal movement disorders,0.2
+complex regional/central pain syndrome,0.25
+valproic acid,0.75
+sumatriptan,0.1
+melatonin,0.2
+clonidine,0.2
+hypersomnia,0.7
+dextroamphetamine,0.5
+nicotine,0.2
+lisdexamfetamine,0.25
+methohexital,0.0
+norclozapine,0.0
+nordiazepam,0.2
+chloral hydrate,0.2
+amitriptyline+nortriptyline,0.75
+diphenhydramine,0.1
+other findings ii (tox) (group:otfii),0.0
+clozapine+norclozapine,0.75
+"nortriptyline, quantitative.",0.75
+oxycodone,0.0
+"thc/cannabinoids, urine (confirm) (group:uthccfm)",0.0
+thiamine,0.0
+chlordiazepoxide,0.5
+pain in joint,0.2
+acamprosate,0.5
+cervicalgia,0.2
+premenstrual tension syndromes,0.6
+gabapentin,0.5
+7-aminoclonazepam,0.0
+toxic effect of (non-ethyl) alcohol and petroleum and other solvents,0.2
+delirium dementia and amnestic and other cognitive disorders,0.4
+delirium due to conditions classified elsewhere,0.25
+mode,0.0
+connector,0.0
+specimen source,0.0
+ensure,0.0
+labetalol,0.0
+lactate dehydrogenase,0.0
+prophylaxis,0.1
+screener,0.5
+called results,0.0
+quantitative count,0.1
+clerical check,0.0
+chemotherapy,0.2
+edrophonium,0.0
+cerebral ischemia,0.2
+diaper,0.0
+medication disposal,0.0
+reducing substances,0.0
+dislocation,0.0
+filter,0.0
+morphology,0.0
+product order,0.0
+coverlet,0.0
+specific nonpsychotic mental disorders due to brain damage,0.5
+facial weakness,0.2
+adrenal hypofunction,0.2
+ischemic heart disease,0.2
+"overweight, obesity and other hyperalimentation",0.2
+torsion dystonia,0.2
+zolpidem,0.25
+perphenazine,0.75
+"carbamazepine 10,11-epoxide",0.0
+patient symptoms,0.0
+acetaminophen,0.0
+procedure type,0.0
+sao2% device class,0.0
+specimen condition ur-imp,0.0
+citation ref lab test,0.0
+character ur,0.0
+rh bld,0.0
+compn stone,0.0
+spec container spec,0.0
+suberate ur ql,0.0
+laboratory comment report,0.0
+dexamethasone serpl-mcnc,0.1
+nidus stone ql,0.0
+interpretation serpl ife-imp,0.0
+interpretation ur ife-imp,0.0
+interpretation serpl iep-imp,0.0
+interpretation csf ife-imp,0.0
+interpretation ur iep-imp,0.0
+symptoms 2.5h p lac po patient-imp,0.0
+sex abstin duration time patient,0.1
+hypochromia bld ql smear,0.0
+buprenorphine ur ql,0.1
+oxycodone ur ql,0.1
+lithium serpl-scnc,0.75
+nortrip serpl scn-mcnc,0.75
+fluoxetine serpl scn-mcnc,1.0
+clomipramine serpl-mcnc,0.9
+lorazepam ur ql scn,0.25
+clonazepam ur-mcnc,0.5
+lorazepam sal-mcnc,0.25
+barbiturates gast ql,0.1
+lorazepam serpl scn-mcnc,0.5
+amitrip peak serpl-mcnc,0.75
+nortrip ur ql cfm,0.75
+temazepam ur cfm-mcnc,0.2
+desipramine ur-mcnc,0.75
+carbamazepine serpl-mcnc,0.5
+amitrip ur-mcnc,0.75
+venlafaxine serpl ql,0.9
+carbamazepine serpl scn-mcnc,0.5
+imipramine ur ql,0.75
+imipramine serpl-mcnc,0.75
+yellow hornet ige qn,0.0
+peanut (nara h) 3 ige qn,0.0
+cholest serpl-mcnc,0.0
+ceruloplasmin serpl-mcnc,0.0
+salmon ige qn,0.0
+g vaginalis dna vag ql probe+sig amp,0.0
+vgcc-p/q bind ab ser-scnc,0.1
+alpraz serpl-mcnc,0.75
+c burnet ph2 igg ser-acnc,0.0
+beta1 glob serpl elph-mcnc,0.0
+norepineph plas-mcnc,0.75
+citrulline/creat ur-rto,0.0
+ovalb ige qn,0.0
+c trach igg titr ser,0.0
+wbc # smn,0.0
+fine gran casts #/area urns hpf,0.0
+glucose 1.5h p glc serpl-mcnc,0.0
+gad65 ab ser ia-acnc,0.2
+mononuc cells # fld manual,0.0
+hgb o-arab mfr bld,0.0
+gas deliv source respiratory,0.0
+c herbarum ige qn,0.0
+hadv ab titr ser,0.0
+g6pd rbc-ccnc,0.0
+coarse gran casts #/area urns hpf,0.0
+specimen vol smn,0.0
+c pneum ab titr ser,0.0
+wbc urns ql micro,0.0
+creat cl dial fld+serpl-vrate,0.0
+salicylates,0.0
+ziprasidone,0.75
+cyclobenzaprine,0.1
+phenelzine sulfate,0.9
+nordoxepin,0.75
+norchlordiazepoxide,0.5
+demoxepam,0.25
+milnacipran,0.75
+tension headache,0.3
+alzheimer's disease,0.3
+aphasia/speech disturbance,0.2
+selegiline,0.75
+citalopram,0.9
+transient mental disorders due to conditions classified elsewhere,0.5
+other ill-defined and unknown causes of morbidity and mortality,0.1
+desvenlafaxine,1.0
+nefazodone,0.9
+phenelzine,0.9
+sibutramine,0.1
+parkinson's disease,0.5
+symbolic dysfunction,0.5
+psychophysical visual disturbances,0.2
+cataplexy and narcolepsy,0.2
+malaise and fatigue,0.5
+amitriptyline- and chlordiazepoxide-containing product,0.75
+chronic fatigue syndrome,0.5
+concussion,0.2
+cerebral atherosclerosis,0.1
+"cerebral artery occlusion, with cerebral infarction",0.2
+separation of retinal layers,0.0
+jakob-creutzfeldt disease,0.1
+convulsions,0.2
+vitamin b-complex deficiencies,0.2
+tics and choreas,0.2
+generalized convulsive epilepsy,0.2
+dimenhydrinate,0.0
+chlordiazepoxide+metabolites,0.25
+methanol,0.0
+isopropanol,0.0
+transient alteration of awareness,0.2
+pecan or hickory nut (carya illinoinensis nut) ige,0.0
+poisoning by agents primarily acting on the smooth and skeletal muscles and respiratory system,0.0
+amitriptyline / chlordiazepoxide,0.75
+partial epilepsy,0.2
+speech and language disorder,0.2
+syncope and collapse,0.2
+esketamine,0.9
+tryptophan,0.0
+sucrase,0.0
+spinocerebellar disease,0.1
+other and unspecified disorders of the nervous system,0.2
+other cerebral degenerations,0.2
+lack of coordination,0.25
+ondansetron,0.0
+"other conditions of brain, nos",0.2
+trigeminal nerve disorders [cn5],0.1
+symptoms involving nervous and musculoskeletal systems,0.5
+aphasia,0.2
+erectile dysfunction [ed],0.3
+myoclonus,0.1
+"cerebral degeneration, unspecified",0.2
+diazepam,0.5
+diseases of hard tissues of teeth,0.0
+dental caries,0.1
+diseases of pulp and periapical tissues,0.0
+pulpitis and necrosis of tooth pulp,0.0
+adverse drug events and drug allergies,0.1
+meloxicam,0.0
+migrain with aura,0.25
+rizatriptan,0.1
+research procalcitonin,0.0
+"tetanus immune globulin, human",0.0
+3-epi-25-hydroxyvitamin d2,0.1
+3-epi-25-hydroxyvitamin d3,0.0
+tetanus immune globulin,0.0
+potassium lactate,0.0
+calcium carbonate / famotidine / magnesium hydroxide,0.0
+ferrous bisglycinate,0.0
+ascorbic acid/bioflavonoids,0.1
+urine drug screen confirmation,0.1
+camphor / eucalyptus oil / menthol,0.0
+diphenhydramine / ibuprofen,0.1
+pectus carinatum,0.0
+melatonin / pyridoxine,0.2
+hiv 1 proviral dna,0.0
+caffeine,0.2
+"transportation - patient, provider, equipment",0.0
+aspartame,0.0
+"fluorescence in situ hybridization, myelodysplastic syndromes panel, chromosomes 5, 7, 8,",0.0
+"karyotype, single nucleotide polymorphism",0.1
+essential hypertension,0.2
+cefprozil,0.0
+vitamin mk7,0.1
+pramoxine / zinc acetate,0.0
+gerd,0.2
+thyrotropin,0.2
+diseases of esophagus,0.0
+benzoate / caffeine,0.1
+"esophagitis, gerd and related diseases",0.1
+genetic variant details,0.0
+hypertension,0.2
+osteoarthrosis nos,0.0
+osteoarthrosis,0.1
+multiple sclerosis,0.35
+epinephrine+norepinephrine/creatinine,0.1
+lactobacillus gasseri,0.0
+menthol / pramoxine,0.0
+polyphagia,0.2
+acetaminophen / hydrocodone,0.1
+etonogestrel,0.1
+activated charcoal,0.0
+citrus bioflavonoids,0.1
+panthenol,0.0
+amlexanox,0.0
+shark liver oil,0.0
+phenylephrine / promethazine,0.0
+acetaminophen / dextromethorphan / guaifenesin / phenylephrine,0.1
+cariprazine,0.75
+amyotrophic lateral sclerosis,0.1
+methylphenidate,0.25
+risperidone+9-hydroxyrisperidone,0.75
+diclofenac,0.0
+pregabalin,0.5
+fluticasone,0.0
+benztropine,0.0
+poisoning by anticonvulsants and anti-parkinsonism drugs,0.1
+acetaminophen / butalbital / caffeine,0.1
+promethazine,0.1
+fluphenazine,0.5
+folic acid,0.2
+hydrocodone,0.25
+cyproheptadine,0.25
+varenicline,0.25
+loxapine,0.5
+trihexyphenidyl,0.0
+acute pain,0.3
+pruritus and related conditions,0.1
+pallor and flushing,0.1
+toxic effect of other metals,0.1
+myopathy,0.0
+bupropion / naltrexone,0.75
+cushing's syndrome,0.5
+dihydroergotamine,0.0
+nucleolar nuclear ab pattern,0.0
+noninfectious dermatoses of eyelid,0.0
+alpha tocopherol / ascorbic acid / beta carotene / calcium carbonate / cholecalciferol / docusate / ferrous fumarate / folic acid / niacinamide / pantothenate / pyridoxine / riboflavin / thiamine / vitamin b12 / zinc oxide,0.1
+sofosbuvir / velpatasvir / voxilaprevir,0.0
+prostate specific ag,0.0
+quantitative hepatitis c virus polymerase chain reaction,0.0
+calcium carbonate / magnesium carbonate,0.0
+mittelschmerz,0.0
+bacitracin / neomycin / polymyxin b / pramoxine,0.0
+ascorbic acid / ferrous fumarate,0.0
+berberine / cholecalciferol / hops extract / vitamin k,0.1
+camphor / dimethicone / menthol / phenol,0.0
+triglyceride,0.1
+tricyclic antidepressants - emergency screening,0.85
+zaleplon,0.25
+benzodiazepines semi-quantitative measurement,0.25
+meprobamate,0.5
+disorders of other cranial nerves,0.1
+biopsy of liver,0.0
+codeine,0.2
+herpes zoster,0.0
+disorders of the pituitary gland and its hypothalamic control,0.3
+dysphagia,0.1
+chronic venous insufficiency [cvi],0.0
+hypertensive heart disease,0.2
+sirolimus,0.0
+thyroglobulin ab,0.1
+pain and other symptoms associated with female genital organs,0.2
+dermatophytosis of nail,0.0
+abdominal hernia,0.0
+other disorders of male genital organs,0.0
+chlamydia trachomatis rrna,0.0
+acute sinusitis,0.0
+otitis externa,0.0
+magnetic resonance imaging,0.1
+epinephrine,0.0
+"epilepsy, recurrent seizures, convulsions",0.2
+abnormal weight gain,0.5
+diseases of white blood cells,0.1
+cortisol,0.5
+hyperlipidemia,0.1
+mixed hyperlipidemia,0.0
+gouty arthropathy,0.0
+other non-epithelial cancer of skin,0.0
+lipoma of skin and subcutaneous tissue,0.0
+rosacea,0.1
+bacterial enteritis,0.0
+other hypertrophic and atrophic conditions of skin,0.0
+personal history of diseases of digestive system,0.1
+kidney replaced by transpant,0.0
+lacosamide,0.0
+"diseases of nail, nos",0.0
+valproate,0.75
+other upper respiratory disease,0.1
+hemorrhage nos,0.0
+"other diseases of respiratory system, not elsewhere classified",0.1
+peripheral or central vertigo,0.1
+dizziness and giddiness (light-headedness and vertigo),0.2
+disorders of sweat glands,0.1
+excision of skin lesion,0.0
+cold agglutinin,0.0
+thyroxine free,0.2
+zonisamide,0.0
+peripheral enthesopathies and allied syndromes,0.0
+other disorders of bone and cartilage,0.0
+dysmetabolic syndrome x,0.2
+other disorders of thyroid,0.2
+paralytic strabismus,0.0
+dystrophy of female genital tract,0.0
+"viremia, nos",0.0
+other disorders of purine and pyrimidine metabolism,0.1
+musculoskeletal symptoms referable to limbs,0.1
+congenital anomalies of urinary system,0.0
+other nutritional deficiency,0.2
+ephedrine+pseudoephedrine,0.0
+noroxycodone,0.0
+tapentadol,0.1
+other or therapeutic procedures on joints,0.0
+"incision and drainage, skin and subcutaneous tissue",0.0
+suture of skin and subcutaneous tissue,0.0
+theophylline,0.0
+clobazam,0.0
+lymphadenitis,0.0
+lutropin,0.0
+intestinal infection,0.1
+purpura and other hemorrhagic conditions,0.0
+opiates tested for,0.2
+incision and excision of cns,0.1
+partial excision bone,0.0
+electrolyte imbalance,0.2
+disorders involving the immune mechanism,0.2
+dihydrocodeine,0.1
+vitamin d deficiency,0.2
+acquired hypothyroidism,0.3
+disorders of lipoid metabolism,0.1
+type 1 diabetes,0.2
+tramadol,0.25
+curvature of spine,0.1
+iloperidone,0.5
+paralysis/spasm of vocal cords or larynx,0.1
+myoneural disorders,0.0
+"diseases of the oral soft tissues, excluding lesions specific for gingiva and tongue",0.0
+digestive congenital anomalies,0.0
+congenital anomalies of skull and face bones,0.0
+atropine / diphenoxylate,0.1
+tizanidine,0.0
+brexpiprazole,0.75
+asenapine,0.75
+fazaclo,0.0
+clozapine (mylan),0.5
+symptoms and disorders of the joints,0.0
+other disorders of soft tissues,0.0
+other derangement of joint,0.0
+swelling of limb,0.0
+other acquired musculoskeletal deformity,0.0
+other infectious and parasitic diseases,0.1
+"injury, nos",0.0
+disorder of skin and subcutaneous tissue nos,0.0
+fracture of unspecified part of femur,0.0
+other local infections of skin and subcutaneous tissue,0.0
+atopic/contact dermatitis due to other or unspecified,0.0
+complication of internal orthopedic device,0.1
+candidiasis,0.0
+skull and face fracture and other intercranial injury,0.2
+other specified diseases of hair and hair follicles,0.0
+symptoms affecting skin,0.1
+chronic pharyngitis and nasopharyngitis,0.0
+diseases of hair and hair follicles,0.0
+nonspecific chest pain,0.2
+psoriasis vulgaris,0.2
+hidradenitis,0.1
+seborrheic dermatitis,0.0
+other specified diseases of sebaceous glands,0.0
+chronic sinusitis,0.1
+pityriasis,0.0
+"conjunctivitis, infectious",0.0
+tretinoin,0.0
+calcium chloride,0.0
+naproxen,0.0
+impetigo,0.0
+sulfacetamide / sulfur,0.0
+"uveitis, noninfectious or nos",0.0
+dermatophytosis,0.0
+adenosine,0.0
+dermatomycoses,0.0
+keratitis,0.0
+"eye infection, viral",0.0
+dexamethasone / tobramycin,0.0
+infection of the eye,0.0
+aphakia and other disorders of lens,0.0
+amiodarone,0.0
+diseases due to other mycobacteria,0.0
+cyclopentolate,0.0
+aspergillosis,0.0
+prednisolone,0.1
+ofloxacin,0.0
+coccidioidomycosis,0.0
+temporomandibular joint disorders,0.2
+regadenoson,0.0
+dyspareunia,0.2
+"pain, swelling or discharge of eye",0.1
+retinal detachment with retinal defect,0.0
+fluorometholone,0.0
+polymyxin b / trimethoprim,0.0
+erythromycin,0.0
+noninflammatory disorders of vagina,0.0
+warfarin,0.0
+gangrene,0.0
+myocardial infarction,0.1
+superficial cellulitis and abscess,0.0
+fuchs' dystrophy,0.0
+benzodiazepines screening test,0.25
+moxifloxacin,0.0
+gatifloxacin,0.0
+lens and cataract procedures,0.0
+difluprednate,0.0
+"other therapeutic procedures on eyelids, conjunctiva, cornea",0.0
+corneal edema,0.0
+abdominal pain,0.1
+shock,0.2
+scleritis and episcleritis,0.0
+open wound of genital organs,0.0
+mycoses,0.0
+viral infection,0.1
+noninflammatory disorders of cervix,0.0
+sexually transmitted infections (not hiv or hepatitis),0.1
+complications of surgical and medical procedures,0.2
+noninflammatory female genital disorders,0.0
+tuberculosis,0.0
+corneal ulcer,0.0
+cervicitis and endocervicitis,0.0
+"keratoderma, acquired",0.0
+injuries to the nervous system,0.2
+triamcinolone,0.0
+cephalexin,0.0
+dexamethasone / neomycin / polymyxin b,0.0
+rouleaux formation assessment,0.0
+"cellulitis and abscess of leg, except foot",0.0
+hyaline casts,0.0
+fluid squamous epithelial cell,0.0
+epithelial cells.squamous,0.0
+squamous epithelial cells per high power field,0.0
+goserelin,0.1
+creatine kinase.mb,0.0
+squamous epithelial cells in urine sediment count,0.0
+rouleaux,0.0
+fatty casts per low power field,0.0
+intact parathyroid hormone,0.0
+hepatitis c virus comment,0.0
+specimen site,0.0
+rubella virus igg,0.0
+"thyroid stimulating hormone, serum",0.2
+nelfinavir,0.0
+microscopic observation,0.0
+aspergillus flavus ige,0.0
+creatine kinase.mb/creatine kinase.total,0.0
+john cunningham virus index value,0.0
+anti factor,0.0
+thyroid stimulating hormone,0.2
+call back log at,0.0
+creatine kinase.total/creatine kinase.mb,0.0
+tenofovir,0.0
+nevirapine,0.0
+hiv reverse transcriptase gene mutations detected,0.0
+carisoprodol,0.0
+lopinavir+ritonavir,0.0
+abnormal involuntary movements,0.25
+amobarbital,0.2
+tricyclic antidepressant,0.9
+chlordiazepoxide / clidinium,0.2
+drugs identified,0.0
+baclofen,0.1
+magnesium sulfate,0.1
+infantile cerebral palsy,0.1
+omeprazole,0.0
+rufinamide,0.0
+hearing loss,0.2
+riluzole,0.1
+aminoglutethimide,0.0
+glucocorticoid deficiency,0.2
+eslicarbazepine,0.1
+dexpanthenol,0.0
+other dyspnea,0.2
+ethosuximide,0.0
+diabetes insipidus,0.1
+specimen quality,0.0
+microscopic review,0.0
+direct examination,0.0
+obesity,0.3
+slide scan,0.0
+narrative diagnostic report,0.0
+service comment 02,0.0
+gastric specimen description,0.0
+septic shock,0.0
+water,0.0
+boston,0.0
+ezogabine,0.0
+bepotastine,0.0
+estazolam,0.25
+multiple myeloma,0.0
+family history,0.5
+nodular lymphoma,0.0
+sleep apnea,0.3
+nadolol,0.0
+microscopic examination,0.0
+bands neutrophils manual percentage,0.0
+endocrine and metabolic disturbances of fetus and newborn,0.1
+physician instructions,0.1
+diagnostic physical therapy,0.1
+refresh pm,0.0
+bimatoprost,0.0
+"encephalitis, non-infectious",0.1
+felbamate,0.0
+irrigator,0.0
+ichthyosis congenita,0.0
+congenital anomalies of skin,0.0
+biotene,0.0
+acquired absence of breast,0.1
+diseases of the larynx and vocal cords,0.1
+other specified disorders involving the immune mechanism,0.1
+alopecia areata,0.2
+chromosomal anomalies,0.1
+disorders of diaphragm,0.0
+other and unspecified congenital anomalies,0.0
+fever of unknown origin,0.1
+band,0.0
+aspiration site,0.0
+eye drops,0.0
+date contacted,0.0
+events counted,0.0
+basophil count,0.0
+obstructive sleep apnea,0.3
+sleep related leg cramps,0.2
+miscellaneous,0.0
+other perinatal conditions of fetus or newborn,0.0
+sensorineural hearing loss,0.2
+methyldopa,0.2
+testicular hypofunction,0.2
+epilepsy,0.2
+other specified congenital anomalies of nervous system,0.1
+intracranial hemorrhage,0.1
+subdural hemorrhage,0.1
+diltiazem,0.0
+intracerebral hemorrhage,0.1
+effects of other external causes,0.2
+loratadine,0.0
+levetiracetam,0.1
+other demyelinating diseases of central nervous system,0.1
+cerebral edema and compression of brain,0.1
+laboratory studies,0.1
+dimethicone / zinc oxide,0.0
+inulin / lactobacillus rhamnosus gg,0.1
+sicca syndrome,0.1
+disturbances of sulphur-bearing amino-acid metabolism,0.2
+toxicology studies,0.1
+methylenedioxymethamphetamine,0.0
+methylenedioxyamphetamine,0.0
+methylenedioxyethylamphetamine,0.0
+irregular menstrual cycle,0.3
+neisseria gonorrhoeae rrna,0.0
+other deficiencies of circulating enzymes,0.1
+disorders of sacrum,0.0
+gastrointestinal malfunction arising from mental factors,0.5
+"injections and aspirations of muscles, tendons, bursa, joints and soft tissue",0.0
+levonorgestrel,0.2
+polycystic ovaries,0.2
+amphetamine+methamphetamine,0.35
+amphetamine aspartate / amphetamine sulfate / dextroamphetamine saccharate / dextroamphetamine sulfate,0.5
+amphetamine concentration,0.2
+methaqualone,0.0
+amphetamines quantitative test,0.2
+amphetamine liquid chromatography-mass spectrometry test,0.2
+amphetamine and methamphetamine drug analysis,0.25
+sufentanil,0.0
+divalproex sodium,0.75
+"infertility, female, associated with anovulation",0.2
+pain in limb,0.2
+cannabinoids concentration test,0.1
+cannabinoids confirmation test,0.1
+vertiginous syndromes and other disorders of vestibular system,0.1
+cramp of limb,0.1
+facial nerve disorders [cn7],0.1
+nonspecific abnormal results of function study of brain and central nervous system,0.3
+hereditary and idiopathic peripheral neuropathy,0.1
+opiates and related narcotics causing adverse effects in therapeutic use,0.25
+abnormal findings on study of brain and/or nervous system,0.5
+anterior horn cell disease,0.0
+hydrocephalus,0.1
+other degenerative diseases of the basal ganglia,0.2
+torticollis,0.1
+electroencephalogram (eeg),0.2
+"benign neoplasm of brain, cranial nerves, meninges",0.1
+other paralytic syndromes,0.1
+"temporomandibular joint disorder, unspecified",0.1
+other symptoms referable to back,0.1
+stiffness of joint,0.1
+central/nonobstroctive sleep apnea,0.3
+tinnitus,0.2
+other inflammatory spondylopathies,0.0
+nerve plexus lesions,0.1
+"thoracic or lumbosacral neuritis or radiculitis, unspecified",0.1
+arthralgia/ankylosis of temporomandibular joint,0.1
+other diagnostic nervous system procedures,0.1
+nerve root lesions,0.1
+current smoker,0.2
+glossodynia,0.1
+costochondritis,0.0
+muscular wasting and disuse atrophy,0.2
+phenylalanine/creatinine,0.0
+other acquired deformities of limbs,0.0
+diseases of the jaws,0.1
+other peripheral nerve disorders,0.1
+sciatica,0.1
+flunitrazepam,0.2
+triazolam,0.25
+phenylalanine,0.1
+lead/creatinine,0.0
+mercury/creatinine,0.0
+lead,0.0
+midazolam,0.0
+whether the patient has symptoms related to condition of interest,0.5
+tocopherols,0.0
+hyperhidrosis,0.2
+tachycardia nos,0.1
+arrhythmia (cardiac) nos,0.0
+other heart block,0.0
+other cardiac conduction disorders,0.0
+pseudoephedrine,0.0
+other symptoms,0.5
+protein-calorie malnutrition,0.2
+hypothermia/chills,0.1
+"complication of nervous system device, implant, and graft",0.1
+degenerative disease of the spinal cord,0.1
+other disorders of metabolism,0.1
+lidocaine,0.0
+cerebrovascular disease,0.2
+subarachnoid hemorrhage,0.1
+dexmedetomidine,0.0
+ethyl chloride,0.0
+pituitary hyperfunction,0.1
+cerebral aneurysm,0.1
+testicular dysfunction,0.2
+patient location,0.0
+"allergies, other",0.0
+effects radiation nos,0.1
+"encephalopathy, not elsewhere classified",0.1
+other disorders of lipoid metabolism,0.1
+abnormal function study of cardiovascular system,0.1
+circulatory disease nec,0.1
+pimozide,0.25
+pramipexole,0.75
+brivaracetam,0.0
+droperidol,0.1
+perampanel,0.0
+bromocriptine,0.1
+thiothixene,0.5
+clorazepate,0.5
+sepsis,0.1
+other anemias,0.1
+meningitis,0.0
+congenital anomaly of fingers/toes,0.0
+nystagmus and other irregular eye movements,0.1
+clozapine (clozaril),0.5
+butorphanol,0.0
+choline,0.1
+cabergoline,0.1
+corticotropin,0.2
+phencyclidine screening test,0.1
+"phencyclidine, triage",0.1
+dyshidrosis,0.1
+phencyclidine liquid chromatography-mass spectrometry,0.1
+phencyclidine emergency test,0.1
+phencyclidine urine test,0.1
+hepatitis nos,0.0
+insect bite,0.0
+other specified erythematous conditions,0.0
+alanine,0.0
+threonine,0.0
+unspecified erythematous condition,0.0
+other disorders of circulatory system,0.1
+phosphoserine,0.0
+glycine,0.1
+phenylketones,0.1
+postoperative shock,0.1
+methscopolamine,0.0
+dexbrompheniramine / pseudoephedrine,0.0
+dextropropoxyphene- and paracetamol-containing product,0.1
+dexmethylphenidate,0.25
+bone marrow or stem cell transplant,0.1
+acidosis,0.1
+secondary diabetes mellitus,0.2
+disopyramide,0.0
+amitriptyline- and perphenazine-containing product,0.75
+drug screen information,0.2
+other laboratory,0.1
+mrn,0.0
+cardiac conduction disorders,0.1
+collection date,0.0
+microcytes,0.1
+cough,0.05
+dme and supplies,0.05
+lactate,0.1
+crystals,0.0
+collection method,0.0
+acecarbromal,0.0
+cachexia,0.1
+inhibin,0.1
+cardiac congenital anomalies,0.0
+activated clotting time (act),0.0
+chlorpheniramine,0.1
+blister,0.0
+ige,0.0
+dacrocytes,0.0
+collection duration,0.0
+aclidinium,0.05
+respiratory complications,0.1
+viscosity,0.0
+talc,0.0
+respiratory abnormalities,0.1
+anesthesia,0.0
+memantine,0.2
+electrocardiogram,0.05
+cellulose,0.0
+ascvd,0.0
+weight,0.2
+anserine,0.0
+ph,0.0
+scopolamine,0.1
+edema,0.05
+ej ab,0.0
+cancer chemotherapy,0.1
+ramelteon,0.1
+ammonium lactate,0.0
+cardiac defibrillator in situ,0.05
+pneumonia,0.0
+arginine,0.1
+mastodynia,0.1
+osteoporosis nos,0.1
+testing laboratory,0.0
+drug screen message,0.1
+drawn by,0.0
+status information,0.0
+unit division,0.0
+specimen drawn,0.05
+ictotest,0.0
+specimen comment,0.0
+date reported,0.0
+specimen identification,0.0
+reference laboratory,0.1
+therapy,0.5
+ref lab test,0.1
+color vision deficiencies,0.1
+critic-aid,0.0
+interdry ag,0.0
+instrument identification,0.0
+electrode,0.1
+juven,0.0
+microcyn,0.0
+medical alert,0.0
+needle,0.0
+nutren,0.0
+catheter,0.05
+suspensory,0.0
+mandiff,0.0
+comfort bath,0.0
+carrington,0.0
+promod,0.0
+tube,0.0
+barrier,0.0
+tape,0.0
+catheter insertion,0.0
+cleanser,0.0
+simplythick,0.0
+date 1,0.0
+basis,0.0
+inhaler,0.05
+deficiency anemias,0.1
+propoxyphene,0.1
+bacterial infection nos,0.0
+protein,0.0
+ketones,0.1
+infections specific to the perinatal period,0.1
+blood smear finding,0.05
+phenylephrine,0.05
+dantrolene,0.1
+gastric ulcer,0.1
+precordial pain,0.1
+charcoal,0.1
+other specified cardiac dysrhythmias,0.1
+giant platelets,0.0
+platelets agranular,0.05
+platelets large,0.1
+infectious mononucleosis,0.1
+streptococcus infection,0.1
+encephalitis,0.1
+platelets given,0.0
+protein/creatinine,0.05
+pericarditis,0.05
+"hiv infection, symptomatic",0.2
+serotonin,0.75
+constipation,0.1
+vitamin a deficiency,0.1
+dopamine,0.5
+other deficiency anemia,0.1
+loss of height,0.1
+decreased white blood cell count,0.1
+acid-base balance disorder,0.1
+serotonin release interpretation,0.65
+decompression peripheral nerve,0.0
+septicemia,0.05
+sudden death,0.1
+finasteride,0.25
+rasagiline,0.1
+turbidity,0.0
+telogen effluvium,0.2
+adult failure to thrive,0.2
+antidepressants,0.95
+"depression, unspecified",1.0
+diagnosis,0.0
+method,0.0
+medication,0.5
+drugs,0.5
+state,0.0
+psychiatric drugs,0.8
+dosage,0.0
+either,0.5
+inductor,0.0
+forms,0.0
+depression assessment test,1.0
+ed,0.0
+device name,0.0
+intelligence,0.0
+dysport,0.1
+psychotropic,0.75
+immobilizer,0.05
+mental status,0.5
+equipment,0.0
+solution,0.0
+antidepressant identifier,0.95
+clinical,0.0
+detection,0.1
+dimension,0.0
+device type,0.1
+research,0.0
+remark,0.0
+formula,0.0
+centrifugal,0.0
+conclusion,0.0
+behavior,0.5
+discharge orders,0.0
+disability form,0.0
+object,0.0
+the cat,0.0
+technique,0.0
+aspect,0.0
+information,0.0
+prescription date,0.0
+restraint type,0.05
+immobilizer device,0.0
+audit,0.0
+gds chemistry,0.0
+depacon,0.0
+analysis,0.0
+section,0.0
+lab work,0.1
+treatment,0.0
+communication,0.1
+witnesses,0.0
+acc research,0.0
+context,0.0
+cardiac rehabilitation,0.1
+biologists,0.0
+psychoses,0.2
+affected withdrawal,0.5
+postpartum depression,1.0
+anxiety,0.5
+lack of adequate sleep,0.25
+bipolar disorders,0.75
+restlessness,0.4
+saddles,0.0
+alcohol withdrawal,0.25
+encounter for screening for depression,1.0
+low dosage,0.0
+negative control,0.0
+insufficient info to post chrg,0.0
+pain cause,0.2
+ineffectiveness,0.2
+duration of abstinence,0.1
+pain type,0.2
+angers,0.0
+negative comment,0.0
+unable to assess psychological,0.2
+leprosy,0.0
+depakene,0.2
+lack of consent,0.0
+emotional neglect,0.5
+decantation,0.0
+lack of physical exercise,0.2
+negative insp. force,0.0
+neuroleptic id.,0.2
+failure to administer a necessary medication or biological substance,0.1
+parkinsonian syndromes,0.25
+cocaine withdrawal syndrome,0.3
+do not resuscitate,0.05
+par-consciousness,0.1
+person feigning illness,0.1
+currently experiencing pain,0.1
+screening for depression,1.0
+low income,0.0
+major depressive disorders & other/unspecified psychoses,0.75
+motor current (ma) low,0.0
+"alcohol abuse with withdrawal, unspecified",0.2
+unable to assess pain,0.1
+inappropriate diet and eating habits,0.2
+benzoylecgonine | urine | drug toxicology,0.1
+barbiturates | gastric fluid | drug toxicology,0.1
+opiates | urine | drug toxicology,0.1
+trazodone | serum or plasma | drug toxicology,0.75
+amphetamines | urine | drug toxicology,0.1
+tetrahydrocannabinol | urine | drug toxicology,0.1
+benzodiazepines | urine | drug toxicology,0.1
+norfluoxetine | serum or plasma | drug toxicology,0.1
+phencyclidine | urine | drug toxicology,0.1
+buprenorphine | urine | drug toxicology,0.1
+fluoxetine | serum or plasma | drug toxicology,0.75
+methadone | urine | drug toxicology,0.1
+6-monoacetylmorphine | urine | drug toxicology,0.1
+oxycodone | urine | drug toxicology,0.1
+cocaine | urine | drug toxicology,0.1
+"injection, naltrexone, depot form, 1 mg",0.1
+ethanol | urine | drug toxicology,0.1
+cannabinoids | urine | drug toxicology,0.1
+oxycodone concentration,0.1
+tricyclic antidepressants | urine | drug toxicology,0.75
+ph of dau,0.0
+norbuprenorphine liquid chromatography-mass spectrometry test,0.1
+alpha-hydroxy alprazolam lc-ms,0.1
+7-amino-clonazepam liquid chromatography-mass spectrometry,0.05
+vortioxetine,0.95
+urinary barbiturates concentration,0.1
+semi-quantitative urine cocaine test,0.1
+ritalinic acid lc-ms test,0.1
+creatinine verification test,0.0
+hydromorphone liquid chromatography-mass spectrometry test,0.05
+alprazolam liquid chromatography-mass spectrometry test,0.2
+hydrocodone liquid chromatography-mass spectrometry,0.1
+phencyclidine concentration,0.1
+modafinil50mg(1/2of100mgtab),0.25
+personal history of gestational diabetes,0.1
+consult / referral to treatment resistant depression (optimum),1.0
+ccp service fee,0.0
+"supplemental note, pt cont n/c",0.0
+=verapamil,0.1
+inadequate material resources,0.1
+"nicotinepolacrilexlozenge2mg,1ea",0.0
+"supplemental note, no contact",0.0
+assault by cutting and piercing instrument,0.0
+"bereavement, uncomplicated",0.5
+lorazepam0.25mg(1/2x0.5mg)tab,0.2
+bedroom in apartment as the place of occurrence of the external cause,0.0
+quetiapinefumarate12.5(1/2x25mg),0.75
+aluminum hydroxide / magnesium trisilicate,0.0
+"activity, running",0.05
+consult / referral to social work,0.25
+melatonin1.5mg(1/2of3mgtab),0.2
+"problem related to social environment, unspecified",0.3
+family history of arthritis,0.0
+apply boot/body cast,0.0
+pramoxine,0.0
+"unemployment, unspecified",0.1
+assault by other specified means,0.0
+"poisoning by tranquilizers and other psychotropic agents, undetermined whether accidentally or purposely inflicted",0.2
+"dentofacial anomalies, including malocclusion",0.1
+acquired absence of left finger(s),0.0
+enrollment in community services,0.1
+encounters for other specified administrative purpose,0.1
+other place in apartment as the place of occurrence of the external cause,0.0
+aloe vera preparation,0.05
+fomepizole,0.0
+disorders of tooth development,0.05
+other specified disorders of eye and adnexa,0.0
+presence of dental prosthetic device (complete) (partial),0.0
+unemployment,0.1
+dem_alcohol_detox_starter_pack,0.2
+presence of artificial eye,0.05
+patient bathroom in hospital as the place of occurrence of the external cause,0.0
+amoxicillin-clavulanate,0.01
+"assault by unarmed brawl or fight, initial encounter",0.0
+anomalies of tooth position/malocclusion,0.05
+alcohol_detox_starter_pack,0.2
+"assault by strike against or bumped into by another person, initial encounter",0.05
+disruption of family by separation and divorce,0.2
+surgical or other procedure not carried out because of patient's decision,0.1
+"assault by other bodily force, initial encounter",0.1
+nursing facility clinically eligible,0.1
+tsh (puh order only),0.25
+cl prenatal  tab 28-0.8mg,0.0
+guar gum,0.0
+halobetasol,0.05
+issue of repeat prescriptions,0.2
+family history of psychiatric condition,0.5
+other specified general medical examinations,0.1
+thyroid-stimulating hormone (tsh),0.25
+toxic effect of lead and its compounds (including fumes),0.1
+person living in residential institution,0.1
+encounter for fitting and adjustment of other devices related to nervous system and special senses,0.1
+encounter for issue of repeat prescription,0.1
+high risk heterosexual behavior,0.1
+other problems related to lifestyle,0.3
+=lorazepam,0.4
+"activity, walking an animal",0.05
+"car driver injured in collision with pedestrian or animal in nontraffic accident, initial encounter",0.0
+personal history of unspecified disease,0.1
+methohexitalsodium1%10mlsyringe,0.05
+keratoconus,0.0
+"other psychoactive substance abuse, in remission",0.2
+blood alcohol level of 120-199 mg/100 ml,0.1
+consult / referral to bariatric surgery,0.1
+"slipping, tripping and stumbling without falling, unspecified, initial encounter",0.0
+"other and unspecified overexertion or strenuous movements or postures, initial encounter",0.0
+history of physical abuse,0.3
+total hemoglobin venous (point-of-care testing),0.05
+respiratory supplies,0.0
+procedure/diagnosis help,0.5
+consult / referral to oral or maxillofacial surgery,0.05
+family history of alcohol abuse and dependence,0.1
+=methohexital,0.05
+glutamine,0.1
+breast cancer [female],0.1
+zinc gluconate,0.1
+postmenopausal bleeding,0.05
+histamine,0.1
+"other and nonspecific abnormal cytological, histological and immunological findings",0.0
+other signs and symptoms in breast,0.05
+salicylates causing adverse effects in therapeutic use,0.1
+antihypertensive agents causing adverse effects,0.1
+11-Deoxycorticosterone,0.1
+"toxic effect of other substances, chiefly nonmedicinal as to source",0.1
+secretin,0.05
+1-hydroxymidazolam,0.0
+hemoglobin a1c/hemoglobin.total,0.1
+hemoglobin a1c,0.1
+protozoan infection,0.05
+adapalene topical product,0.0
+varicose veins of lower extremity,0.0
+cysts of oral soft tissues,0.0
+ethinyl estradiol / norgestimate,0.1
+cholesterol in hdl,0.1
+"effects of heat, cold and air pressure",0.05
+Methylenedioxyethylamphetamine,0.0
+atrial fibrillation and flutter,0.1
+hypertensive heart and/or renal disease,0.1
+"iron deficiency anemias, unspecified or not due to blood loss",0.1
+chronic renal failure [ckd],0.1
+type 2 diabetes,0.1
+coronary atherosclerosis,0.0
+"potential health hazards related to communicable diseases
+potential health hazards related to communicable diseases",0.1
+elevated white blood cell count,0.05
+screening for other diseases and disorders,0.1
+thrombocytopenia,0.05
+screening for infectious and parasitic diseases,0.0
+acute renal failure,0.0
+chronic airway obstruction,0.1
+allergy/adverse effect of penicillin,0.0
+shortness of breath,0.1
+osteoarthritis; localized,0.1
+other venous embolism and thrombosis,0.0
+acquired absence of organs,0.05
+other abnormal blood chemistry,0.1
+disorders of magnesium metabolism,0.1
+respiratory failure,0.1
+pleurisy; pleural effusion,0.0
+intestinal disaccharidase deficiencies and disaccharide malabsorption,0.1
+inflammatory and toxic neuropathy,0.1
+deep vein thrombosis [dvt],0.05
+heart failure with preserved ef [diastolic heart failure],0.1
+other chronic nonalcoholic liver disease,0.1
+screening for malignant neoplasms,0.0
+pulmonary collapse; interstitial and compensatory emphysema,0.0
+urinary tract infection,0.05
+abnormal glucose,0.1
+complications of transplants and reattached limbs,0.1
+adverse effects of sedatives or other central nervous system depressants and anesthetics,0.1
+pulmonary heart disease,0.1
+cardiomegaly,0.0
+breast cancer,0.1
+herpes simplex,0.1
+heart failure with reduced ef [systolic or combined heart failure],0.1
+chronic bronchitis,0.1
+blue top hold,0.0
+light green top hold,0.0
+green top hold (plasma),0.0
+"heparin sodium, porcine 5000 unt/ml injectable solution",0.0
+acetaminophen 325 mg oral tablet,0.0
+"sennosides, usp 8.6 mg oral tablet",0.05
+dok,0.0
+omeprazole 20 mg delayed release oral capsule,0.05
+benzodiazepine screen,0.2
+barbiturate screen,0.1
+urea nitrogen,0.05
+creatinine,0.05
+trazodone hydrochloride 50 mg oral tablet,0.9
+length of urine collection,0.0
+salicylate,0.1
+ketone,0.1
+bilirubin,0.1
+urobilinogen,0.0
+nitrite,0.0
+blood,0.0
+urine appearance,0.0
+specific gravity,0.05
+tricyclic antidepressant screen,0.95
+2 ml ondansetron 2 mg/ml injection,0.0
+home accidents,0.1
+citalopram 20 mg oral tablet,0.95
+estimated gfr (mdrd equation),0.0
+ondansetron 4 mg oral tablet,0.0
+gabapentin 300 mg oral capsule,0.2
+rbc,0.0
+wbc,0.0
+ondansetron 4 mg disintegrating oral tablet,0.05
+protonix,0.1
+"methadone, urine",0.1
+"barbiturate screen, urine",0.1
+"cocaine, urine",0.1
+"opiate screen, urine",0.1
+"amphetamine screen, urine",0.1
+rdw,0.1
+mchc,0.0
+red blood cells,0.05
+mcv,0.1
+mch,0.0
+"benzodiazepine screen, urine",0.1
+white blood cells,0.1
+hemoglobin,0.05
+oxycodone hydrochloride 5 mg oral tablet,0.1
+urine color,0.05
+uhold,0.0
+long-term (current) use of other medications,0.2
+lipase,0.05
+accidents occurring in unspecified place,0.0
+platelet count,0.1
+hematocrit,0.1
+urine mucous,0.0
+lorazepam 0.5 mg oral tablet,0.25
+lidoderm,0.0
+zolpidem tartrate 5 mg oral tablet,0.1
+folate,0.4
+tab-a-vite with beta carotene tablet,0.0
+aluminum hydroxide 40 mg/ml / magnesium hydroxide 40 mg/ml / simethicone 4 mg/ml oral suspension,0.0
+permanent pacemaker mode,0.0
+ibuprofen 400 mg oral tablet,0.0
+chloride,0.1
+vitamin b12,0.25
+anion gap,0.1
+bicarbonate,0.05
+potassium,0.1
+sodium,0.1
+insulin pump user,0.1
+troponin t,0.05
+magnesium,0.1
+events resulting from the loss of self-esteem during childhood,0.8
+"self-poisoning by other biological substances, nec - collective institution",0.65
+self-inflicted injury by a moving object - street or road,0.2
+other syndromes due to maltreatment,0.3
+self-poisoning by psychotropics nec - school and public place,0.75
+"self-inflicted injury by hanging, strangulation - school and public place",0.65
+"self-poisoning by other biological substances, nec - school and public area",0.65
+"self-poisoning by psychotropics, unspecified - collective institution",0.65
+"poisoning by agents primarily affecting skin & mucous membrane, ophthalmological, otorhinolaryngological, & dental drugs",0.0
+"poisoning by psychotropic agents, undetermined intent, unspecified place",0.2
+"self-poisoning by psychotropic agents, nec - other specified places",0.75
+self-inflicted injury by unspecified means - unspecified place,0.5
+"self-poisoning by other drugs acting on the autonomic nervous system, unspecified place",0.5
+"prothiaden 25 mg, capsule",0.95
+"cyamemazine - tercian, 100 mg scored tablet",0.4
+"agomelatine 25 mg (valdoxan), tablets",0.95
+post-psychotherapy control examination,0.5
+non-opioid analgesic-antipyretic self-poisoning - collective establishment,0.25
+"self-inflicted injury by hanging, strangulation - collective establishment",0.7
+mental and behavioral disorders: hallucinogens - acute intoxication,0.1
+"self-poisoning by other biological substances, nec - other specified places",0.65
+"self-poisoning by psychotropic agents, unspecified - place unspecified",0.7
+mixed disorders of conduct and emotions,0.75
+"activated charcoal - toxicarb, oral suspension bottle 250ml",0.1
+"self-poisoning by non-opioid analgesics, antipyretics - other specified places",0.75
+self-poisoning by alcohol and exposure to alcohol - other specified places,0.4
+self-poisoning by alcohol and exposure to alcohol - street or highway,0.5
+self-inflicted injury by unspecified means - home,0.65
+"nordaz 7.5 mg, tablets",0.2
+self-poisoning by non-opioid analgesics-antipyretics - school and public place,0.75
+self-poisoning by alcohol and exposure to alcohol - unspecified place,0.5
+"self-inflicted injury by hanging, strangulation - other specified places",0.7
+"self-poisoning by psychotropic agents, unspecified - home",0.75
+"self-poisoning by narcotics, psychodysleptics nec - other specified places",0.3
+adverse effect: phenothiazine antipsychotics and neuroleptics,0.2
+"self-poisoning by other chemicals, unspecified - home",0.75
+"self-poisoning by psychotropic agents, unspecified - street or highway",0.65
+"narcotic, psychodysleptic intoxication nos - undetermined intent - unspecified place",0.1
+"self-poisoning by other chemicals, unspecified - unspecified place",0.75
+eletriptan,0.1
+methocarbamol,0.1
+self-inflicted injury by blunt object - unspecified place,0.5
+"nocertone 60 mg, tablets",0.0
+adapalene,0.01
+analgesic class,0.1
+non-opioid analgesic-antipyretic self-poisoning - site unspecified,0.65
+sexual assault by physical force - location unspecified,0.2
+capsaicin,0.05
+unspecified psychotropic substance poisoning - undetermined intent - home,0.2
+"pizotifen - sanmigran, 0.5 mg tablets",0.1
+"self-inflicted injury by hanging, strangulation - unspecified place",0.7
+self-poisoning by household pesticides,0.75
+sequelae of other fractures of the thorax and pelvis,0.1
+miglustat,0.05
+adverse effect: central action muscle relaxants,0.1
+"valdoxan 25mg, tab",0.95
+"dogmatil 100 mg/2 ml, inj sol, amp",0.1
+"self-poisoning by narcotics, psychodysleptics nec - place nec",0.25
+"victan 2 mg, tablets",0.1
+paraffin,0.0
+fluoxetine / olanzapine,0.75
+paroxetine hydrochloride 10 mg oral tablet,0.9
+fluoxetine 20 mg oral capsule,0.9
+lexapro,0.95
+fluoxetine 10 mg oral capsule,0.95
+sertraline 50 mg oral tablet,0.95
+sertraline 100 mg oral tablet,0.9
+sertraline 25 mg oral tablet,0.9
+escitalopram 10 mg oral tablet,0.95
+citalopram 10 mg oral tablet,0.95
+paroxetine hydrochloride 20 mg oral tablet,0.95
+"mianserine 30 mg (sandoz lab), scored tablet",0.9
+duloxetine 20 mg delayed release oral capsule,0.95
+12 hr bupropion hydrochloride 100 mg extended release oral tablet,0.95
+venlafaxine 75 mg oral tablet,0.95
+effexor,0.95
+12 hr bupropion hydrochloride 150 mg extended release oral tablet,0.95
+mirtazapine 7.5 mg oral tablet,0.95
+24 hr bupropion hydrochloride 150 mg extended release oral tablet,0.9
+venlafaxine 37.5 mg oral tablet,0.9
+trazodone hydrochloride 100 mg oral tablet,0.9
+duloxetine 30 mg delayed release oral capsule,0.95
+24 hr venlafaxine 150 mg extended release oral capsule,0.9
+bupropion hydrochloride 75 mg oral tablet,0.95
+remeron,0.95
+mirtazapine 15 mg oral tablet,0.95
+wellbutrin,0.95
+bupropion hydrochloride 100 mg oral tablet,0.95
+cymbalta,0.95
+"tianeptine - stablon 12.5 mg, tablets",0.95
+st. john's wort extract,0.9
+disorders of porphyrin metabolism,0.1
+other disorders of liver,0.1
+amitriptyline / perphenazine,0.9
+spasm of muscle,0.1
+amitriptyline hydrochloride 10 mg oral tablet,0.9
+amitriptyline hydrochloride 50 mg oral tablet,0.9
+nortriptyline 25 mg oral capsule,0.9
+amitriptyline hydrochloride 25 mg oral tablet,0.9
+doxepin 25 mg oral capsule,0.9
+nortriptyline 10 mg oral capsule,0.9
+probe,0.0
+laboratory tests,0.1
+pain location,0.05
+"other family member, perpetrator of maltreatment and neglect",0.1
+consult / referral to psych,0.85
+bank as the place of occurrence of the external cause,0.0
+trazodonehcl75mg(1/2x150mg),1.0
+family history of diseases of the skin and subcutaneous tissue,0.0
+unspecified housing or economic circumstance,0.2
+haloperidollact2.5mg/1.25mloralconc,0.75
+insufficient social insurance and welfare support,0.2
+easy tch ndl 32gx5/32 pen,0.0
+urine/blood drug sc 2(beds),0.05
+"assault by knife, initial encounter",0.0
+"male partner, perpetrator of maltreatment and neglect",0.1
+consult / referral to mood and anxiety trial,1.0
+other reasons for seeking consultation,0.2
+"counseling for marital and partner problems, unspecified",0.45
+encounter for screening examination for other mental health and behavioral disorders,0.75
+chapstick_lip_balm_(ssh),0.0
+drug screen,0.1
+albuterol,0.0
+unspecified perpetrator of maltreatment and neglect,0.1
+"hiv-1/hiv-2 ab, w/rfx hiv-1 wb",0.0
+electronic consult / referral to geriatrics,0.2
+enrollment in lantern stress management program,0.65
+"person injured in other specified noncollision transport accidents involving motor vehicle (traffic), initial encounter",0.05
+consult / referral to a practice-based weight management program,0.25
+"person boarding or alighting a pick-up truck or van injured in noncollision transport accident, initial encounter",0.0
+snf,0.1
+consult / referral to medical nutrition therapy,0.1
+other specified housing or economic circumstances,0.2
+"activity, caregiving, bathing",0.1
+"fall from, out of or through balcony, initial encounter",0.05
+"poisoning by other sedatives and hypnotics, undetermined whether accidentally or purposely inflicted",0.65
+"perpetrator of child and adult abuse, by other specified person",0.1
+"unspecified pedal cyclist injured in collision with fixed or stationary object in traffic accident, initial encounter",0.0
+contact with and (suspected) exposure to lead,0.05
+ropivacaine0.1%/ns550mlnerveblockambpump,0.0
+failure in dosage during other surgical and medical care,0.05
+"fall into hole, initial encounter",0.05
+consult / referral to continence,0.05
+consult / referral to chronic pain clinic gimo only,0.1
+form1,0.0
+mag10 gab6 tet2  plo gel,0.0
+"other foreign body or object entering through skin, subsequent encounter",0.0
+rhabdomyolysis,0.01
+hypopotassemia,0.05
+seroquel,0.85
+hyperpotassemia,0.05
+potassium chloride,0.0
+olanzapine 2.5 mg oral tablet,0.3
+dexpanthenol / magnesium sulfate / manganese sulfate / niacinamide / pyridoxine / riboflavin / thiamine / vitamin b 12 / zinc sulfate,0.1
+quetiapine 100 mg oral tablet,0.85
+olanzapine 5 mg disintegrating oral tablet,0.65
+quetiapine 200 mg oral tablet,0.85
+quetiapine 50 mg oral tablet,0.85
+olanzapine 10 mg injection,0.25
+olanzapine 5 mg oral tablet,0.25
+quetiapine 25 mg oral tablet,0.85
+zyprexa,0.85
+clozaril,0.25
+sodium acetate,0.0
+sodium bicarbonate,0.0
+magnesium chloride,0.05
+phentermine / topiramate,0.1
+potassium acetate,0.0
+1000 ml glucose 50 mg/ml / sodium chloride 4.5 mg/ml injection,0.0
+1000 ml sodium chloride 4.5 mg/ml injection,0.0
+50 ml magnesium sulfate 40 mg/ml injection,0.0
+sodium chloride,0.0
+klor-con,0.0
+aspirin / citric acid / sodium bicarbonate,0.0
+gout,0.01
+polyethylene glycol 3350 / potassium chloride / sodium bicarbonate / sodium chloride,0.0
+zinc chloride,0.0
+aspirin,0.0
+betamethasone,0.01
+fluocinonide,0.0
+hydrocortisone,0.05
+"fluocortolone caproate+fluocortolone trimethylacetate+cinchocaine 0.0945%+0.0918%+0.5% (ultraproct), prescription only medicine, rectal, tube 30 g",0.0
+dexamethasone phosphate 10 mg/ml injectable solution,0.05
+ciprofloxacin / dexamethasone,0.0
+ciprofloxacin / dexamethasone otic product,0.0
+dexamethasone ophthalmic product,0.01
+nystatin / triamcinolone,0.05
+betamethasone dipropionate / betamethasone sodium phosphate,0.01
+triamcinolone topical product,0.01
+triamcinolone nasal product,0.05
+dexamethasone 0.5 mg oral tablet,0.05
+dexamethasone 1.5 mg oral tablet,0.05
+triamcinolone acetonide 0.001 mg/mg topical ointment,0.0
+triamcinolone acetonide 1 mg/ml topical cream,0.0
+1 ml dexamethasone phosphate 4 mg/ml injection,0.05
+nystatin / triamcinolone topical product,0.0
+dexamethasone 2 mg oral tablet,0.05
+betamethasone topical product,0.01
+aloe polysaccharide / hydrocortisone / iodoquinol,0.05
+alteplase,0.0
+albumin,0.01
+iron deficiency anemias,0.05
+"total vesiculoprostatectomy with cutaneous ureterostomy through a continent detubularized intestinal loop, by laparotomy",0.0
+oliguria and anuria,0.05
+"truncal vagotomy with gastric antrectomy, by laparotomy",0.0
+cardiogenic shock,0.01
+mchc bldco-mcnc,0.0
+erythrocyte mean corpuscular hemoglobin concentration,0.05
+"embolization of a unipedicular cranioencephalic dural arteriovenous fistula, via transcutaneous arterial or venous route",0.05
+glucose bld-scnc,0.0
+"repair of acquired hernia of left diaphragmatic dome, by thoracotomy",0.0
+"segmental pelvic ureterectomy with ureterovesical reimplantation and anti-reflux procedure, via direct approach",0.0
+"cilazapril 2.5 mg teva, tablets",0.05
+"aorto-ilio-femoral bifurcated bypass, by laparotomy with infrarenal clamping",0.0
+hyperosmolality and/or hypernatremia,0.05
+total vesiculoprostatectomy with cystectomy by laparotomy,0.0
+congenital disorder of glycosylation type ic,0.0
+"calcium+cholecalciferol 500 mg+400 iu (calcium vitamin d3 lab arrow), chewable or lozenge tablets",0.05
+"flattening of an aorto-iliac-femoral aneurysm with bifurcated aorto-iliac-femoral prosthetic replacement, by laparotomy with suprarenal clamping",0.0
+adverse effect: oxazolidinediones,0.1
+"supplement for the use of cinefluorography, in 35 mm during a conventional radiology examination",0.0
+"carotid bifurcation thromboendarterectomy with patch angioplasty, by cervicotomy without vascular bypass",0.0
+"hemostasis of colon lesion with laser, by rectosigmoidoscopy or by partial colonoscopy",0.0
+"extended total nephrectomy with renal hilum including adrenalectomy and thrombectomy by cavotomy, through thoraco-phrenico-laparotomy",0.0
+transcutaneous ultrasound of the digestive tract and/or peritoneum,0.0
+Erythrocyte morphology,0.05
+"adverse effect: vitamins, nec",0.05
+wbc # bld manual,0.0
+"self-poisoning by narcotics, psychodysleptics nec - collective institution",0.85
+"cone beam computed tomography (cbct) of the maxilla, mandible, and/or dental arch",0.0
+"continuous skin traction of the lower limb for less than 7 days, for non-traumatic lesion",0.0
+"resection of intraparenchymal spinal cord arteriovenous malformation, by direct approach",0.0
+"percutaneous balloon kyphoplasty of 2 or 3 vertebrae, with radiological guidance",0.0
+implantable site or tunneled central venous catheter declotting by thrombolytic agent,0.0
+"in situ femoro-ilio-caval fibrinolysis with partial obliteration of the inferior vena cava [placement of a vena cava filter], via percutaneous venous route",0.0
+anal wound suture without repair of the external anal sphincter muscle,0.0
+abnormal results of function study of thyroid,0.1
+ureteral stone removal and/or fragmentation by antegrade ureteroscopy via a percutaneous approach,0.0
+"change of a duodenal stent, by esophagogastroduodenoscopy",0.0
+erythrocytes,0.0
+exploratory enterotomy via laparotomy,0.0
+prurigo and lichen,0.05
+csf pcr for meningitis,0.01
+platelet # fld auto,0.0
+anca test,0.05
+spontaneous ecchymoses,0.05
+"flubendazole - fluvermal, 2% oral suspension",0.0
+biopsy of the minor salivary glands,0.0
+cervicocephalic vessel remnography [cervicocerebral mr angiography],0.0
+eosinophilia,0.05
+vitamin c deficiencies,0.05
+"lymphoid leukemia, acute",0.05
+secondary hemostasis following a procedure on the external or middle ear,0.0
+"extracranial internal carotid artery intraluminal dilatation with stent placement, via transcutaneous arterial route",0.0
+1000 ml sodium chloride 9 mg/ml injection,0.0
+csf pcr test,0.05
+symptoms involving cardiovascular system,0.1
+"intraluminal dilation of the carotid bifurcation with stenting, via transcutaneous arterial route",0.0
+pcr ear/blood,0.0
+percutaneous transarterial intracranial thrombus removal,0.0
+"magnetic resonance imaging (mri) of the skull and its contents with study of the viability of the cerebral parenchyma by diffusion and perfusion imaging, with magnetic resonance angiography (mra) of the cervicocephalic vessels.",0.05
+lymphocytes,0.05
+right heart catheterization and cardiac output measurement by transcutaneous venous approach,0.0
+clonazepam 0.5 mg oral tablet,0.25
+lithium serum concentration,0.25
+unspecified place or not applicable,0.0
+"sertraline, 50 mg capsule",1.0
+"aripiprazole, 5 mg tablet",0.85
+"aripiprazole, 10 mg orodispersible tablet",0.85
+"difficulty related to an unhappy childhood, unspecified",0.75
+amisulpride,0.85
+"tropatepine - lepticur, 10 mg/2 ml injection",0.25
+adverse effect: h2 histamine receptor inhibitor,0.1
+commentary,0.0
+hyposmolality and/or hyponatremia,0.1
+lymphocytes/100 leukocytes,0.01
+postoperative infection,0.05
+disorders resulting from impaired renal function,0.05
+fluid overload,0.05
+diaper or napkin rash,0.0
+loss of emotional relationship during childhood,0.65
+"aripiprazole, 15 mg orodispersible tablet",0.85
+"levomepromazine, 25 mg tablet, scored",0.75
+hemolyzed sample,0.0
+"fenoterol / ipratropium - bronchodual, 50 mcg/20 mcg/dose sol for inhalation",0.0
+nc biochem lab,0.0
+basophils/100 leukocytes,0.0
+disorders of copper metabolism,0.05
+alcohol,0.25
+other difficulties related to an unhappy childhood,0.65
+lorazepam 1 mg oral tablet,0.65
+"sertraline, 25 mg capsule",0.95
+enrollment in adult therapy,0.75
+observation for suspected mental and behavioral disorders,0.85
+urine antidepressant identification,0.85
+dementia due to multiple drugs and other psychoactive substances,0.2
+amnestic syndrome: mult drugs - other psychiatric conditions,0.25
+citalopram (seropram) ivx 20mg tablet,1.0
+poisoning by agents primarily affecting the cardiovascular system,0.05
+controlled substance agreement,0.1
+antiepileptic drugs,0.1
+"agomelatine 25 mg (biogaran lab), tablets",1.0
+"poisoning by other specified bio substances, undetermined intent - school and public area",0.05
+sulfate,0.0
+Stiripentol,0.05
+impaction of intestine,0.0
+venlafaxine xr,1.0
+drowsiness,0.45
+measurement of the trigeminopalpebral reflex [blink reflex] and/or the masseter reflex,0.05
+Rufinamide,0.1
+allergic conjunctivitis,0.0
+diazepam 10 mg oral tablet,0.25
+other and unspecified coagulation defects,0.0
+frovatriptan,0.05
+ergotamine,0.05
+toxic effect of noxious substances eaten as food,0.05
+epistaxis or throat hemorrhage,0.0
+chromosomal anomalies and genetic disorders,0.05
+coronary artery bypass graft (cabg),0.05
+methotrimeprazine,0.85
+valerian root extract,0.65
+apomorphine,0.05
+ziconotide,0.05
+poisoning/allergy of sulfonamides,0.0
+anal and rectal conditions,0.05
+orphenadrine,0.05
+t comment,0.0
+acetaminophen / diphenhydramine,0.1
+demopioiddetoxstarterpack,0.05
+phentermine,0.05
+psychotic disorder with manic symptoms in the foreground due to sedatives or hypnotics,0.25
+alcohol intoxication and exposure to alcohol (ethanol) - unspecified place,0.1
+persistent or late-onset cognitive deficit due to cannabis derivatives,0.2
+nausea and vomiting (ciwa),0.1
+hypoventilation,0.05
+slurred speech,0.1
+orthostatic hypotension,0.05
+prednisone,0.05
+lorcaserin,0.1
+orphenadrine citrate,0.05
+colchicine,0.0
+nonspecific abnormal findings in stool contents,0.05
+methylprednisolone,0.05
+morbid obesity,0.1
+cancer of bronchus; lung,0.05
+ankylosing spondylitis,0.05
+yohimbine,0.2
+protoporphyrin,0.05
+psoriasis,0.05
+mesna,0.0
+adverse effect: other topical products acting on the skin and mucous membranes,0.05
+acute rheumatic heart disease,0.0
+"poisoning by other chemicals, unspecified - undetermined intent - home",0.05
+adverse effect: psychostimulants subject to abuse,0.25
+"fenticonazole 2% (lomexin), cream, tube 30 g",0.0
+mental-behavioral disorders: sedatives-hypnotics - other disorders,0.45
+self-poisoning by other gases and vapors,0.75
+exposure to other specified factors - home,0.1
+abnormal heart sounds,0.05
+"indomethacin - indo-paed, 25 mg/5 ml oral suspension",0.0
+intoxication by psychotropic substances nos - collective establishment,0.25
+familial dilated cardiomyopathy,0.05
+"poisoning by psychotropic drugs, nec - other specified places",0.75
+adverse effect: inhaled anesthetics,0.05
+narcotic and psychodysleptic intoxication nos - street or road,0.1
+chronic passive congestion of liver,0.05
+nonspecific elevation of levels of transaminase or lactic acid dehydrogenase [ldh],0.05
+dexamethasone blood level,0.05
+nonrheumatic pulmonary valve disorders,0.0
+"poisoning by other specified biological substances, undetermined intent - unspecified place",0.0
+"chemical poisoning, other, unspecified - collective institution",0.05
+"diaphragmatic dome plasty for eventration, by laparotomy",0.0
+exclusion of convexity dural arteriovenous fistula by craniotomy,0.0
+clobazam + nor pnl serpl,0.25
+cloBAZam and norclobazam panel,0.1
+consult / referral to psychology evaluation,0.85
+morphological magnetic resonance imaging [mri] of the heart,0.0
+"fluorouracil 5% (efudix), cream, tube 40 g",0.0
+hemorrhage or hematoma complicating a procedure,0.0
+tadalafil,0.05
+"mental and behavioral disorders due to acute intoxication: volatile solvents, delirium",0.1
+drug and medication abuse rehabilitation,0.25
+"organic solvent, halogenated hydrocarbon poisoning - home",0.05
+contact dermatitis and other eczema due to plants [except food],0.0
+"dupilumab - dupixent, 200 mg/1.14 ml inj syringe",0.05
+seizure,0.05
+benzodiazepine back,0.25
+"adverse effect: antidepressants, others, and unspecified",0.85
+midazolam serpl-mcnc,0.05
+gentamicin peak,0.0
+amikacin,0.0
+gentamicin sulfate,0.0
+heart failure nos,0.05
+nonrheumatic aortic valve disorders,0.0
+comment culture campylobacter,0.0
+ventilation measurement,0.05
+synchronized intermittent mandatory ventilation,0.0
+blood biochemistry,0.05
+fructosamine,0.05
+vitamin d,0.1
+congestive heart failure; nonhypertensive,0.05
+ampicillin,0.0
+gentamicin,0.0
+primary/intrinsic cardiomyopathies,0.05
+encounter for surgical aftercare following surgery on the circulatory system,0.05
+carbon monoxide &&,0.0
+"symptoms concerning nutrition, metabolism, and development",0.1
+papaverine,0.05
+scar conditions and fibrosis of skin,0.05
+gastrointestinal pathogen,0.05
+point-of-care fraction of inspired oxygen,0.01
+treprostinil,0.0
+other cardiomyopathy,0.05
+fumarate,0.05
+sildenafil,0.05
+ldh isoenzymes,0.05
+iodine,0.0
+helminthiases,0.0
+fibrinogen ag ppp neph-mcnc,0.0
+muscular dystrophies,0.05
+digoxin,0.01
+avanafil,0.05
+Enterovirus identified,0.01
+intestinal infection due to protozoa,0.0
+Fibrinogen Ag,0.0
+vardenafil,0.05
+elevated blood pressure reading without diagnosis of hypertension,0.05
+fructose,0.0
+alpha ketoglutarate,0.05
+succinate,0.1
+lympho-hyperbasophilia,0.01
+urine lactate,0.05
+oligosaccharides,0.0
+amikacin val,0.0
+cancer of brain and nervous system,0.05
+anaphylactic shock nos,0.0
+polymyositis,0.05
+rivaroxaban,0.0
+glipizide every day,0.0
+chronic ulcer of leg or foot,0.05
+magsulf67.5meq/60mlnssyr,0.0
+rosiglitazone,0.05
+partial pressure of oxygen in cord artery,0.0
+alprostadil,0.01
+rivaroxaban ppp chro-mcnc,0.0
+malignant and unknown neoplasms of brain and nervous system,0.05
+circumscribed scleroderma,0.05
+cefuroxime,0.0
+prolymphocytes/100 leukocytes,0.01
+platelet glycoprotein ib,0.0
+piperacillin,0.0
+acetic acid,0.0
+nordazepam,0.65
+didemethylcital,0.85
+phenothiazine back1,0.75
+nervous system congenital anomalies,0.05
+health care proxy,0.0
+calamine / zinc oxide,0.0
+"crunchy topaal, coated tablet",0.0
+aminophylline,0.0
+lines/tubes,0.0
+chlorhexidine,0.0
+spacer-inhaler,0.0
+permanent pacemaker rate,0.0
+"nevus, non-neoplastic",0.0
+home sleep test,0.1
+penicillin g benzathine,0.0
+propranolol,0.1
+histoplasmosis,0.0
+14 gauge site appear,0.0
+hemoptysis,0.0
+benign neoplasm of respiratory and intrathoracic organs,0.05
+metipranolol,0.01
+symptoms involving digestive system,0.1
+catheter plug,0.0
+gp vi,0.0
+lowenstein,0.0
+drug use,0.25
+vascular hamartomas and non-neoplastic nevi,0.0
+symptom duration,0.2
+creatine kinase,0.05
+jevity,0.0
+adverse effect: other substances and drugs,0.2
+acyclovir,0.0
+ech treatment,0.1
+mutation 282,0.05
+freestyle,0.0
+pharmacology analysis,0.2
+arteritis nos,0.0
+acc conclusion,0.0
+other diseases of lung,0.05
+analyses,0.0
+symptoms involving respiratory system and other chest symptoms,0.05
+organic acids,0.1
+therapeutic actions,0.25
+morphine,0.01
+asphyxia and hypoxemia,0.05
+5 ml levetiracetam 100 mg/ml injection,0.05
+"lormetazepam 2 mg (arrow lab), scored tablets",0.25
+levetiracetam 500 mg oral tablet,0.05
+lyrica,0.1
+levetiracetam 250 mg oral tablet,0.05
+gabapentin 50 mg/ml oral solution,0.1
+lamotrigine 25 mg oral tablet,0.65
+lamictal,0.65
+"ospolot 50 mg, tablets",0.85
+topiramate 25 mg oral tablet,0.1
+topamax,0.1
+vimpat,0.05
+gabapentin 400 mg oral capsule,0.1
+gabapentin 100 mg oral capsule,0.1
+lamotrigine 100 mg oral tablet,0.65
+prochlorperazine,0.25
+zonisamide 100 mg oral capsule,0.1
+keppra,0.05
+levetiracetam 100 mg/ml oral solution,0.05
+cannabidiol,0.65
+pimavanserin,0.25
+stiripentol,0.05
+risperidone 2 mg oral tablet,0.75
+abilify,1.0
+risperdal,0.75
+potassium acetate / potassium bicarbonate / potassium citrate,0.0
+heparin,0.0
+zinc sulfate,0.05
+alanine / arginine / aspartate / cysteine / glutamate / glycine / histidine / isoleucine / leucine / lysine / methionine / phenylalanine / proline / serine / sodium acetate / sodium chloride / sodium metabisulfite / taurine / threonine / tryptophan / tyrosine / valine,0.05
+alanine / arginine / calcium chloride / dibasic potassium phosphate / glucose / glycine / histidine / isoleucine / leucine / lysine / magnesium chloride / methionine / phenylalanine / proline / serine / sodium acetate / sodium chloride / threonine / tryptophan / tyrosine / valine,0.05
+calcium chloride / magnesium chloride / potassium chloride / sodium acetate / sodium chloride / sodium citrate,0.0
+calcium chloride / potassium chloride / sodium chloride,0.0
+calcium chloride 0.001 meq/ml / glucose 50 mg/ml / potassium chloride 0.004 meq/ml / sodium chloride 0.103 meq/ml / sodium lactate 0.028 meq/ml injectable solution,0.0
+1000 ml glucose 50 mg/ml / potassium chloride 0.04 meq/ml / sodium chloride 4.5 mg/ml injection,0.0
+potassium chloride 20 meq powder for oral solution,0.0
+calcium chloride / glucose / lactate / potassium chloride / sodium chloride,0.0
+calcium carbonate / magnesium oxide / zinc sulfate,0.01
+citric acid / potassium bicarbonate / sodium bicarbonate,0.0
+"magnesium chloride / potassium chloride / potassium phosphate / sodium acetate / sodium chloride / sodium gluconate / sodium phosphate, dibasic",0.0
+acetylcysteine,0.1
+trophamine 10 %,0.0
+magnesium sulfate / potassium sulfate / sodium sulfate,0.0
+sodium phosphate,0.01
+deep sea,0.0
+sodium chloride 30 mg/ml inhalation solution,0.0
+glucose / potassium chloride / sodium chloride,0.0
+potassium chloride 10 meq extended release oral tablet,0.0
+potassium chloride / sodium chloride,0.0
+calcium chloride / glucose / lactate / magnesium chloride / sodium chloride,0.0
+chromic chloride / copper sulfate / manganese sulfate / zinc sulfate,0.0
+100 ml magnesium sulfate 40 mg/ml injection,0.0
+150 ml sodium chloride 9 mg/ml injection,0.0
+50 ml sodium bicarbonate 84 mg/ml injection,0.0
+clinimix e 5/15,0.0
+50 ml potassium chloride 0.4 meq/ml injection,0.0
+calcium chloride 0.0014 meq/ml / potassium chloride 0.004 meq/ml / sodium chloride 0.103 meq/ml / sodium lactate 0.028 meq/ml injectable solution,0.0
+sodium glycerophosphate,0.0
+calcium chloride / magnesium chloride / potassium chloride / sodium acetate / sodium chloride,0.0
+sodium bicarbonate 650 mg oral tablet,0.0
+500 ml sodium chloride 30 mg/ml injection,0.0
+sodium chloride 9 mg/ml injection,0.0
+20 ml potassium chloride 2 meq/ml injection,0.0
+potassium chloride 20 meq extended release oral tablet,0.0
+calcium chloride / icodextrin / lactate / magnesium chloride / sodium chloride,0.0
+calcium chloride / lactate / potassium chloride / sodium chloride,0.0
+sodium chloride 0.0769 meq/ml,0.0
+zinc sulfate 220 mg oral capsule,0.05
+potassium phosphate/sodium phosphate,0.0
+ammonium chloride,0.0
+"sodium phosphate / sodium phosphate, monobasic",0.0
+500 ml magnesium sulfate 40 mg/ml injection,0.0
+1000 ml potassium chloride 0.02 meq/ml / sodium chloride 9 mg/ml injection,0.0
+100 ml potassium chloride 0.1 meq/ml injection,0.0
+glycophos,0.0
+250 ml sodium chloride 9 mg/ml injection,0.0
+ocean brand of sodium chloride,0.0
+sodium chloride nasal product,0.0
+50 ml sodium bicarbonate 84 mg/ml prefilled syringe,0.0
+1000 ml glucose 50 mg/ml / potassium chloride 0.04 meq/ml / sodium chloride 9 mg/ml injection,0.0
+golytely,0.01
+50 ml sodium chloride 9 mg/ml injection,0.0
+calcium chloride 0.0014 meq/ml / glucose 50 mg/ml / potassium chloride 0.024 meq/ml / sodium chloride 0.103 meq/ml / sodium lactate 0.028 meq/ml injectable solution,0.0
+1000 ml glucose 50 mg/ml / sodium chloride 9 mg/ml injection,0.0
+20 ml sodium acetate 2 meq/ml injection,0.0
+1000 ml glucose 50 mg/ml / potassium chloride 0.02 meq/ml / sodium chloride 4.5 mg/ml injection,0.01
+10 ml calcium chloride 100 mg/ml prefilled syringe,0.0
+colyte,0.0
+10 ml potassium chloride 2 meq/ml injection,0.0
+sodium chloride 1000 mg oral tablet,0.0
+clinimix e 4.25/5,0.0
+benzyl alcohol / sodium chloride,0.0
+100 ml sodium chloride 9 mg/ml injection,0.0
+500 ml sodium chloride 9 mg/ml injection,0.0
+kay ciel,0.0
+calcium chloride / fibrinogen / fibrinolysis inhibitor / thrombin,0.0
+citric acid / simethicone / sodium bicarbonate,0.0
+30 ml sodium chloride 234 mg/ml injection,0.0
+glucose / sodium chloride,0.0
+magnesium chloride / potassium chloride / sodium acetate / sodium chloride / sodium gluconate,0.0
+chromous chloride / copper sulfate / manganese sulfate / selenious acid / zinc sulfate,0.05
+polydipsia,0.05
+surgical instruments,0.0
+dummychg,0.0
+polyethylene glycol 3350 / potassium chloride / sodium bicarbonate / sodium chloride / sodium sulfate,0.0
+vitamin a,0.05
+ascorbic acid / polyethylene glycol 3350 / potassium chloride / sodium ascorbate / sodium chloride / sodium sulfate,0.0
+omeprazole / sodium bicarbonate,0.0
+chromic chloride / copper sulfate / manganese sulfate / selenious acid / zinc sulfate,0.05
+ascorbic acid,0.05
+ascorbic acid / biotin / folic acid / niacin / pantothenate / pyridoxine / riboflavin / thiamine / vitamin b12,0.1
+riboflavin,0.05
+ascorbic acid / beta carotene / calcium carbonate / cholecalciferol / cupric oxide / docusate / folic acid / iron carbonyl / magnesium oxide / niacinamide / pyridoxine / riboflavin / thiamine / vitamin b12 / vitamin e / zinc oxide,0.1
+moviprep,0.0
+"heparin, porcine",0.0
+alpha tocopherol / ascorbic acid / biotin / cholecalciferol / dexpanthenol / folic acid / niacinamide / pyridoxine / riboflavin / thiamine / vitamin a / vitamin b12 / vitamin k1,0.1
+nephrocaps,0.0
+ascorbic acid 35 mg/ml / cholecalciferol 0.01 mg/ml / vitamin a 0.45 mg/ml oral solution,0.05
+ascorbic acid / cuprous oxide / lutein / vitamin e / zinc oxide,0.05
+ascorbic acid / ferrous fumarate / folic acid / liver stomach concentrate / vitamin b12,0.05
+ascorbic acid / beta carotene / cuprous oxide / lutein / sodium selenate / vitamin e / zinc oxide,0.05
+ascorbic acid / copper gluconate / docosahexaenoate / eicosapentaenoate / lutein / vitamin e / zeaxanthin / zinc oxide,0.05
+cysteamine,0.05
+inosine,0.1
+"250 ml heparin sodium, porcine 100 unt/ml injection",0.0
+"heparin sodium, porcine 10 unt/ml prefilled syringe",0.0
+ascorbic acid / cranberry preparation / lactobacillus sporogenes,0.0
+ascorbic acid / niacin,0.1
+ascorbic acid / biotin / folic acid / mecobalamin / niacinamide / pantothenate / pyridoxine / riboflavin / thiamine,0.1
+urinary barbiturate qualitative test,0.1
+livial 2.5mg tablet,0.1
+"adverse effect: barbiturates, nec",0.25
+"poisoning by psychotropic substances, unspecified - school and public place",0.65
+OXcarbazepine,0.2
+ulcerative colitis,0.05
+substance abuse in family,0.25
+reference markers,0.0
+phlebitis and thrombophlebitis of intracranial venous sinuses,0.0
+alcohol intoxication and exposure - undetermined intent - home,0.1
+"general psychiatric examination, nos",0.65
+intoxication by narcotics and psychodysleptics nec - school and public place,0.1
+risperidone 0.5 mg oral tablet,0.75
+risperidone 1 mg oral tablet,0.75
+invega,0.75
+hct vfr.df bldv,0.0
+fluocinolone,0.05
+bacterial pneumonia,0.0
+implantation of a permanent pacemaker in the right ventricle via transcutaneous venous route,0.0
+lupus (localized and systemic),0.05
+mental-behavioral disorders: tobacco - other disorders,0.1
+"placement of an intraperitoneal catheter for peritoneal dialysis, via transcutaneous route",0.0
+"sodium alginate+sodium bicarbonate 250 mg+133.5 mg/5 ml (gaviscon), oral susp, bottle 250 ml",0.0
+"reactions - complications, no reported accident - cardiac catheterization",0.05
+Cell Fractions/Differential,0.05
+"disorders of fluid, electrolyte, and acid-base balance",0.05
+sample integrity,0.0
+prob,0.1
+disorders of calcium/phosphorus metabolism,0.05
+"ethinylestradiol+cyproterone 35 mcg+2 mg (diane 35 mcg), tablet",0.1
+admission for suspected myocardial infarction,0.05
+elastic band ligation of hemorrhoids,0.0
+"psychotherapy, nos",0.85
+humidifier,0.0
+burns,0.0
+drugstore,0.0
+mineral deficiency nec,0.05
+disorders of accommodation,0.05
+alkalol,0.0
+ph strip,0.0
+agitation,0.65
+spont rr,0.0
+vascular disorders of skin,0.05
+flumazenil,0.1
+adverse effect: benzodiazepines,0.65
+type 2 diabetes with neurological manifestations,0.1
+atrioventricular [av] block,0.0
+myasthenia gravis,0.05
+paroxysmal ventricular tachycardia,0.0
+peptic ulcer (excl. esophageal),0.05
+staphylococcus infections,0.0
+hemiplegia,0.05
+abnormal electrocardiogram [ecg] [ekg],0.05
+prazepam,0.25
+acute pancreatitis,0.0
+urticaria,0.05
+fungi.yeastlike,0.0
+alkalosis,0.05
+cooling device,0.0
+atrial fibrillation,0.0
+viral hepatitis,0.05
+congenital anomalies of great vessels,0.0
+neuroleptic dose 1,0.3
+hyperventilation,0.1
+non-hodgkins lymphoma,0.05
+unstable angina (intermediate coronary syndrome),0.05
+polycythemia vera,0.05
+problem solution,0.0
+secondary hypothyroidism,0.1
+"poisoning by other specified drugs and medicinal substances, undetermined whether accidentally or purposely inflicted",0.2
+consult / referral to hush insomnia study,0.25
+=norepinephrine,0.2
+tih commentary,0.0
+s comment,0.0
+fve title,0.0
+(note),0.0
+p comment,0.0
+title,0.0
+void,0.0
+documentation clinical depression screening using a standardized tool,1.0
+no diagnosis,0.0
+down syndrome,0.1
+adverse effect: monoamine oxidase inhibitor antidepressants,0.85
+ataxia,0.05
+covid-19,0.05
+pain present,0.1
+social exclusion and rejection,0.65
+isolation,0.3
+emesis,0.05
+dd latex,0.0
+tremor (ciwa),0.1
+somatropin,0.05
+iddm patient ql,0.1
+oxygen,0.0
+consult / referral to psychiatry,0.85
+sepsis and sirs,0.0
+percutaneous transvenous mitral commissurotomy with transseptal approach and transesophageal doppler echocardiography guidance,0.0
+potassium gluconate,0.0
+gastroparesis,0.05
+ascorbic acid / ferrous fumarate / folic acid / vitamin b12,0.1
+"heparin sodium, porcine 1000 unt/ml injectable solution",0.0
+rapamune,0.0
+lifitegrast,0.0
+glucose / heparin,0.0
+cyclosporine ophthalmic product,0.0
+vitamin a/vitamin d,0.05
+activase,0.0
+infuvite,0.0
+ascorbic acid 500 mg oral tablet,0.01
+acetylcysteine 200 mg/ml inhalation solution,0.0
+ascorbic acid / bacillus coagulans / cranberry preparation,0.05
+total nk percent,0.0
+cd3+cd8 percent,0.05
+cd56 percent,0.0
+ra+cd62l+cd3 mm,0.0
+cd16 percent,0.0
+ra+cd62l+cd4 percent,0.05
+cd45ra+cd3 percent,0.0
+cd45ra+cd3 mm,0.0
+ra + cd62l + cd8mm,0.0
+cd3+cd8 mm,0.05
+ra+cd62l+cd4 mm,0.0
+cd3 mm,0.0
+cd3+cd4 mm,0.05
+cd3 percent,0.0
+cd3+cd4 percent,0.05
+cd3+ti ab percent,0.05
+cd2 mm,0.0
+cd3+ti ab mm,0.05
+cd45ro+cd3 mm,0.05
+cd45ro/ra+cd3 mm,0.0
+cd20 percent,0.0
+cd40 normal control percent,0.0
+total nk normal control percent,0.0
+cd3+cd4 normal control percent,0.05
+cd2 normal control percent,0.0
+ascorbic acid / d-biotin / folic acid / niacinamide / pantothenate / pyridoxine / riboflavin / thiamine / vitamin b12,0.2
+leukocyte esterase,0.0
+isoflurane,0.01
+desmethylclomipramine,0.85
+"adverse effect: vaccine or biological substance, unspecified",0.05
+abdominal aorta and lower extremity arteriography by transcutaneous lumbar intra-aortic injection,0.0
+reserpine,0.85
+potassium iodide,0.0
+endocarditis,0.05
+orient/clouding sensory,0.1
+removal of a ureteral stent by retrograde endoscopy,0.0
+duration,0.0
+tenecteplase,0.0
+thoracic and/or cardiac ct angiography,0.01
+"sphincterotomy of the minor duodenal papilla [accessory papilla], by esophagogastroduodenoscopy",0.0
+ventricular fibrillation and flutter,0.0
+carditis,0.0
+biopsy of lesion of the perianal region and/or anal canal,0.0
+tricyclics,1.0
+accidental poisoning by unspecified solid or liquid substance,0.05
+lymphosarcoma,0.01
+2 ml dexmedetomidine 0.1 mg/ml injection,0.05
+occlusion of cerebral arteries,0.05
+adverse effect: oral contraceptives,0.1
+phenothiazine back2,0.85
+magnesium carbonate,0.05
+tetracycline,0.0
+muscle weakness,0.1
+chronic pancreatitis,0.05
+disorders of phosphorus metabolism,0.05
+jaundice (not of newborn),0.0
+abnormal movement,0.25
+pyelonephritis,0.0
+isosorbide,0.01
+isosorbide mononitrate,0.0
+cervical cancer,0.0
+hereditary hemochromatosis,0.05
+oxymorphone,0.05
+other disorders of intestine,0.05
+polyneuropathy due to drugs,0.05
+peritonitis and retroperitoneal infections,0.0
+cisapride,0.0
+nephrotic syndrome without mention of glomerulonephritis,0.0
+arthropathy nos,0.05
+"neuralgia, neuritis, and radiculitis nos",0.05
+neurofibromatosis,0.05
+abnormal findings on examination of urine,0.05
+other disorders of bladder,0.05
+urethral discharge,0.0
+trimeprazine,0.75
+anemia of chronic disease,0.05
+acetazolamide,0.0
+hepatomegaly,0.05
+24 hr nicotine 0.583 mg/hr transdermal system,0.1
+phlebitis and thrombophlebitis,0.0
+e. coli,0.0
+influenza,0.0
+human immunodeficiency virus [hiv] disease,0.1
+intravenous contrast material injection supplement during a radiographic or ct examination,0.0
+takayasu's disease,0.01
+cutaneous lupus erythematosus,0.05
+flucytosine,0.01
+ubidecarenone,0.1
+heartburn,0.0
+or received,0.0
+diazepam 5 mg oral tablet,0.25
+alprazolam 1 mg oral tablet,0.75
+"veratran 10 mg, tablets",0.0
+1 ml lorazepam 2 mg/ml cartridge,0.25
+"bromazepam 6 mg (teva lab), quadri-scored tablet",0.75
+alprazolam 0.25 mg oral tablet,0.65
+oxazepam 15 mg oral capsule,0.75
+onfi,0.1
+diazepam 2 mg oral tablet,0.25
+2 ml diazepam 5 mg/ml cartridge,0.25
+"nitrazepam - mogadon, 5 mg scored tablet",0.65
+1000 ml glucose 50 mg/ml / potassium chloride 0.02 meq/ml / sodium chloride 9 mg/ml injection,0.0
+chromous chloride / copper sulfate / manganese chloride / zinc chloride,0.05
+ra+cd62l+cd3 percent,0.0
+total nk mm,0.0
+cd3+cd4:cd3+cd8 ratio,0.05
+patient wbc,0.0
+cd2 percent,0.0
+cd56 mm,0.0
+cd16 mm,0.0
+patient absolute lymphs,0.05
+cd45 mm,0.0
+cd10 normal control percent,0.0
+cd56 normal control percent,0.0
+cd45ro/ra+cd3 percent,0.0
+patient facs lt#,0.0
+ra + cd62l + cd8 normal control percent,0.05
+cd20 mm,0.0
+cd45ro+cd3 normal control percent,0.0
+pitolisant,0.2
+suvorexant,0.2
+tetrabenazine,0.25
+anterior and posterior nasal packing,0.05
+adverse effect: therapeutic gases,0.05
+jejunal enteroscopy with ileal enteroscopy,0.0
+bicarbonates,0.0
+Urea/Creatinine,0.0
+occult blood panel,0.01
+carbon dioxide,0.0
+lymph sum normal control,0.0
+cd3+ti gb  mm,0.0
+cd45+cd14+ normalcontrol percent,0.0
+cd45+cd14+ percent,0.05
+ra + cd62l + cd8 percent,0.0
+cd45ro+cd3 percent,0.0
+ra+cd62l+cd4 normal control percent,0.0
+patient percent lymphs,0.05
+calcium carbonate / magnesium chloride,0.0
+dexrazoxane,0.01
+dalfampridine,0.05
+amifampridine,0.05
+tedizolid,0.0
+antibiotic dosing,0.0
+temporary authorization for use,0.0
+methylene blue,0.1
+"qlaira, spc",0.05
+mononuclear cell collection by cytapheresis for cell therapy,0.05
+national center for mycobacteria paris,0.0
+cycloserine,0.1
+tafamidis,0.05
+"alprazolam 0.5 mg (arrow lab), scored tablet",0.75
+biochemistry,0.05
+benzodiazepines triage urine,0.25
+dietary supplement,0.1
+"rohypnol 1 mg, tablets",0.1
+zinc acetate,0.05
+cranioplasty material removal from the vault,0.0
+pyrazinamide,0.0
+catecholamines,0.1
+ketamine,0.85
+babesia duncani ab,0.0
+oxytocin,0.2
+levodopa,0.05
+other dyschromia,0.0
+easivent,0.0
+e-z-cat,0.0
+flatulence,0.05
+flurazepam,0.25
+"cancer, suspected or other",0.1
+degenerative skin disorders,0.05
+modafinil,0.1
+Artifact,0.0
+allergy studies,0.0
+chemistry studies,0.05
+Drugs of abuse,0.25
+drug screen comment,0.05
+microbiology studies,0.0
+respiratory arrest,0.0
+peptide,0.05
+serology studies,0.05
+succimer,0.0
+other elements,0.0
+Pathology study,0.05
+Hyperchromia,0.0
+Bromide,0.1
+genetic test,0.1
+immune complex,0.05
+lipomul,0.0
+intramuscular immunoglobulin,0.0
+difficulty in walking,0.1
+failure to thrive (childhood),0.1
+respiratory insufficiency,0.05
+abnormality of gait,0.1
+Prazepam,0.25
+jo-1 extractable nuclear ab,0.0
+pancytopenia,0.05
+emphysema,0.05
+degeneration of intervertebral disc,0.05
+armodafinil,0.1
+nil,0.0
+other,0.1
+eddp quantitative,0.05
+poc sed rate,0.05
+bands,0.0
+volume,0.0
+viability,0.0
+nil rflx,0.0
+ipres,0.1
+specimen a,0.0
+epres,0.0
+rals comment,0.0
+arg external,0.0
+lipoma,0.01
+phi,0.0
+calcium,0.0
+diaphragmatic hernia,0.0
+normal delivery,0.0
+cryocrit,0.01
+poc act celite,0.0
+post viability,0.05
+Caffeine,0.1
+other findings,0.1
+mixed %,0.0
+other %,0.0
+estrogen,0.1
+systemic sclerosis,0.05
+bupivacaine,0.0
+lyme disease,0.05
+testosterone,0.1
+spinal stenosis,0.05
+cystic fibrosis,0.05
+leukemia,0.0
+poisoning by hormones and synthetic substitutes,0.1
+disability examination,0.2
+one,0.0
+abl package,0.0
+allergen,0.0
+lions,0.0
+crs sd,0.1
+nocharge,0.0
+=dexamethasone,0.05
+lack of housing,0.2
+do not resuscitate status,0.05
+opioid abuse with withdrawal,0.1
+acculturation difficulty,0.2
+"alcohol abuse, in remission",0.25
+cellavision diff,0.0
+c26 0,0.0
+0.4,0.0
+report status,0.0
+eeg,0.1
+=dopamine,0.25
+"post covid-19 condition, unspecified",0.25
+unspecified psychosocial circumstance,0.45
+risperidone3mg/3mlsolution,0.85
+activity,0.1
+judgement,0.1
+lipitor,0.01
+demerol,0.05
+advair,0.0
+constitutional,0.1
+response,0.0
+assist device,0.0
+cath lab,0.0
+neurological,0.1
+turn,0.0
+restraint location,0.1
+alternagel,0.0
+cardiovascular,0.05
+living situation,0.2
+respiratory,0.05
+dilantin,0.01
+restraints ordered,0.1
+aggrenox,0.0
+immobilizer evaluated,0.05
+acephen,0.0
+speech,0.1
+restraints evaluated,0.1
+or sent,0.0
+neurological symptoms,0.1
+creon,0.0
+balance,0.0
+cardene,0.0
+lr,0.0
+precedex,0.05
+l,0.0
+commands,0.0
+crrt mode,0.0
+ddavp,0.05
+bath,0.0
+drainage bag,0.0
+adacel,0.0
+service,0.0
+doxy,0.0
+vented,0.0
+eag,0.0
+violent restraints,0.1
+relistor,0.0
+ric infiltration scale,0.0
+ekg,0.05
+macrophages,0.0
+par-activity,0.1
+catapres,0.1
+status and comfort,0.1
+colcrys,0.0
+i,0.0
+position,0.0
+heart rhythm,0.05
+or ebl,0.0
+neuro symptoms,0.2
+demadex,0.05
+rozerem,0.1
+isentress,0.0
+altered mental status  ncp - problem resolved,0.25
+unable to assess habits,0.1
+altered mental status  ncp - goal,0.25
+coping/knowledge deficit  ncp - problem resolved,0.25
+pain level response,0.1
+motor deficit,0.1
+pain control,0.1
+discharge needs,0.1
+education response,0.0
+unable to assess cognitive / perceptual,0.25
+unable to assess teaching / learning needs,0.05
+resistance insp,0.05
+reason for immobilizer,0.05
+heart rate alarm - low,0.05
+impaired mobility ncp - problem resolved,0.1
+resp alarm - low,0.0
+secondary diagnosis,0.1
+altered sensory perception ncp - problem resolved,0.1
+activity intolerance  ncp - problem resolved,0.1
+altered respiratory status ncp - problem resolved,0.05
+reason for restraints (non-violent),0.2
+pain ncp - problem resolved,0.05
+"cardiac catheterization as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure",0.05
+altered mental status  ncp - plan revised,0.25
+cerebral perfusion pressure alarm - low,0.05
+home tf,0.2
+assistance,0.0
+appetite,0.65
+depakote,0.85
+prezista,0.0
+education topic,0.1
+yawning,0.2
+headache,0.1
+progress,0.0
+cont neb - med,0.0
+kappa,0.0
+nutrition,0.1
+heart rate,0.05
+alcohol abuse & dependence,0.3
+post menopausal,0.1
+pain level,0.05
+tremor (cina),0.1
+dobutamine,0.01
+methylphenidate hydrochloride 5 mg oral tablet,0.1
+methylin,0.1
+amphetamine aspartate 1.25 mg / amphetamine sulfate 1.25 mg / dextroamphetamine saccharate 1.25 mg / dextroamphetamine sulfate 1.25 mg oral tablet,0.1
+chlorpromazine hydrochloride 25 mg oral tablet,0.85
+donepezil hydrochloride 10 mg oral tablet,0.1
+utx7,0.0
+capillary,0.0
+nomenclature,0.0
+density,0.0
+core,0.0
+express delivery,0.0
+capillary lact,0.0
+exam,0.0
+conclusion2,0.0
+did interpretation,0.0
+sample,0.0
+lactescence,0.0
+anomalies,0.05
+reagent,0.0
+clinical information,0.0
+capillary gds,0.05
+adnic,0.0
+recfactorix,0.0
+donor,0.0
+centi-deca-or-none,0.0
+anti-riot,0.0
+non-pl identity balance,0.05
+residual disease,0.05
+trait.labprocedure,0.1
+polyneutroliqbio,0.0
+diaphragmatic paralysis,0.05
+pre-conditions,0.1
+negative search,0.0
+multidrug resistance,0.05
+adverse effect: appetite depressants [anorexigenic],0.25
+"death occurring less than 24 hours after the onset of symptoms, with no other explanation",0.0
+to,0.0
+attention,0.1
+error,0.0
+comments (open),0.0
+bedtime,0.05
+brain neurotransmitters,0.75
+info 6,0.0
+**hapt,0.0
+ptsd patient,0.65
+disuse osteoporosis,0.05
+nalmefene,0.2
+type 2 diabetes with renal manifestations,0.1
+potassium bicarbonate,0.0
+bisoprolol,0.01
+levothyroxine,0.05
+amoxicillin,0.0
+doxazosin,0.05
+ertapenem,0.0
+chlorpropamide,0.05
+sotalol,0.01
+tolazamide,0.0
+nizatidine,0.0
+ferratab,0.0
+verapamil,0.01
+dimethicone,0.0
+doripenem,0.0
+cefpodoxime,0.0
+"temocillin - negaban, 1 g inj",0.0
+rabeprazole,0.01
+liothyronine,0.1
+renal failure,0.05
+thiamine hydrochloride,0.05
+cefdinir,0.0
+ceftazidime,0.0
+furosemide,0.0
+perindopril,0.01
+cortisone,0.1
+glimepiride,0.0
+ramipril,0.01
+ticarcillin,0.0
+famotidine,0.01
+impaired fasting glucose,0.05
+cefotaxime,0.0
+lisinopril 20 mg oral tablet,0.0
+indomethacin,0.0
+cefpodoxime proxetil,0.0
+ferrous gluconate,0.05
+thiamine hydrochloride 100 mg/ml injectable solution,0.05
+cefixime,0.0
+metoprolol tartrate,0.05
+=nafcillin,0.0
+ndc required ,0.0
+"other vascular catheterization, not heart",0.0
+ct scan abdomen,0.01
+diagnostic ultrasound of heart (echocardiogram),0.01
+diagnostic spinal tap,0.05
+conversion of cardiac rhythm,0.0
+bunionectomy or repair of toe deformities,0.0
+therapeutic radiology,0.05
+embolectomy and endarterectomy of lower limbs,0.0
+"diagnostic cardiac catheterization, coronary arteriography",0.0
+"other or therapeutic procedures, male genital",0.05
+ureteral catheterization,0.0
+"endarterectomy, vessel of head and neck",0.0
+nephrotomy and nephrostomy,0.0
+electrographic cardiac monitoring,0.05
+"hysterectomy, abdominal and vaginal",0.05
+other or therapeutic procedures on bone,0.0
+"incision of pleura, thoracentesis, chest drainage",0.0
+"diagnostic procedures on nose, mouth and pharynx",0.05
+other non-or therapeutic procedures on musculoskeletal system,0.05
+"transurethral excision, drainage, or removal urinary obstruction",0.0
+other diagnostic cardiovascular procedures,0.05
+"treatment, facial fracture or dislocation",0.01
+"treatment, fracture or dislocation of hip and femur",0.01
+"treatment, fracture or dislocation of lower extremity (other than hip or femur)",0.0
+intraoperative cholangiogram,0.0
+small bowel resection,0.0
+cerebral arteriogram,0.05
+insertion of catheter or spinal stimulator and injection into spinal canal,0.05
+arterio- or venogram (not heart and head),0.0
+extracorporeal circulation auxiliary to open heart procedures,0.0
+other non-or therapeutic procedures on respiratory system,0.05
+arterial blood gases,0.05
+appendectomy,0.0
+cardiac stress tests,0.05
+diagnostic bronchoscopy and biopsy of bronchus,0.0
+swan-ganz catheterization for monitoring,0.0
+"upper gastrointestinal endoscopy, biopsy",0.0
+other therapeutic procedures on muscles and tendons,0.05
+"laminectomy, excision intervertebral disc",0.05
+endoscopy and endoscopic biopsy of the urinary tract,0.0
+colorectal resection,0.0
+bone marrow biopsy,0.01
+gastric bypass and volume reduction,0.05
+other or procedures on vessels other than head and neck,0.01
+other non-or therapeutic procedures of urinary tract,0.0
+"gastrostomy, temporary and permanent",0.0
+blood transfusion,0.0
+mastectomy,0.05
+other or procedures on vessels of head and neck,0.05
+respiratory intubation and mechanical ventilation,0.0
+esophageal dilatation,0.0
+other or therapeutic procedures on skin and breast,0.05
+"thyroidectomy, partial or complete",0.05
+ct scan chest,0.01
+"extracorporeal lithotripsy, urinary",0.0
+myelogram,0.05
+routine chest x-ray,0.01
+"aortic resection, replacement or anastomosis",0.0
+prophylactic vaccinations and inoculations,0.0
+colonoscopy and biopsy,0.0
+other or heart procedures,0.05
+"insertion, revision, replacement, removal of cardiac pacemaker or cardioverter/defibrillator",0.0
+ileostomy and other enterostomy,0.05
+contrast arteriogram of femoral and lower extremity arteries,0.0
+percutaneous transluminal coronary angioplasty (ptca),0.0
+arthroplasty knee,0.01
+proctoscopy and anorectal biopsy,0.0
+"hip replacement, total and partial",0.05
+heart valve procedures,0.0
+"oophorectomy, unilateral and bilateral",0.05
+arthrocentesis,0.0
+"insertion, replacement, or removal of extracranial ventricular shunt",0.01
+endoscopic retrograde cannulation of pancreas (ercp),0.0
+amputation of lower extremity,0.05
+"tracheostomy, temporary and permanent",0.0
+spinal fusion,0.01
+bone marrow transplant,0.05
+other diagnostic procedures on musculoskeletal system,0.05
+other or therapeutic procedures of urinary tract,0.01
+"debridement of wound, infection or burn",0.0
+destruction of lesion of retina and choroid,0.0
+cholecystectomy and common duct exploration,0.0
+"excision, lysis peritoneal adhesions",0.0
+red blood cell concentrate transfusion of a volume less than half a blood mass,0.0
+"bilateral total arthrectomy and/or posterior osteotomy for rigid spinal deformity with arthrodesis, instrumental correction, and anterior transpedicular osteotomy, on 6 to 9 vertebrae, via posterior approach",0.0
+miconazole,0.0
+abdominal paracentesis,0.0
+igm,0.0
+other hernia repair,0.0
+amylase,0.0
+oxygen saturation,0.01
+igg,0.0
+iron,0.05
+other or upper gi therapeutic procedures,0.05
+base excess,0.05
+hemodialysis,0.05
+alpha-1-fetoprotein,0.01
+appearance,0.05
+phosphate,0.0
+peritoneal dialysis,0.0
+parathyrin.intact,0.01
+methemoglobin/hemoglobin.total,0.05
+aldosterone,0.05
+iga,0.0
+transurethral resection of prostate (turp),0.0
+erythropoietin,0.05
+immunoglobulin light chains.kappa/immunoglobulin light chains.lambda,0.0
+color,0.0
+prolactin,0.1
+granular casts,0.0
+exploratory laparotomy,0.0
+osmolality,0.05
+reticulocytes,0.01
+choriogonadotropin.beta subunit (pregnancy test),0.0
+tacrolimus,0.01
+25-hydroxyvitamin d3,0.05
+transferrin,0.05
+thyroxine,0.05
+"microscopic examination (bacterial smear, culture, toxicology)",0.05
+other therapeutic procedures,0.25
+generic code,0.0
+cc site problem,0.1
+rheumatoid arthritis,0.05
+urine drug of abuse screen,0.1
+leaving home during childhood,0.1
+"transcranial doppler ultrasonography of intracranial vessels, with pharmacodynamic test",0.05
+enzyme multiplied immunoassay technique screening,0.05
+need authorization,0.0
+other disorders of the breast associated with childbirth and disorders of lactation,0.05
+preeclampsia and eclampsia,0.05
+alteplase100mg(strokekit),0.0
+sodium iodide,0.0
+occlusion and stenosis of precerebral arteries,0.05
+obstetrical/birth trauma,0.05
+other procedures to assist delivery,0.0
+status post administration of tpa (rtpa) in a different facility within the last 24 hours prior to admission to current facility,0.0
+dulaglutide,0.01
+"acute, but ill-defined cerebrovascular disease",0.05
+moyamoya disease,0.05
+cesarean section,0.0
+norgestrel,0.05
+complications of labor and delivery nec,0.05
+pramlintide,0.01
+nateglinide,0.0
+atherosclerosis of renal artery,0.01
+atherosclerosis,0.05
+artificial rupture of membranes to assist delivery,0.0
+liraglutide,0.05
+propofol,0.01
+tranexamic acid,0.0
+pemphigus and pemphigoid,0.01
+personal history of allergy to medicinal agents,0.0
+pituitary dwarfism,0.05
+metformin,0.01
+spondylosis and allied disorders,0.05
+spondylosis without myelopathy,0.05
+intervertebral disc disorders,0.05
+lisinopril,0.0
+sprains and strains,0.0
+other symptoms/disorders or the urinary system,0.05
+somatotropin,0.05
+ergocalciferol,0.05
+norbuprenorphine,0.1
+nonoperative urinary system measurements,0.0
+hydrochlorothiazide,0.0
+"osteoarthrosis, localized, primary",0.05
+periapical abscess,0.0
+"dental abrasion, erosion and attrition",0.0
+cervical radiculitis,0.05
+fasciitis,0.0
+sebaceous cyst,0.01
+neisseria gonorrhoeae dna,0.0
+joint/ligament sprain,0.0
+neisseria gonorrhoeae,0.0
+chlamydia trachomatis,0.0
+celtic standard delivery 2.,0.0
+multivitamins capsule,0.05
+celtic stat delivery,0.0
+xr ankle minimum 3 views left,0.0
+bupivacaine0.125%250mlnsepidural,0.0
+ct biopsy bone marrow,0.0
+"cannabis abuse, in remission",0.1
+desogestrel / ethinyl estradiol,0.1
+antithrombin iii antigen,0.0
+diabetic educator nc,0.05
+consult / referral to magee-womens behavioral health services,0.85
+cyclopentol-phenylep-tropicam ophthalmic,0.0
+smn1 gene targeted mutation analysis,0.05
+smn2 gene targeted mutation analysis,0.01
+"activity, other involving ice and snow",0.0
+consult / referral to hand center,0.0
+=tobramycin,0.0
+"contact with unspecified agricultural machinery, initial encounter",0.0
+suture/staple removal,0.0
+"other disorders of vestibular function, bilateral",0.05
+drug unknown,0.1
+ferrous fumarate / folic acid,0.05
+"poct pregnancy, urine",0.01
+natamycin,0.0
+insulin-like growth factor-ii,0.05
+cv2 ab,0.0
+ferroussulfate75mg/1.25mlliq,0.05
+porphyrins,0.05
+meclizine,0.05
+procalcitonin study day 5,0.0
+xylitol,0.0
+pentacarboxylporphyrins,0.01
+hexacarboxylporphyrin,0.0
+heptacarboxylporphyrin,0.0
+"wheelchair (powered) colliding with stationary object, initial encounter",0.0
+holiday relief care,0.1
+encounter for initial prescription of contraceptive pills,0.05
+encounter for fitting and adjustment of other external prosthetic devices,0.0
+accidents caused by hypodermic needle,0.0
+aspirin / caffeine,0.0
+"pedal cycle driver injured in noncollision transport accident in traffic accident, initial encounter",0.05
+"other non-or therapeutic procedures, female organs",0.05
+symptoms involving female genital tract,0.05
+segmented neutrophils,0.05
+neutrophils,0.0
+monocytes/100 leukocytes,0.05
+bifidobacterium infantis,0.05
+eosinophils/100 leukocytes,0.01
+metronidazole topical product,0.0
+neutrophils.band form/100 leukocytes,0.0
+neutrophils.segmented/100 leukocytes,0.0
+postnasal drip,0.05
+"influenza virus vaccine, inactivated",0.0
+eosinophils,0.01
+poisoning by agents primarily affecting the gastrointestinal system,0.05
+hyperplasia of prostate,0.01
+abnormal findings examination of lungs,0.05
+severe protein-calorie malnutrition,0.05
+cardiac pacemaker/device in situ,0.0
+"melanomas of skin, dx or hx",0.0
+bundle branch block,0.01
+"paroxysmal tachycardia, unspecified",0.05
+calcium carbonate 500 mg chewable tablet,0.0
+"gastritis and duodenitis, nos",0.05
+transitional epithelial cells,0.0
+diphenhydramine hydrochloride 2.5 mg/ml oral solution,0.1
+cefpodoxime 100 mg oral tablet,0.0
+diphenhydramine hydrochloride 25 mg oral capsule,0.1
+delta d3,0.05
+family history of ischemic heart disease,0.05
+metronidazole 500 mg oral tablet,0.0
+"iron binding capacity, total",0.05
+edta hold,0.0
+folic acid 1 mg oral tablet,0.1
+hydrochlorothiazide 12.5 mg oral capsule,0.0
+therapeutic infiltration of the terminal branch of the trigeminal nerve,0.05
+lip retraction correction by local autograft,0.0
+long-term actigraphy,0.2
+"effexor 50 mg, tablet",0.85
+"destruction of the dorsal branch of a spinal nerve, percutaneous with radiologic guidance",0.05
+lip commissuroplasty,0.0
+transcutaneous infiltration and/or lavage of the temporomandibular joint,0.0
+"actisulfur, oral or nasal spray powder, bottle 100 ml",0.0
+"radiofrequency ablation of vertebral facet joints, percutaneous, under fluoroscopic guidance",0.0
+"self-poisoning by other chemicals, nec - other specified places",0.75
+"cervicocystopexy with synthetic suburethral sling, via transvaginal and transcutaneous approach, with endoscopic guidance",0.0
+"acromioplasty without prosthesis with acromioclavicular arthroplasty by resection of the lateral end of the clavicle, by arthroscopy",0.0
+"dorsal branch of spinal nerve anesthetic infiltration with diagnostic and prognostic evaluation, with radiological guidance",0.0
+beta-blocker dose,0.05
+benzodiazepine dosage 3,0.25
+mutilating arthritis (l405$) - wrist joint,0.05
+beta-blocker dose 2,0.05
+self-poisoning by carbon monoxide from engine exhaust gases,0.1
+"reinsertion or suturing of a rotator cuff tendon of the shoulder, by arthroscopy",0.0
+nonallopathic lesions nec,0.05
+change of a subcutaneous spinal cord stimulation generator,0.05
+non-opioid analgesic-antipyretic poisoning - undetermined intent - home,0.05
+"implantation of a permanent electrode on a sacral nerve root by direct approach, with subcutaneous implantation of a neuromodulation generator",0.1
+benzodiazepine dosage 1,0.25
+"unique intervertebral discography, percutaneous route",0.0
+shoulder joint exploration by arthroscopy,0.0
+subcutaneous implantation of a spinal cord stimulation generator,0.1
+benzodiazepine identification,0.25
+"tenodesis and/or resection of the articular portion of the long head of the biceps brachii muscle, by arthroscopy",0.0
+"reinsertion and/or suturing of several tendons of the rotator cuff of the shoulder, by arthroscopy",0.0
+transcutaneous implantation of spinal cord stimulation electrode for therapeutic purposes,0.1
+benzodiazepine dosage 2,0.25
+beta-blockers id card,0.05
+phenothiazine back,0.75
+"therapeutic infiltration of posterior vertebral joint, percutaneous, with radiological guidance",0.0
+toe camptodactyly alignment by soft tissue release,0.0
+contrast medium injection supplement for intervertebral discography,0.0
+synthetic mid-urethral sling support for bladder via transvaginal and transobturator approach,0.0
+anterior colporrhaphy,0.0
+arthroscopic acromioplasty without prosthesis,0.0
+"synthetic mid-urethral sling support for the bladder, via transvaginal and transretropubic approach, with endoscopic control",0.0
+mucous polyp of cervix,0.0
+"neuleptil 1%, oral solution in drops, 30 ml bottle",0.25
+"implantation of a test electrode on a sacral nerve root for neuromodulation, via transcutaneous route",0.1
+resection or partitioning of the rectouterine pouch [of douglas] by laparoscopy,0.0
+"retrosternal esophagocoloplasty without esophagectomy, with cervical esophagocolic anastomosis, via cervicotomy and laparotomy",0.0
+laser platinotomy with restoration of the columellar effect,0.0
+partial vulvectomy without lymph node dissection,0.01
+"crizanlizumab - adakveo, 100 mg/10 ml inj",0.0
+laparoscopic posterior hysteropexy [promontofixation],0.0
+anterior hysteropexy by laparoscopy,0.0
+"arthrodesis of the first metatarsophalangeal joint, by arthrotomy",0.0
+physical force aggression - school and public place,0.05
+breast lumpectomy,0.0
+"spinal osteosynthesis with exploration of the canal contents, by laparotomy or by lumbotomy",0.0
+"rozanolixizumab, 560 mg/4 ml inj",0.1
+limb dermolipectomy,0.0
+"removal of buried osteosynthesis material, percutaneous approach without guidance",0.0
+excision of a deep felon of the finger pulp [pulp space abscess],0.0
+ms/ms screening panel,0.1
+trapeziometacarpal arthroplasty,0.0
+"physiogine 1 mg, tablets",0.1
+glucose / potassium chloride,0.0
+radiography of the hemiskelet or the complete skeleton in adults,0.0
+residual volume measurement supplement during standard spirometry,0.0
+other diagnostic ultrasound,0.0
+contrast media supplement for intrathecal injection,0.0
+laboratory - chemistry and hematology,0.1
+insulin,0.0
+vascular,0.05
+breaths,0.0
+pouch,0.0
+difference,0.0
+compliance,0.0
+pregnant,0.1
+glove,0.0
+risk,0.1
+site,0.0
+valve,0.0
+casts,0.0
+cylinders,0.0
+cane,0.0
+open,0.0
+fluid,0.0
+median,0.0
+tap,0.0
+bandage,0.0
+vodka,0.0
+boost,0.0
+bottle,0.0
+offset balance,0.0
+screening,0.75
+hyperglycemia,0.05
+calcitonin,0.0
+myocarditis,0.01
+isoproterenol,0.0
+glucagon,0.01
+marijuana,0.1
+progesterone,0.1
+mental status evaluation,0.65
+manual differential,0.0
+measures taken,0.0
+main causes,0.0
+intellectual disability,0.1
+misc charge,0.0
+Methsuximide,0.1
+benzodiazepine identifier,0.25
+milrinone,0.0
+Amisulpride,0.85
+phenylketonuria [pku],0.0
+aricept,0.0
+thymoglobulin,0.01
+ensure       liq van,0.0
+benztropine mesylate 1 mg oral tablet,0.1
+wings hl ult mis bri,0.0
+divalproex sodium 500 mg delayed release oral tablet,0.25
+sumatriptan 50 mg oral tablet,0.05
+physical restraints status,0.1
+benzodiazepines u,0.65
+"c-1,000 mg tablet",0.0
+pre-admission/non-icu intake,0.1
+nicorette,0.1
+"alcohol, drug abuse or dependence without rehabilitation therapy without mcc",0.2
+hydroxyzine hydrochloride 25 mg oral tablet,0.25
+trileptal,0.1
+clonazepam 1 mg oral tablet,0.25
+embrace 30g lancets,0.0
+exercise counseling,0.3
+utx2,0.0
+stx1,0.0
+stx2,0.0
+"change of a vagus nerve stimulation generator, by direct approach",0.75
+subcutaneous brain stimulation generator replacement,0.2
+"sympathyl, coated tablets",0.1
+reflex differential cell count,0.05
+stx3,0.0
+geodon,0.85
+cvs spectravite advanced tab,0.0
+"1ml syringe  mis 28gx1/2""",0.0
+other female reproductive system o.r. procedures without cc/mcc,0.05
+toxins,0.05
+cluster of differentiation 19 cells,0.05
+desmethylcital,1.0
+benzodiazepine battery,0.2
+intoxication by psychotropic substances nos - home,0.25
+"self-poisoning by psychotropics, unspecified - trade area",0.85
+lithium carbonate 300 mg oral capsule,0.75
+sibling rivalry,0.05
+difficulties related to child sexual abuse by a close acquaintance,0.65
+difficulties related to sexual abuse of a child by someone outside their immediate circle,0.25
+oxycodone concentration immunoassay,0.05
+self harm ncp - interventions,0.85
+stx5,0.0
+stx4,0.0
+"specific gravity, 24-hour urine sample",0.0
+self-inflicted injury by unspecified means - school and public area,0.85
+"ph, daily urine",0.05
+"creatinine, 24-hour urine collection",0.0
+utx1,0.0
+utx5,0.0
+utx3,0.0
+utx4,0.0
+desertion and abandonment by spouse or partner,0.25
+oxycodone urine screening test,0.05
+stx6,0.0
+cryoprecipitate,0.0
+utx6,0.0
+phoned results to floor(auto) (oo),0.0
+self harm ncp - expected outcomes,0.85
+self harm ncp - problem resolved,0.85
+impella catheter site,0.0
+cognitive testing instrument,0.2
+medical  marijuana initial patient consultation,0.2
+myupmc questionnaire series,0.3
+consult / referral to psychology,0.85
+phecode:305,0.1
+preop visit,0.05
+pain management hypnosis session,0.2
+hyperphagia associated with other psychological disturbances,0.65
+consult / referral to telederm,0.0
+consult / referral to neuropsychology clinic,0.3
+consult / referral to wellness program,0.3
+-----office consultation------,0.2
+plasma rt seq prot,0.05
+rectal suppository,0.05
+other specified procedure converted to open procedure,0.0
+time analyzed sputum analysis,0.0
+pcr hsv/hum.aqueous,0.0
+occult blood test x 3,0.0
+chlamydophila psittaci igg,0.0
+"biopsy of a bone and/or joint of the upper limb, percutaneous with ct guidance",0.0
+atazanavir powder,0.0
+gastrostomy status,0.01
+"traumatic injury of the pancreas, without penetrating abdominal wound",0.0
+toxoplasma gondii igg,0.01
+multiple traumatic intrathoracic injuries without open wound of thorax,0.01
+absolute nucleated red blood cell percentage,0.01
+lancets.,0.0
+endomysium ab,0.0
+encounter for removal of intrauterine contraceptive device,0.0
+epoetin alfa,0.01
+hypoplastic or aplastic anterior abdominal wall closure by musculoaponeurotic plasty,0.0
+glucose dial 3,0.0
+shampoo,0.0
+systemic inflammatory response syndrome of infectious origin without organ failure,0.05
+lower resp cult & gs(magee),0.05
+deoxyhemoglobin,0.01
+Red dye IgE,0.01
+congenital anomalies of the integument,0.0
+fatty acids,0.05
+calcium gluconate (crrt),0.0
+timothy grass allergen g6,0.0
+borrelia burgdorferi ab,0.05
+heent,0.0
+dna double strand ab,0.0
+or colloid intake,0.0
+puh icu panel 4,0.0
+toxic effect of venom,0.0
+htt gene cag repeats,0.05
+mononuclear cell freezing with dmso,0.0
+anti-jo-1,0.0
+alginic acid/al hydroxide/mg trisilicate,0.01
+"dressing,opsite",0.0
+normal red blood cell morphology,0.01
+metaxalone,0.0
+beacon syr ch $1,0.0
+full-face dermabrasion,0.05
+platelet constituent evaluation,0.0
+band neutrophils percentage manual,0.0
+"levothyroxine 50 mcg (tcaps), caps",0.05
+factor 2,0.0
+beta 2 micro liquid biopsy,0.0
+prot phacinerta incl,0.0
+gastritis and duodenitis,0.05
+dialysis hs per session:nrat:pt:^patient:qn: :,0.0
+hemoglobin and hematocrit,0.05
+platelet,0.0
+"restoration of a tooth in a premolar area presenting 2 cavities by material inserted in plastic phase without root anchoring, with refurbishment of 2 contact points.",0.0
+cd3+,0.0
+platelet-rich plasma therapy,0.0
+"removal of osteosynthesis material from the femur, by direct approach",0.0
+pcr flu.h1n1/typing,0.0
+right-sided delivery system,0.0
+fish oil odor-less 1200 mg,0.05
+phenobarbital liquid chromatography-mass spectrometry,0.05
+Fumarate/Creatinine,0.0
+serial number,0.0
+time 5,0.0
+contact with a non-powered hand tool - home,0.0
+Cells.CD25+CD127-/100 cells.CD3+CD4+,0.0
+"2-ethylidene-1,5-dimethyl-3,3-diphenylpyrrolidine (eddp)",0.05
+methemoglobin percentage,0.05
+"closure of an oroantral fistula by a vestibulojugal sliding flap, via an intraoral approach",0.0
+motorcycle passenger - transport accident - non-collision - on the road,0.05
+"cervoxan 60 mg, capsule",0.0
+raynaud's syndrome,0.05
+"lipid emulsion - intralipid, 20% 250ml injection",0.0
+5 carboxyuracil,0.05
+chloroquine blood,0.0
+2-methylbutyrylglycine,0.0
+number of probes,0.0
+underpad,0.0
+-iv hydration supply kit,0.0
+nf badtube,0.0
+radioisotope pulmonary scan,0.01
+csf pcr for corona,0.0
+"poc peep, arterial",0.01
+oxyhemoglobin/hemoglobin.total,0.01
+choroidal tumor excision without iridocyclectomy,0.0
+"right heart and pulmonary artery pressure measurement and recording, without contrast injection, via transcutaneous venous approach",0.0
+inspiratory to expiratory respiration ratio,0.05
+hiv rna,0.01
+other specified disorders of breast,0.0
+any requesting ug,0.0
+activity intolerance  ncp - expected outcomes,0.2
+albuterol_0.083%_3ml_inh_soln_(procure_chg),0.0
+secondary malignancy of lymph nodes,0.0
+dexamethasone 0.5mg capsule (prep),0.0
+h2o cs calculated volume (cf28.6/v7),0.0
+amphiphysin ab,0.01
+cell marker studies:cmplx:-:^patient:set: :,0.0
+enteric pcr test,0.0
+Ku IgG,0.0
+polyneuritis in infectious and parasitic diseases classified elsewhere,0.05
+sterilance lde 2,0.0
+hiv-1 by western blot,0.0
+tb pcr/body fluid,0.01
+% saturation,0.0
+levetiracetam level,0.05
+citrulline sg,0.0
+monoclonal spike 3,0.01
+transcutaneous arterial hypers elective cervicocerebral arteriography,0.0
+california encephalitis virus igg,0.05
+"levothyroxine 75 mcg (thyrofix), tablets",0.05
+Alpha-1-Microglobulin/Creatinine,0.01
+xmean fl ema witness 2,0.0
+time 10,0.0
+eosinophil count,0.05
+cottonwood (populus deltoides) ige,0.01
+hepavih3 prot s02,0.0
+"adverse effect: substances acting on the respiratory system, others and unspecified",0.05
+megestrol,0.1
+water 1 g/ml solution for injection,0.0
+"imaging for interventional radiology or interventional cardiology procedure level 21, performed in an imaging room",0.0
+growth hormone-releasing hormone,0.05
+low risk (25-50) interventions,0.2
+cerebrospinal fluid appearance,0.05
+norfentanyl concentration,0.05
+pyridoxine,0.1
+fentanyl50mcg/mlpca30ml,0.01
+cells counted,0.0
+"amisulpride (generic solian), 100 mg tablet",0.85
+inspired gas temp.,0.0
+amount returned,0.0
+trichomonas examination,0.0
+schistocyte count,0.05
+foreign body removal from the oropharynx by indirect laryngoscopy,0.0
+impaired skin odor #7,0.0
+caen(1cae),0.0
+creatinine clearance at 7 days,0.01
+=levothyroxine,0.05
+acquired absence of unspecified leg above knee,0.05
+blood product ordered,0.0
+p. jiroveci qpcr,0.0
+epinephrine-lidocaine,0.0
+"lenalidomide, 25 mg capsule",0.01
+Eggplant (Solanum melongena) IgE,0.0
+hepatitis c antibody screening test,0.0
+"partial excision of a bone of the hand without interruption of continuity, by direct approach",0.0
+norske,0.0
+Basophils/100 cells,0.0
+pt/inr istat,0.01
+ornithine/creat ur-srto,0.01
+dialysis catheter type,0.0
+placement of several cranial and/or facial intraosseous implants for epithesis fixation,0.0
+pa catheter placed in outside facility,0.0
+beta hydroxybutyrate,0.05
+1 ml ketorolac tromethamine 30 mg/ml injection,0.0
+milrinone20mg/d5w100mlpremix(cabinetuseonl,0.0
+sodium true specific gravity,0.0
+gamma globulin percentage,0.01
+exploration of cervical parathyroid sites by cervicoscopy,0.0
+par-circulation,0.0
+Lipoprotein.alpha,0.0
+"lanreotide - myrelez lp, 120 mg/0.5 ml srg inj",0.0
+"pantoprazole 20 mg (inipomp), gastro-resistant tablet aip mwi pl",0.0
+phenytoin,0.05
+facial ct scan,0.01
+airway size (mm),0.0
+2b3a nal,0.0
+aftercare without cc/mcc,0.1
+unclassified casts per low power field,0.0
+immunoglobulin g,0.01
+dactylis glomerata ab.ige.rast class,0.0
+fraction of inspired oxygen (fio2),0.01
+laxity of ligament or hypermobility syndrome,0.05
+type of anomaly,0.05
+bal pcr s.pneumo,0.0
+4-Hydroxycyclohexylacetate/creatinine,0.0
+noenvbefore10am,0.0
+dermatology pathology,0.05
+n. gonorrhoeae pcr test,0.0
+norfentanyl,0.01
+ristocetin 0.75,0.0
+plastic surgery of the external genital organs for male transsexualism,0.05
+"motor vehicle traffic accident due to loss of control, without collision on the highway, injuring driver of motor vehicle other than motorcycle",0.05
+factor viii chromogenic,0.0
+other antibiotic,0.0
+"aspiration of fluid as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",0.05
+"fall, being carried or supported by others - home",0.05
+restraint device (violent),0.1
+ursodiol,0.0
+"mri of 3 or more segments of the spine and its contents, without intravenous contrast injection",0.05
+sanger sequencing for point mutation detection,0.0
+carboxyhemoglobin,0.01
+consult / referral to comprehensive breast center,0.05
+serine protease,0.01
+packed erythrocytes units available,0.0
+Calcium.ionized/Calcium.total,0.01
+rickettsia spotted fever group igg,0.0
+anti m2 mitochondrial ab - igg,0.01
+triamterene,0.01
+aspirin / oxycodone hydrochloride / oxycodone terephthalate,0.0
+lymphocytic choriomeningitis virus igg,0.01
+respiratory syncytial virus rna,0.0
+non-traumatic intracerebral hematoma evacuation by craniotomy,0.05
+anti-nf 186 antibodies,0.05
+bictegravir / emtricitabine / tenofovir alafenamide,0.0
+"buprenorphine screen, urine",0.1
+flecainide,0.0
+"closure of spina bifida with myelomeningocele, via posterior approach",0.0
+baclofen 10 mg oral tablet,0.05
+"surfactant deficiency, congenital protein",0.0
+liquid amylase,0.0
+urinary creatinine and magnesium per deciliter,0.01
+predicted glomerular filtration rate,0.01
+serum chloride concentration,0.05
+matutes score,0.05
+"bilateral total arthrectomy and/or posterior osteotomy for rigid spinal deformity with arthrodesis and instrumental correction, on 10 or more vertebrae, via posterior approach",0.0
+complementary conclusion,0.0
+"macrogol (generic forlax 4 g), sachet (pediatric use only)",0.0
+nailfold capillaroscopy,0.01
+250 ml glucose 100 mg/ml injection,0.0
+total carnitine,0.05
+consult / referral to vascular surgery,0.0
+mature basophils percentage,0.01
+"destruction of several foci and/or interruption of several ventricular arrhythmogenic circuits with radiofrequency current, by transcutaneous vascular route",0.0
+choriogonadotropin.beta subunit,0.01
+Latex recombinant (rHev b) 5 IgE,0.0
+htlv i ab,0.05
+other laboratory controls,0.05
+"catheter,external",0.0
+mutated gck gene,0.05
+"pedal cycle driver injured in noncollision transport accident in traffic accident, subsequent encounter",0.05
+bee rapid api 214 square meters,0.0
+arctic sun/alsius set temp,0.0
+"recanalization of an upper limb artery with placement of a covered stent, via transcutaneous arterial route",0.0
+hydrogen+methane/expired gas,0.0
+14 g phlebitis scale,0.0
+acetazolamide 250 mg oral tablet,0.0
+gpiiia (y2/51),0.0
+"insulin humulin nph, cart",0.0
+jc virus dna,0.01
+urea dial 3,0.0
+copper,0.0
+pnn flaer-/cd24- (types 2 and 3),0.0
+mid-cell percentage - predicted,0.0
+serum collected on,0.0
+cd2 cells nfr bld,0.05
+blood product unit id,0.0
+HIV 2 gp36 Ab,0.0
+dry pellet packaging,0.0
+aspartate,0.0
+hemoglobin a1c test - differential cell count type,0.0
+dexcom g6    mis tra,0.0
+"coronary revascularization with 2 arterial grafts and 2 distal anastomoses, through thoracotomy with cpb",0.0
+"other urethral stricture, male, unspecified site",0.0
+normoblasts nfr mar manual,0.0
+"calcium heparin (generic calciparine), 5,000 iu/0.2 ml injection",0.0
+g6pd/pk ratio,0.0
+"t(9;22)(q34.1;q11)(abl1,bcr) b2a2+b3a2 fusion transcript/control transcript (international scale)",0.0
+sodium ur tp,0.0
+factor xii 1/10,0.0
+screening for other and unspecified deficiency anemia,0.05
+knee disarticulation,0.0
+pbiom receptor,0.1
+one touch suresoft lancing dev/gent,0.0
+ana test result,0.05
+"replacement of the ascending thoracic aorta and the horizontal aorta without replacement of the aortic valve, with reimplantation of the coronary arteries, by thoracotomy with cpb",0.0
+"resection of a cervical rib, via supraclavicular approach",0.0
+pathology findings,0.1
+"hand or wrist procedures, except major thumb or joint procedures with cc/mcc",0.0
