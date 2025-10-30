@@ -3,7 +3,7 @@
 """
 Title: load_data.py
 Author: Han Tong
-Date: 2025-07-01
+Date: 2025-10-08
 Python Version: Python 3.11.3
 Description: Load all data we need in this file
 
@@ -42,10 +42,11 @@ sppmi_list = torch.load(f'{config["input_dir"]}/emb/inst_emb.pth')
 sap_emb = torch.load(f'{config["input_dir"]}/emb/sap_emb.pth')
 coder_emb = torch.load(f'{config["input_dir"]}/emb/coder_emb.pth')
 bge_emb = torch.load(f'{config["input_dir"]}/emb/bge_emb.pth')
-openai_emb = torch.load(f'{config["input_dir"]}/emb/openai_emb.pth')
+# openai_emb = torch.load(f'{config["input_dir"]}/emb/openai_emb.pth')
+
 
 # the name of latent nodes
-unique_name = pd.read_csv(f'{config["input_dir"]}/name_desc/unique_name_desc.csv')
+type_list = unique_name = pd.read_csv(f'{config["input_dir"]}/name_desc/unique_name_desc.csv')
 unique_name = unique_name.iloc[:,0].values
 
 # the hierarchy of loinc, rxnorm and phecode we need.
@@ -75,6 +76,8 @@ test_sim_pairs = pd.read_csv(f'{config["input_dir"]}/similar_related_pairs/simil
 
 with open(f"{config['input_dir']}/similar_related_pairs/rel_pairs_0806.pkl", 'rb') as f:
     train_rel_pairs, test_rel_pairs = pickle.load(f)
+rel_edges = train_rel_pairs.iloc[:,0:2].values
+
 
 # # initialize the train, validation and test set of similar no hie pairs
 # train_sim_no_hie_pairs, val_sim_no_hie_pairs, test_sim_no_hie_pairs = split_train_set(unique_name, REL_pairs=SIM_no_hie_pairs, scale=[0.7,0.3])
@@ -86,22 +89,24 @@ with open(f"{config['input_dir']}/similar_related_pairs/rel_pairs_0806.pkl", 'rb
 
 train_sim_no_hie_pairs, test_sim_no_hie_pairs = np.load(f"{config['input_dir']}/similar_related_pairs/sim_no_hie_pairs_0806.pkl", allow_pickle=True)
 
-# edges = torch.tensor(np.load(f"{config['input_dir']}/edges/edges.npy", allow_pickle=True))
-edges_map = torch.tensor(np.load(f"{config['input_dir']}/edges/edges_map.npy", allow_pickle=True))
-edges_hie = torch.tensor(np.load(f"{config['input_dir']}/edges/edges_hie.npy", allow_pickle=True))
-same_desc_edge = torch.tensor(np.load(f"{config['input_dir']}/edges/edges_same_desc.npy", allow_pickle=True))
+sim_edges = train_sim_no_hie_pairs.iloc[:,0:2].values
 
-edges_rel = torch.tensor(np.load(f"{config['input_dir']}/edges/edges_rel.npy", allow_pickle=True))
-edges_sim = torch.tensor(np.load(f"{config['input_dir']}/edges/edges_sim_no_hie.npy", allow_pickle=True))
-
-pos_sppmi = torch.tensor(np.load(f"{config['input_dir']}/edges/pos_sppmi_0730.npy", allow_pickle=True))
-neg_sppmi = torch.tensor(np.load(f"{config['input_dir']}/edges/neg_sppmi_0729.npy", allow_pickle=True))
-
+edges_map = pd.read_csv(f"{config['input_dir']}/edges/edges_map.csv")
+edges_map = edges_map.values
+edges_hie = pd.read_csv(f"{config['input_dir']}/edges/edges_hie.csv")
+edges_hie = edges_hie.iloc[:,:2].values
+pos_sppmi = pd.read_csv(f"{config['input_dir']}/edges/pos_ppmi.csv")
+neg_sppmi = pd.read_csv(f"{config['input_dir']}/edges/neg_ppmi.csv")
 all_pos_sppmi = pos_sppmi
-ALL_sim_val_pairs =  pd.concat([test_sim_no_hie_pairs, test_sim_pairs], ignore_index=True)
 
-rel_index = get_index(train_rel_pairs, unique_name)
-sim_no_hie_index = get_index(train_sim_no_hie_pairs, unique_name)
+ALL_rel_val_pairs = test_rel_pairs
+ALL_sim_val_pairs = pd.concat([test_sim_no_hie_pairs, test_sim_pairs], ignore_index=True)
+ALL_rel_train_pairs = train_rel_pairs
+ALL_sim_train_no_hie_pairs = train_sim_no_hie_pairs
+
+rel_index = get_index(ALL_rel_train_pairs, unique_name)
+sim_no_hie_index = get_index(ALL_sim_train_no_hie_pairs, unique_name)
+
 
 # # generate my_objects using hie_train
 # # Origin_term can take 10 mins. We can load my_objects that have been generated

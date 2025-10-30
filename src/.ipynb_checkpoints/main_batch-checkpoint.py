@@ -24,11 +24,12 @@ import numpy as np
 from config import set_config
 import argparse
 import pdb
-from utils import sample_and_combine_edges, now_time
+from utils import split_into_batches, sample_and_combine_edges, now_time
 from sklearn.manifold import TSNE
 import matplotlib.pyplot as plt
 import os
 import time
+from tqdm import tqdm
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:32"
 
 logging.getLogger('matplotlib.font_manager').setLevel(logging.INFO)
@@ -64,10 +65,14 @@ def update_config_from_args():
                         help="Parameter scale_REL. Default: 5.")   
     parser.add_argument("--scale_align", type=int, default=1,
                         help="Parameter scale_REL. Default: 1.")  
+    parser.add_argument("--heads", type=int, default=2,
+                        help="Heads of GAT. Default: 2.")  
     parser.add_argument("--rmax", type=int, default=256,
                         help="Parameter r_max we use for similarity. Default: 256.") 
     parser.add_argument("--hidden_features", type=int, default=768,
                         help="Parameter dimension we use for all. Default: 768.")
+    parser.add_argument("--batch_size", type=int, default=256,
+                        help="Parameter batchsize we use for training. Default: 256.") 
     parser.add_argument("--path", type=str, default=config['path'],
                         help="Specify the path parameter.")
     parser.add_argument("--input_dir", type=str, default=config['input_dir'],
@@ -84,6 +89,8 @@ def update_config_from_args():
                     help='Use GPU or CPU. Default: cuda:0.')
     parser.add_argument("--num_inst", type=int, default=7,
                     help='The number of institutions. Default: 7.')
+    parser.add_argument("--api_key", type=str, default=None,
+                    help='The OPENAI API KEY. Default: None.')
 
 
     args = parser.parse_args()
@@ -99,8 +106,10 @@ def update_config_from_args():
     config['scale_OTOL'] = args.scale_OTOL
     config['scale_REL'] = args.scale_REL
     config['scale_align'] = args.scale_align
+    config['heads'] = args.heads
     config['rmax'] = args.rmax
     config['hidden_features'] = args.hidden_features
+    config['batch_size'] = args.batch_size
     config['input_dir'] = args.input_dir
     config['path'] = args.path
     config['path_origin'] = args.path_origin
@@ -108,6 +117,7 @@ def update_config_from_args():
     config['epochs'] = args.epochs
     config['CHECK_ALL'] = args.CHECK_ALL
     config['DEVICE'] = args.DEVICE
+    config['api_key'] = args.api_key
     
     seed = config['SEED']
     random.seed(seed)
@@ -124,6 +134,7 @@ def main(config):
     from load_data import sppmi_list, sap_emb, unique_name, type_list, ALL_rel_val_pairs, ALL_sim_val_pairs, my_objects, pos_sppmi, neg_sppmi, edges_map, edges_hie, sim_edges, rel_edges, same_desc_edge
     
     # load data to device
+    api_key = config['api_key']
     device = torch.device(config['DEVICE'])
 
     if config['path_origin'] == "align_NA":
@@ -155,9 +166,10 @@ def main(config):
     ## edges_map: code mapping
     ## edges_hie: hierarchy
     ## edges_sim: non-hierarchy edges sim
+    ## same_desc_edge: the codes having same descriptions
     ## edges_rel: edges_rel
     ## pos_sppmi: uncommon edges selected by GPT4
-    edges_sim = np.row_stack((edges_map, edges_hie,sim_edges))
+    edges_sim = np.row_stack((edges_map, same_desc_edge, edges_hie,sim_edges))
     edge_all_sim = np.row_stack((id_map(edges_sim[:,0], unique_name), id_map(edges_sim[:,1], unique_name)))
     edge_all_sim =  torch.as_tensor(edge_all_sim, dtype=torch.long)
     
@@ -173,9 +185,11 @@ def main(config):
     edge_index = remove_duplicate_edge(edge_index)       
     undirected_edge_index = to_undirected(edge_index).to(device)
     print(f'undirected_edge_index.shape = {undirected_edge_index.shape}')
-    
+
+    batches_obj = split_into_batches(my_objects, config['batch_size'])
+
     # begin training
-    for epoch in range(0, config['epochs']):
+    for epoch in range(1, 1+config['epochs']):
         now_time = time.time()
         case_store = False
         optimizer0.zero_grad()
@@ -212,25 +226,26 @@ def main(config):
                 
         # rela embedding training case
         else:
-            with torch.cuda.amp.autocast():
-                x_rel_part = model_all(sap_emb=sap_emb, out_1=out_1, edge_index=undirected_edge_index, config=config)
-                x_rel = torch.cat((x_sim_trained, x_rel_part), dim=1) # concat fixed simi embedding
-                P_REL, N_REL, P_sppmi, N_sppmi = custom_loss(my_objects, x_rel, list(range(config['num_union'])), device, unique_name, config, TYP1=False)
-                loss0 = P_REL + N_REL + P_sppmi + N_sppmi
-                loss = [my_item(P_REL), my_item(N_REL), my_item(P_sppmi), my_item(N_sppmi)]
-            
-                # update
-                loss0.backward()
-                optimizer0.step()
-                scheduler0.step()
-
-                write_file(epoch, 0, config, start_time, loss=loss)
+            for BATCH, obj in enumerate(tqdm(batches_obj, desc=f"Epoch {epoch} Training", ncols=100)):
+                with torch.cuda.amp.autocast():
+                    x_rel_part = model_all(sap_emb=sap_emb, out_1=out_1, edge_index=undirected_edge_index, config=config)
+                    x_rel = torch.cat((x_sim_trained, x_rel_part), dim=1) # concat fixed simi embedding
+                    P_REL, N_REL, P_sppmi, N_sppmi = custom_loss(obj, x_rel, list(range(len(obj))), device, unique_name, config, TYP1=False)
+                    loss0 = P_REL + N_REL + P_sppmi + N_sppmi
+                    loss = [my_item(P_REL), my_item(N_REL), my_item(P_sppmi), my_item(N_sppmi)]
                 
+                    # update
+                    loss0.backward()
+                    optimizer0.step()
+                    scheduler0.step()
+    
+                    write_file(epoch, BATCH, config, start_time, loss=loss)
+
         torch.cuda.empty_cache()
         
         with torch.no_grad():
             # evaluate 
-            if epoch % 5 == 0:
+            if epoch % 1 == 0:
                 model_all.eval()
                 
                 if config['path_origin'] == 'align_NA':
@@ -248,13 +263,12 @@ def main(config):
                         REL_AUC=AUC_new3[0][0]
                     )
                     
-                    # evalution
+                    # feature selection and evalution
                     sim_auc = weight_auc(AUC_new[0])
                     rel_auc = weight_auc(AUC_new3[0])
                     
                     logging.info(f'Weighted Similar AUC = {sim_auc}')
                     logging.info(f'Weighted Related AUC = {rel_auc}')
-
 
                     # whether to break training and store model
                     case_store = (sim_auc > record)
@@ -266,8 +280,9 @@ def main(config):
 
                 elif config['path_origin'] is None:
                     x_sim_test = model_all(sap_emb=sap_emb, out_1=out_1, edge_index=undirected_edge_index, config=config)
-                    PRE_new, AUC_new = test(x_sim_test, unique_name, config, type_list, similar_pairs=ALL_sim_val_pairs, PRE=True, AUC=True, AUC_type=True)
+                    PRE_new, AUC_new, AUC_new2 = test(x_sim_test, unique_name, config, type_list, similar_pairs=ALL_sim_val_pairs, PRE=True, AUC=True, AUC_type=True)
                     sim_auc = weight_auc(AUC_new[0])
+                    
                     write_file(
                         Epoch=epoch,
                         Batch=0,
@@ -279,7 +294,7 @@ def main(config):
                     )
                 
                     logging.info(f'Weighted Similar AUC = {sim_auc}')
-                    
+   
                     case_store = (sim_auc > record)
                     if case_store:
                         record = sim_auc
@@ -287,28 +302,31 @@ def main(config):
                 else:
                     x_rel_part_test = model_all(sap_emb=sap_emb, out_1=out_1, edge_index=undirected_edge_index, config=config)
                     x_rel_test = torch.cat((x_sim_trained, x_rel_part_test), dim=1)
-                    AUC_new = test(x_rel_test, unique_name, config, type_list, related_pairs=ALL_rel_val_pairs, PRE=False, AUC=True, AUC_type=True)  
-                    rel_auc = weight_auc(AUC_new[0][0])
+                    AUC_new, AUC_new2 = test(x_rel_test, unique_name, config, type_list, related_pairs=ALL_rel_val_pairs, PRE=False, AUC=True, AUC_type=True)  
+                    rel_auc = weight_auc(AUC_new[0])
                     write_file(
                         Epoch=epoch,
                         Batch=0,
                         config=config,
                         start_time=start_time,
                         loss=loss,
-                        REL_AUC=AUC_new[0][0][0]
+                        REL_AUC=AUC_new[0][0]
                     )
                     
                     logging.info(f'Weighted Related AUC = {rel_auc}')
+               
                     
                     case_store = (rel_auc > record)
                     if case_store:
                         record = rel_auc  
+                    case_store = True
 
             else:
                 write_file(epoch, 0, config, start_time, loss=loss)  
         
         
             # Store the embedding or not
+            # if store embedding, we need to evaluate features selection
             if case_store:
                 if config['path_origin'] == "align_NA":
                     torch.save(x_sim_test, f"{config['path']}/output/{start_time}/align_sppmi.pth")

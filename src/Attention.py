@@ -1,7 +1,7 @@
 """"
 Title: Attention.py
 Author: Han Tong
-Date: 2025-07-01
+Date: 2025-10-08
 Python Version: Python 3.11.3
 Description: All attention model we use
 """
@@ -35,11 +35,18 @@ class GATLayer(nn.Module):
         self.linear = linear
         if linear:
             self.Linear = nn.Linear(out_features * heads if concat else out_features, out_features)
-        
-        if init0 is True:
-            # Initialize the lower half of gat_conv.lin_src.weight to zeros
-            lower_tri_indices = range(int(in_features/2), in_features)
-            self.gat_conv.lin_src.weight.data[:, lower_tri_indices] = 0.0
+
+        if init0:
+            lower_tri_indices = range(int(in_features / 2), in_features)
+            # Handle version differences
+            try:
+                weight = self.gat_conv.lin.weight
+            except AttributeError:
+                weight = self.gat_conv.lin_src.weight
+
+            with torch.no_grad():
+                weight[:, lower_tri_indices] = 0.0
+                
 
     def forward(self, x, edge_index):
         # only training step will drop edge
@@ -61,9 +68,9 @@ class inst_encoder(nn.Module):
         else:
             self.GAT_together = GATLayer(2 * config['hidden_features'], config['hidden_features'], config['heads'], True, config['drop_p'], init0=True, linear=False) 
         if config['path_origin'] is None:
-            self.Linear = nn.Linear(2*config['hidden_features'], config['rmax'])
+            self.Linear = nn.Linear(config['heads']*config['hidden_features'], config['rmax'])
         elif config['path_origin'] != 'align_NA':
-            self.Linear = nn.Linear(2*config['hidden_features'], config['out_dim'] - config['rmax'])
+            self.Linear = nn.Linear(config['heads']*config['hidden_features'], config['out_dim'] - config['rmax'])
         
     def align_loss(self, new_sppmi_list, config):
         num_inst = config['num_inst']
@@ -161,7 +168,7 @@ def custom_loss(my_objects, x, now_index, device, name_all, config, TYP1=False):
             if CHECK_ALL:
                 print('Related Pairs Loss:')
                 
-            set2 = [find_same_type(i, name_all) for i in now_index] 
+            set2 = [find_same_type(i, type_list) for i in now_index] 
             set1 = [set(my_objects[i].rel) if isinstance(my_objects[i].rel, np.ndarray) 
                     else my_objects[i].rel for i in now_index]
 
@@ -169,7 +176,7 @@ def custom_loss(my_objects, x, now_index, device, name_all, config, TYP1=False):
             if CHECK_ALL:
                 print('Similar Pairs (Not Hierarchy) Loss:')
             set1 = [my_objects[i].sim_no_hie for i in now_index]
-            set2 = [find_same_type(i, name_all) for i in now_index]  
+            set2 = [find_same_type(i, type_list) for i in now_index]  
             
         elif loss_type == 'ppmi':
             set1 = [my_objects[i].pos_ppmi if hasattr(my_objects[i], 'pos_ppmi') else [] for i in now_index]

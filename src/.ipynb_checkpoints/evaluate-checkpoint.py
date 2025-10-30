@@ -3,7 +3,7 @@
 """
 Title: evaluate.py
 Author: Han Tong
-Date: 2025-07-01
+Date: 2025-10-08
 Python Version: Python 3.11.3
 Description: evaluate AUC and accuracy functions can be seen here
 """
@@ -56,7 +56,7 @@ def output(new_emb, name_all):
 
 
 #----------------------- evaluate AUC functions------------------
-def get_NULLpairs(pairs, dict_MGB):
+def get_NULLpairs(pairs, dict_MGB, type_list):
     '''
     add NULL pairs for every positive pairs, so we can compute AUC further
     '''
@@ -69,8 +69,8 @@ def get_NULLpairs(pairs, dict_MGB):
     pairs_MGB['Var2'] = temp2
 
     group = pd.DataFrame({
-        'g1': np.array(ret_type(dict_MGB))[temp], 
-        'g2': np.array(ret_type(dict_MGB))[temp2]
+        'g1': np.array(ret_type(dict_MGB, type_list))[temp], 
+        'g2': np.array(ret_type(dict_MGB, type_list))[temp2]
     })
 
     groupdf = pd.DataFrame({
@@ -93,11 +93,11 @@ def get_NULLpairs(pairs, dict_MGB):
 
         # generate negative samples for code1 and code2 separately from corresponding groups
         nega1 = pd.DataFrame({
-            'code1': np.random.choice(dict_MGB[np.where(np.array(ret_type(dict_MGB)) == group.iloc[i, 0])[0]], posi.shape[0] * 2, replace=True)
+            'code1': np.random.choice(dict_MGB[np.where(np.array(ret_type(dict_MGB,type_list)) == group.iloc[i, 0])[0]], posi.shape[0] * 2, replace=True)
         })
 
         nega2 = pd.DataFrame({
-            'code2': np.random.choice(dict_MGB[np.where(np.array(ret_type(dict_MGB)) == group.iloc[i, 1])[0]], posi.shape[0] * 2, replace=True)
+            'code2': np.random.choice(dict_MGB[np.where(np.array(ret_type(dict_MGB,type_list)) == group.iloc[i, 1])[0]], posi.shape[0] * 2, replace=True)
         })
 
         # combine negative samples for code1 and code2
@@ -154,15 +154,15 @@ def get_AUC_emb(emb_MGB, pairs_MGB, nmax = 1000):
     return AUClist
 
 
-def get_total_AUC(emb, name_all, pairs):
+def get_total_AUC(emb, name_all, pairs, type_list):
     emb_latent = emb.detach()
     emb_latent.index = name_all
-    pairs = get_NULLpairs(pairs, get_values(emb_latent.index))
+    pairs = get_NULLpairs(pairs, get_values(emb_latent.index), type_list)
     AUC = get_AUC_emb(emb_latent, pairs)
     return AUC
 
 
-def test(x, name_all, config, related_pairs=None, similar_pairs=None, drug_side_pairs=None, PRE=True, AUC=True, AUC_type=True):
+def test(x, name_all, config, type_list, related_pairs=None, similar_pairs=None, PRE=True, AUC=True, AUC_type=True):
     # x_low_dim is used to do similar jobs; x_rel is used to do related jobs
     results = []
     if config['path_origin'] is 'align_NA':
@@ -173,8 +173,8 @@ def test(x, name_all, config, related_pairs=None, similar_pairs=None, drug_side_
         
     def compute_auc(data, pairs):
         if AUC_type:
-            pairs['source'] = [''.join(sorted([x, y])) for x, y in zip(ret_type(pairs['code1']), ret_type(pairs['code2']))]
-        return get_total_AUC(data, name_all, pairs)
+            pairs['source'] = [''.join(sorted([x, y])) for x, y in zip(ret_type(pairs['code1'],type_list), ret_type(pairs['code2'],type_list))]
+        return get_total_AUC(data, name_all, pairs, type_list)
 
     # Predict accuracy
     if PRE:
@@ -187,14 +187,18 @@ def test(x, name_all, config, related_pairs=None, similar_pairs=None, drug_side_
     if AUC:
         if similar_pairs is not None:
             similar_pairs = similar_pairs.iloc[np.where(similar_pairs.iloc[:,0].isin(name_all))[0],:]
-            SIMI = compute_auc(x_low_dim, similar_pairs)
-            results.append([SIMI])
+            group_list = similar_pairs[['group']].values  # codified / cui
+            group = np.unique(group_list)
+            for g in group:
+                simi_pair_sub = similar_pairs.loc[group_list==g,:]
+                SIMI = compute_auc(x_low_dim, simi_pair_sub)
+                results.append([SIMI])
         if related_pairs is not None:
             related_pairs = related_pairs.iloc[np.where(related_pairs.iloc[:,0].isin(name_all))[0],:]
-            RELA = compute_auc(x, related_pairs)
-            results.append([RELA])
-        if drug_side_pairs is not None:
-            DRUG_SIDE = compute_auc(x, drug_side_pairs)
-            results.append([DRUG_SIDE])
-
+            group_list = related_pairs[['group']].values  # codified / cui
+            group = np.unique(group_list)
+            for g in group:
+                rela_pair_sub = related_pairs.loc[group_list==g,:]
+                RELA = compute_auc(x, rela_pair_sub)
+                results.append([RELA])
     return tuple(results)

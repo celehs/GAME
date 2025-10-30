@@ -3,7 +3,7 @@
 """
 Title: data_structure.py
 Author: Han Tong
-Date: 2025-07-01
+Date: 2025-10-08
 Python Version: Python 3.11.3
 Description: define the class of each node, the dataset structures, and the initialize function of them
 """
@@ -78,38 +78,55 @@ class MySampler(Sampler):
 
 
 def origin_loss_set(unique_name, pos_LTOL, neg_LTOL, hie_loinc_rxn_phe, 
-                Train_REL_pairs, Train_sim_no_hie_pairs, rel_index, sim_no_hie_index):
+                Train_REL_pairs, Train_sim_no_hie_pairs, pos_sppmi, neg_sppmi):
     '''
     create a term for each node, including name, one_one, same_par, same_gra, rel
     '''
     my_objects = []
     config = get_config()
 
+    pos_LTOL = TABLE_TO_INDEX(pos_LTOL, unique_name, all_col=True)
+    neg_LTOL = TABLE_TO_INDEX(neg_LTOL, unique_name, all_col=True)
+    Train_REL_pairs = TABLE_TO_INDEX(Train_REL_pairs, unique_name)
+    Train_sim_no_hie_pairs = TABLE_TO_INDEX(Train_sim_no_hie_pairs, unique_name)
+    pos_sppmi = TABLE_TO_INDEX(pos_sppmi, unique_name)
+    neg_sppmi = TABLE_TO_INDEX(neg_sppmi, unique_name)
+
+    local_index = pos_LTOL[:,0]
+    # print(len(local_index))
+    rel_index = np.unique(Train_REL_pairs)
+    # print(len(rel_index))
+    sim_no_hie_index = np.unique(Train_sim_no_hie_pairs)
+    # print(len(sim_no_hie_index))
+    pos_sppmi_index = np.unique(pos_sppmi)
+    # print(len(pos_sppmi_index))
+
     for i in tqdm(range(len(unique_name))):
         obj = item_node(name=unique_name[i])
 
-        if grepl('^LOCAL\\|LAB:|^Other lab:|^LOCAL\\|PX:|^CCAM:', obj.name):
-            obj.P_local = find_other_local(obj.name, pos_LTOL, unique_name)
-            obj.N_local = find_other_local(obj.name, neg_LTOL, unique_name)
-
+        # code mapping pairs
+        if i in local_index:
+            obj.P_local = np.setdiff1d(pos_LTOL[np.where(pos_LTOL[:,0] == i)[0],1:], -1)
+            obj.N_local = np.setdiff1d(neg_LTOL[np.where(neg_LTOL[:,0] == i)[0],1:], -1)
+            
+        # hierarchical pairs
         if grepl('^PheCode:|^LOINC:|^CCAM:|^RXNORM:', obj.name):
             obj.same_par = find_same_par_gra(hie_loinc_rxn_phe, unique_name, name_id = i, PARENT=1)
             obj.same_gra = find_same_par_gra(hie_loinc_rxn_phe, unique_name, name_id = i, PARENT=2)
 
         if i in rel_index:
-            obj.rel = find_rel(i, Train_REL_pairs, unique_name)
+            obj.rel = np.unique(np.union1d(Train_REL_pairs[1][Train_REL_pairs[0]==i],Train_REL_pairs[0][Train_REL_pairs[1]==i]))
             
         if i in sim_no_hie_index:
-            obj.sim_no_hie = find_rel(i, Train_sim_no_hie_pairs, unique_name)
-        
+            obj.sim_no_hie = np.unique(np.union1d(Train_sim_no_hie_pairs[1][Train_sim_no_hie_pairs[0]==i],Train_sim_no_hie_pairs[0][Train_sim_no_hie_pairs[1]==i]))
+            
         if i in pos_sppmi_index:
-            obj.pos_ppmi = pos_sppmi[1][pos_sppmi[0]==i]
-            obj.neg_ppmi = neg_sppmi[1][neg_sppmi[0]==i]
-        
+            obj.pos_ppmi = np.unique(np.union1d(pos_sppmi[1][pos_sppmi[0]==i],pos_sppmi[0][pos_sppmi[1]==i]))
+            obj.neg_ppmi = np.unique(np.union1d(neg_sppmi[1][neg_sppmi[0]==i],neg_sppmi[0][neg_sppmi[1]==i]))
+            
         my_objects.append(obj)
-
+        
     return my_objects
-
 
 
 class item_node_temp:

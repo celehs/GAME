@@ -3,7 +3,7 @@
 """
 Title: main.py
 Author: Han Tong
-Date: 2025-07-01
+Date: 2025-10-08
 Python Version: Python 3.11.3
 Description: main file of our attention model
 """
@@ -42,10 +42,8 @@ def update_config_from_args():
     config = get_config()
 
     parser = argparse.ArgumentParser(description="GAMEw Training Script")
-    # parser.add_argument('--EDGE_ALL', action='store_true', default=False, 
-    #                     help="Whether to use all edges to train. Default: False.")
-    parser.add_argument("--drop_out", type=float, default=0.0,
-                        help="Parameter drop_out prob. Default: 0.0.") 
+    parser.add_argument("--drop_out", type=float, default=0.5,
+                        help="Parameter drop_out prob. Default: 0.5.") 
     parser.add_argument("--lr", type=float, default=1e-4,
                         help="Parameter learning rate. Default: 1e-4.")  
     parser.add_argument("--min_lr", type=float, default=5e-7,
@@ -86,13 +84,10 @@ def update_config_from_args():
                     help='Use GPU or CPU. Default: cuda:0.')
     parser.add_argument("--num_inst", type=int, default=7,
                     help='The number of institutions. Default: 7.')
-    parser.add_argument("--api_key", type=str, default=None,
-                    help='The OPENAI API KEY. Default: None.')
 
 
     args = parser.parse_args()
     config['num_inst'] = args.num_inst
-    # config['EDGE_ALL'] = args.EDGE_ALL
     config['base_lr'] = args.lr
     config['min_lr'] = args.min_lr
     config['drop_p'] = args.drop_out   
@@ -113,7 +108,6 @@ def update_config_from_args():
     config['epochs'] = args.epochs
     config['CHECK_ALL'] = args.CHECK_ALL
     config['DEVICE'] = args.DEVICE
-    config['api_key'] = args.api_key
     
     seed = config['SEED']
     random.seed(seed)
@@ -127,10 +121,9 @@ def update_config_from_args():
 
 def main(config): 
     
-    from load_data import sppmi_list, sap_emb, unique_name, test_rel_pairs, ALL_sim_val_pairs, my_objects, pos_sppmi, neg_sppmi, edges_map, edges_hie, edges_sim, edges_rel, same_desc_edge
+    from load_data import sppmi_list, sap_emb, unique_name, type_list, ALL_rel_val_pairs, ALL_sim_val_pairs, my_objects, pos_sppmi, neg_sppmi, edges_map, edges_hie, sim_edges, rel_edges, same_desc_edge
     
     # load data to device
-    api_key = config['api_key']
     device = torch.device(config['DEVICE'])
 
     if config['path_origin'] == "align_NA":
@@ -162,20 +155,27 @@ def main(config):
     ## edges_map: code mapping
     ## edges_hie: hierarchy
     ## edges_sim: non-hierarchy edges sim
-    ## same_desc_edge: the codes having same descriptions
     ## edges_rel: edges_rel
     ## pos_sppmi: uncommon edges selected by GPT4
-    edge_all_sim = torch.cat((torch.cat((torch.cat((edges_hie, edges_sim), dim=1), same_desc_edge), dim = 1), edges_map), dim = 1)
-    edge_all_rel = torch.cat((torch.cat((edges_rel, pos_sppmi), dim=1), same_desc_edge), dim = 1)
+    edges_sim = np.row_stack((edges_map, edges_hie,sim_edges))
+    edge_all_sim = np.row_stack((id_map(edges_sim[:,0], unique_name), id_map(edges_sim[:,1], unique_name)))
+    edge_all_sim =  torch.as_tensor(edge_all_sim, dtype=torch.long)
+    
+    edges_rel = np.row_stack((rel_edges, pos_sppmi.values))
+    edge_all_rel = np.row_stack((id_map(edges_rel[:,0], unique_name), id_map(edges_rel[:,1], unique_name)))
+    edge_all_rel =  torch.as_tensor(edge_all_rel, dtype=torch.long)
+
     record = -float('inf')
    
     edge_index = torch.cat((edge_all_sim, edge_all_rel), dim = 1)
+    mask = (edge_index[0] >=0) & (edge_index[1] >=0)
+    edge_index = edge_index[:, mask]
     edge_index = remove_duplicate_edge(edge_index)       
     undirected_edge_index = to_undirected(edge_index).to(device)
     print(f'undirected_edge_index.shape = {undirected_edge_index.shape}')
     
     # begin training
-    for epoch in range(1, 1+config['epochs']):
+    for epoch in range(0, config['epochs']):
         now_time = time.time()
         case_store = False
         optimizer0.zero_grad()
@@ -183,91 +183,132 @@ def main(config):
         
         # align sppmi case
         if config['path_origin'] == "align_NA":
-            align_loss_term, x_sim = model_all(sppmi_list=sppmi_list, sap_emb=sap_emb, edge_index=undirected_edge_index, config=config)
-            loss0 = align_loss_term
-            loss = [my_item(loss0)]
+            with torch.cuda.amp.autocast():
+                align_loss_term, x_sim = model_all(sppmi_list=sppmi_list, sap_emb=sap_emb, edge_index=undirected_edge_index, config=config)
+                loss0 = align_loss_term
+                loss = [my_item(loss0)]
+    
+                # update
+                loss0.backward()
+                optimizer0.step()
+                scheduler0.step()
 
         # simi embedding training case
         elif config['path_origin'] is None:
-        
-            x_sim = model_all(sap_emb=sap_emb, out_1=out_1, edge_index=undirected_edge_index, config=config)
-            P_LOSS_hie, N_LOSS_hie, P_LOSS_OTOL, N_LOSS_OTOL, P_LOSS_SIM_NO_HIE, N_LOSS_SIM_NO_HIE = custom_loss(my_objects, x_sim, list(range(config['num_union'])), device, unique_name, config, TYP1=True)
-            loss0 = P_LOSS_hie + N_LOSS_hie + P_LOSS_OTOL + N_LOSS_OTOL + P_LOSS_SIM_NO_HIE + N_LOSS_SIM_NO_HIE      
-            loss = [my_item(P_LOSS_hie), my_item(N_LOSS_hie), 
-                    my_item(P_LOSS_OTOL), my_item(N_LOSS_OTOL),
-                    my_item(P_LOSS_SIM_NO_HIE), my_item(N_LOSS_SIM_NO_HIE)]
-
+            with torch.cuda.amp.autocast():
+                x_sim = model_all(sap_emb=sap_emb, out_1=out_1, edge_index=undirected_edge_index, config=config)
+                P_LOSS_hie, N_LOSS_hie, P_LOSS_OTOL, N_LOSS_OTOL, P_LOSS_SIM_NO_HIE, N_LOSS_SIM_NO_HIE = custom_loss(my_objects, x_sim, list(range(config['num_union'])), device, unique_name, config, TYP1=True)
+                loss0 = P_LOSS_hie + N_LOSS_hie + P_LOSS_OTOL + N_LOSS_OTOL + P_LOSS_SIM_NO_HIE + N_LOSS_SIM_NO_HIE      
+                loss = [my_item(P_LOSS_hie), my_item(N_LOSS_hie), 
+                        my_item(P_LOSS_OTOL), my_item(N_LOSS_OTOL),
+                        my_item(P_LOSS_SIM_NO_HIE), my_item(N_LOSS_SIM_NO_HIE)]
+    
+                # update
+                loss0.backward()
+                optimizer0.step()
+                scheduler0.step()
+    
+                write_file(epoch, 0, config, start_time, loss=loss)
+                
         # rela embedding training case
         else:
-            x_rel_part = model_all(sap_emb=sap_emb, out_1=out_1, edge_index=undirected_edge_index, config=config)
-            x_rel = torch.cat((x_sim_trained, x_rel_part), dim=1) # concat fixed simi embedding
-            P_REL, N_REL = custom_loss(my_objects, x_rel, list(range(config['num_union'])), device, unique_name, config, TYP1=False)
-            P_sppmi, N_sppmi = sppmi_edge_loss(x_rel, pos_sppmi, neg_sppmi, config)
-            loss0 = P_REL + N_REL + P_sppmi + N_sppmi
-            loss = [my_item(P_REL), my_item(N_REL), my_item(P_sppmi), my_item(N_sppmi), 0,0]
+            with torch.cuda.amp.autocast():
+                x_rel_part = model_all(sap_emb=sap_emb, out_1=out_1, edge_index=undirected_edge_index, config=config)
+                x_rel = torch.cat((x_sim_trained, x_rel_part), dim=1) # concat fixed simi embedding
+                P_REL, N_REL, P_sppmi, N_sppmi = custom_loss(my_objects, x_rel, list(range(config['num_union'])), device, unique_name, config, TYP1=False)
+                loss0 = P_REL + N_REL + P_sppmi + N_sppmi
+                loss = [my_item(P_REL), my_item(N_REL), my_item(P_sppmi), my_item(N_sppmi)]
             
-        # update
-        loss0.backward()
-        optimizer0.step()
-        scheduler0.step()
+                # update
+                loss0.backward()
+                optimizer0.step()
+                scheduler0.step()
+
+                write_file(epoch, 0, config, start_time, loss=loss)
+                
         torch.cuda.empty_cache()
         
         with torch.no_grad():
             # evaluate 
-            if epoch % 10 == 1:
-                model_all.eval() 
-
+            if epoch % 5 == 0:
+                model_all.eval()
+                
                 if config['path_origin'] == 'align_NA':
                     x_sim_test = model_all(sppmi_list, sap_emb=sap_emb, edge_index=undirected_edge_index, config=config)
-                    PRE_new, AUC_new, AUC_new2 = test(x_sim_test, unique_name, config, similar_pairs=ALL_sim_val_pairs, related_pairs=test_rel_pairs, drug_side_pairs=None, PRE=True, AUC=True, AUC_type=True)
-                    write_file(epoch, 0, config, start_time, loss=loss, pre=PRE_new, SIM_AUC=AUC_new[0][0], REL_AUC=AUC_new2[0][0])
+                    # acc, sim, rel
+                    PRE_new, AUC_new, AUC_new3 = test(x_sim_test, unique_name, config, type_list, similar_pairs=ALL_sim_val_pairs, related_pairs=ALL_rel_val_pairs, PRE=True, AUC=True, AUC_type=True)
+                    write_file(
+                        Epoch=epoch,
+                        Batch=0,
+                        config=config,
+                        start_time=start_time,
+                        loss=loss,
+                        pre=PRE_new,
+                        SIM_AUC=AUC_new[0][0],
+                        REL_AUC=AUC_new3[0][0]
+                    )
+                    
                     # evalution
                     sim_auc = weight_auc(AUC_new[0])
-                    rel_auc = weight_auc(AUC_new2[0])
+                    rel_auc = weight_auc(AUC_new3[0])
+                    
                     logging.info(f'Weighted Similar AUC = {sim_auc}')
-                    logging.info(f'Weighted Related AUC = {rel_auc}') 
+                    logging.info(f'Weighted Related AUC = {rel_auc}')
+
 
                     # whether to break training and store model
                     case_store = (sim_auc > record)
                     if case_store:
                         if epoch > 1:
                             record = sim_auc
-                    elif epoch > 1:
+                    elif epoch > 50:
                         break
 
                 elif config['path_origin'] is None:
                     x_sim_test = model_all(sap_emb=sap_emb, out_1=out_1, edge_index=undirected_edge_index, config=config)
-                    PRE_new, AUC_new = test(x_sim_test, unique_name, config, similar_pairs=ALL_sim_val_pairs, drug_side_pairs=None, PRE=True, AUC=True, AUC_type=True)
-                    write_file(epoch, 0, config, start_time, loss=loss, pre=PRE_new, SIM_AUC=AUC_new[0][0])
+                    PRE_new, AUC_new = test(x_sim_test, unique_name, config, type_list, similar_pairs=ALL_sim_val_pairs, PRE=True, AUC=True, AUC_type=True)
                     sim_auc = weight_auc(AUC_new[0])
+                    write_file(
+                        Epoch=epoch,
+                        Batch=0,
+                        config=config,
+                        start_time=start_time,
+                        loss=loss,
+                        pre=PRE_new,
+                        SIM_AUC=AUC_new[0][0]
+                    )
+                
                     logging.info(f'Weighted Similar AUC = {sim_auc}')
+                    
                     case_store = (sim_auc > record)
                     if case_store:
                         record = sim_auc
-                    else:
-                        break
 
                 else:
                     x_rel_part_test = model_all(sap_emb=sap_emb, out_1=out_1, edge_index=undirected_edge_index, config=config)
                     x_rel_test = torch.cat((x_sim_trained, x_rel_part_test), dim=1)
-                    AUC_new = test(x_rel_test, unique_name, config, related_pairs=test_rel_pairs, drug_side_pairs=None, PRE=False, AUC=True, AUC_type=True)   
-                    write_file(epoch, 0, config, start_time, loss=loss, REL_AUC=AUC_new[0][0][0])
-                    
+                    AUC_new = test(x_rel_test, unique_name, config, type_list, related_pairs=ALL_rel_val_pairs, PRE=False, AUC=True, AUC_type=True)  
                     rel_auc = weight_auc(AUC_new[0][0])
+                    write_file(
+                        Epoch=epoch,
+                        Batch=0,
+                        config=config,
+                        start_time=start_time,
+                        loss=loss,
+                        REL_AUC=AUC_new[0][0][0]
+                    )
+                    
                     logging.info(f'Weighted Related AUC = {rel_auc}')
+                    
                     case_store = (rel_auc > record)
                     if case_store:
-                        record = rel_auc
-                    else:
-                        break
-                        
+                        record = rel_auc  
 
             else:
                 write_file(epoch, 0, config, start_time, loss=loss)  
         
         
             # Store the embedding or not
-            # if store embedding, we need to evaluate features selection
             if case_store:
                 if config['path_origin'] == "align_NA":
                     torch.save(x_sim_test, f"{config['path']}/output/{start_time}/align_sppmi.pth")
@@ -280,11 +321,11 @@ def main(config):
                     emb.to_csv(f"{config['path']}/output/{start_time}/sim_emb.csv", index=None)
 
                 else:
-                    torch.save(x_rel_test, f"{config['path']}/output/{start_time}/rel_emb.pth")
+                    torch.save(x_rel_test, f"{config['path']}/output/{start_time}/rel_emb_{epoch}.pth")
                     torch.save(model_all.state_dict(), f"{config['path']}/output/{start_time}/model_rel.pth") 
                     emb = pd.DataFrame(x_rel_test.cpu().detach().numpy())
                     emb.to_csv(f"{config['path']}/output/{start_time}/rel_emb.csv", index=None)
-            
+                
                 end_time = time.time()
                 time_elapsed = end_time - START_time
                 logging.info('EPOCH: {:03d}     Saved model...   All time ELAPSED: {:.2f}s'.format(epoch, time_elapsed))

@@ -1,0 +1,1114 @@
+desc,gpt4
+asthma,1.0
+asthma with exacerbation,1.0
+allergic rhinitis,0.6
+albuterol,1.0
+montelukast,1.0
+fluticasone,1.0
+chronic obstructive asthma,1.0
+wheezing,0.85
+cough,0.65
+fluticasone / salmeterol,1.0
+chronic obstructive asthma with exacerbation,1.0
+other diagnostic procedures on lung and bronchus,0.65
+cetirizine,0.25
+other symptoms of respiratory system,0.5
+albuterol / ipratropium,1.0
+dog dander ige,0.75
+budesonide,1.0
+acute bronchitis and bronchiolitis,0.25
+american house dust mite ige,0.65
+cat dander ige,0.65
+alternaria alternata ige,0.75
+acute upper respiratory infections of multiple or unspecified sites,0.25
+chronic pharyngitis and nasopharyngitis,0.1
+bronchitis,0.6
+aspergillus fumigatus ige,0.65
+azithromycin,0.1
+white oak (quercus alba) ige,0.2
+timothy (phleum pratense) ige,0.25
+common ragweed (ambrosia elatior) ige,0.25
+chronic airway obstruction,0.85
+chronic bronchitis,0.4
+dermatophagoides pteronyssinus ige,0.25
+allergic reaction to food,0.1
+fexofenadine,0.25
+cladosporium herbarum ige,0.65
+obstructive chronic bronchitis,0.75
+mometasone,0.85
+"esophagitis, gerd and related diseases",0.1
+loratadine,0.7
+gerd,0.1
+white ash (fraxinus americana) ige,0.25
+budesonide / formoterol,1.0
+tobacco use disorder,0.25
+american beech (fagus grandifolia) ige,0.25
+ige,0.7
+prophylactic vaccinations and inoculations,0.1
+eastern white pine (pinus strobus) ige,0.25
+tiotropium,0.85
+white birch (betula populifolia) ige,0.25
+mugwort (artemisia vulgaris) ige,0.75
+hazelnut (corylus avellana) ige,0.2
+beclomethasone dipropionate,1.0
+mouse epithelium ige,0.2
+penicillium notatum ige,0.2
+salmeterol,1.0
+kentucky blue grass (poa pratensis) ige,0.25
+shortness of breath,0.85
+"overweight, obesity and other hyperalimentation",0.1
+brazil nut (bertholletia excelsa) ige,0.25
+diseases of esophagus,0.05
+triamcinolone,0.75
+chronic sinusitis,0.25
+goosefoot (chenopodium album) ige,0.25
+"allergies, other",0.25
+obesity,0.25
+giant ragweed (ambrosia trifida) ige,0.25
+migraine,0.05
+acute sinusitis,0.1
+codeine / guaifenesin,0.25
+pistachio (pistacia vera) ige,0.25
+ipratropium,0.85
+atopic/contact dermatitis due to other or unspecified,0.1
+cockroach (blatella germanica) ige,0.85
+walnut (juglans spp) ige,0.2
+benzonatate,0.25
+theophylline,0.85
+cottonwood (populus deltoides) ige,0.85
+allergic conjunctivitis,0.2
+acute pharyngitis,0.1
+cashew nut (anacardium occidentale) ige,0.25
+pine nut (pinus edulis) ige,0.25
+urticaria,0.1
+white elm (ulmus americana) ige,0.25
+rast panel/testing (group:rastp),0.85
+bermuda grass (cynodon dactylon) ige,0.25
+johnson grass (sorghum halepense) ige,0.65
+"conjunctivitis, noninfectious",0.05
+trout (oncorhynchus mykiss) ige,0.1
+omalizumab,1.0
+fusarium moniliforme ige,0.1
+chestnut (castanea sativa) ige,0.2
+cocksfoot (dactylis glomerata) ige,0.25
+"anxiety, phobic and dissociative disorders",0.05
+mite dust ige,0.85
+setomelanomma rostrata ige,0.0
+pecan or hickory nut (carya illinoinensis nut) ige,0.25
+boxelder (acer negundo) ige,0.25
+almond (prunus dulcis) ige,0.25
+azelastine,0.85
+umeclidinium,0.9
+epinephrine,0.75
+nasal polyps,0.25
+"injection, mepolizumab, 1 mg",1.0
+zileuton,1.0
+acute bronchospasm,0.85
+irritable bowel syndrome,0.05
+menopausal and postmenopausal disorders,0.05
+bronchiectasis,0.25
+symptomatic menopause,0.0
+postnasal drip,0.25
+elevated blood pressure reading without diagnosis of hypertension,0.05
+"other diagnostic procedures (interview, evaluation, consultation)",0.25
+noninflammatory female genital disorders,0.0
+sleep disorders,0.1
+zafirlukast,1.0
+abnormal findings on mammogram or breast exam,0.0
+formoterol / mometasone,1.0
+mammography,0.0
+sleep apnea,0.2
+"disorders of uterus, nec",0.0
+septal deviations/turbinate hypertrophy,0.25
+other headache syndromes,0.0
+palpitations,0.1
+back pain,0.0
+hyperlipidemia,0.0
+disorders of lipoid metabolism,0.05
+herpes simplex,0.0
+essential hypertension,0.05
+heartburn,0.0
+fasciitis,0.0
+migrain with aura,0.0
+myalgia and myositis unspecified,0.05
+acne,0.0
+abnormal papanicolaou smear of cervix and cervical hpv,0.0
+"other diagnostic procedures, female organs",0.0
+sumatriptan,0.0
+eustachian tube disorders,0.05
+benign mammary dysplasias,0.0
+disorders of menstruation and other abnormal bleeding from female genital tract,0.0
+high density lipoprotein cholesterol,0.05
+pneumoconiosis,0.1
+emphysema,0.2
+abnormal mammogram,0.0
+benign neoplasm of uterus,0.0
+uterine leiomyoma,0.0
+abnormal glucose,0.05
+anaphylactic shock nos,0.2
+aerochamber,0.85
+symptoms involving female genital tract,0.0
+"stress incontinence, female",0.0
+cervicalgia,0.0
+triglycerides,0.05
+rosacea,0.0
+"rheumatism, unspecified and fibrositis",0.0
+zolmitriptan,0.0
+sarcoidosis,0.1
+Bordetella parapertussis DNA,0.05
+latex ige,0.25
+albuterol 2.5mg w/ipratrop 0.5mg(via upmc dme),1.0
+bacteria identified,0.1
+prednisone,0.85
+procalcitonin study day 5,0.05
+procalcitonin study day 3,0.05
+methylprednisolone,0.75
+drug unknown,0.1
+Bordetella pertussis Ag,0.1
+consult / referral to the comprehensive lung center,0.75
+unspecified perpetrator of maltreatment and neglect,0.0
+caffeine / ergotamine,0.05
+latex ab.ige.rast class,0.25
+osteoarthrosis nos,0.0
+pirbuterol,1.0
+procalcitonin study day 1,0.05
+Bordetella pertussis DNA,0.1
+easivent,0.2
+chlorpheniramine-hydrocod8-10mg/5mlud,0.75
+azithromycin_250mg_tablet_2_pak,0.1
+cefaclor,0.1
+t4 (mwh only),0.0
+family history of asthma,0.8
+rape,0.0
+nonspecific chest pain,0.25
+abnormal heart sounds,0.1
+acetaminophen-hydrocodone,0.0
+amoxicillin-clavulanate,0.0
+"male partner, perpetrator of maltreatment and neglect",0.0
+personal history of physical and sexual abuse in childhood,0.0
+anxiety disorder,0.1
+cladosporium herbarum ab.ige.rast class,0.25
+obstructive sleep apnea,0.2
+mood disorders,0.0
+nebulizer (compressor and supplies),0.85
+other reasons for seeking consultation,0.1
+acer negundo ab.ige.rast class,0.0
+bipolar,0.0
+interpretation-colovantage (trademark),0.0
+procalcitonin study day 2,0.05
+quercus alba ab.ige.rast class,0.1
+lithium_125mg/2.1ml_syrup_ud,0.0
+phleum pratense ab.ige.rast class,0.25
+long term (current) use of inhaled steroids,1.0
+ra nac 60ct,0.0
+english plantain (plantago lanceolata) ige,0.2
+encounters for unspecified administrative purpose,0.0
+flutter valve,0.05
+total eosinophil count,0.65
+other respiratory therapy,0.5
+person feigning illness,0.0
+plantago lanceolata ab.ige.rast class,0.2
+homatropine / hydrocodone,0.1
+ciclesonide,1.0
+calamine / zinc oxide topical product,0.01
+cromolyn,0.9
+excessive vomiting in pregnancy,0.0
+penicillin g benzathine,0.0
+sesame seed (sesamum indicum) ige,0.25
+toxic effect of noxious substances eaten as food,0.1
+peanut (arachis hypogaea) ige,0.2
+pimecrolimus topical product,0.1
+crab (cancer pagurus) ige,0.05
+shrimp (pandalus borealis) ige,0.25
+silver birch (betula verrucosa) ige,0.25
+blue mussel (mytilus edulis) ige,0.25
+lobster (homarus gammarus) ige,0.2
+codfish (gadus morhua) ige,0.2
+salmon (salmo salar) ige,0.2
+tuna (thunnus albacares) ige,0.1
+levocetirizine,0.25
+other diagnostic procedures on skin and subcutaneous tissue,0.0
+casein ige,0.25
+Poppy Seed (Papaver somniferum) IgE,0.2
+deprecated s pneum12 igg ser-mcnc,0.05
+Streptococcus pneumoniae Danish serotype 19F IgG,0.05
+Streptococcus pneumoniae Danish serotype 3 IgG,0.05
+streptococcus pneumoniae danish serotype 18c igg,0.05
+deprecated s pneum4 igg ser-mcnc,0.0
+Streptococcus pneumoniae Danish serotype 4 IgG,0.05
+streptococcus pneumoniae danish serotype 9v igg,0.0
+deprecated s pneum9 igg ser-mcnc,0.1
+Streptococcus pneumoniae Danish serotype 23F IgG,0.05
+deprecated s pneum23 igg ser-mcnc,0.1
+Streptococcus pneumoniae Danish serotype 12F IgG,0.05
+deprecated s pneum 1 igg ser-mcnc,0.1
+Streptococcus pneumoniae Danish serotype 5 IgG,0.05
+deprecated s pneum3 igg ser-mcnc,0.1
+Streptococcus pneumoniae Danish serotype 8 IgG,0.05
+Streptococcus pneumoniae serotype IgG,0.05
+streptococcus pneumoniae danish serotype 6b igg,0.05
+deprecated s pneum14 igg ser-mcnc,0.1
+deprecated s pneum19 igg ser-mcnc,0.1
+streptococcus pneumoniae danish serotype 7f igg,0.05
+deprecated s pneum5 igg ser-mcnc,0.1
+Streptococcus pneumoniae Danish serotype 1 IgG,0.05
+Streptococcus pneumoniae Danish serotype 14 IgG,0.05
+Streptococcus pneumoniae Danish serotype 9N IgG,0.05
+deprecated s pneum8 igg ser-mcnc,0.1
+"Mouse epithelium, serum proteins + urine proteins IgE",0.85
+Beta lactoglobulin IgE,0.25
+lactalbumin alpha ige,0.2
+otitis media,0.05
+horse dander ige,0.7
+Alternaria sp IgE,0.75
+goose feather ige,0.25
+"influenza virus vaccine, inactivated",0.1
+Aspergillus sp Ab,0.25
+Aspergillus sp IgE,0.65
+coconut (cocos nucifera) ige,0.2
+carrot (daucus carota) ige,0.25
+blatella germanica ab.ige.rast class,0.25
+Allergen.miscellaneous Ab.IgE.RAST class,0.65
+constipation,0.0
+fungus,0.1
+other tests,0.1
+Penicillium sp Ab,0.1
+egg white ige,0.25
+beef ige,0.1
+ovomucoid ige,0.65
+allergy studies,0.65
+other anemias,0.0
+family history,0.2
+depression,0.05
+hypothyroidism nos,0.0
+chronic pain,0.1
+electrolyte imbalance,0.1
+"iron deficiency anemias, unspecified or not due to blood loss",0.05
+"potential health hazards related to communicable diseases
+potential health hazards related to communicable diseases",0.0
+insomnia,0.1
+other infectious and parasitic diseases,0.05
+other dyspnea,0.65
+type 2 diabetes,0.05
+hypertensive heart and/or renal disease,0.05
+chronic renal failure [ckd],0.05
+abdominal pain,0.0
+poisoning/allergy of sulfonamides,0.1
+screening for other diseases and disorders,0.1
+"persons with potential health hazards related to socioeconomic, psychosocial, and other circumstances",0.1
+tachycardia nos,0.1
+screening for infectious and parasitic diseases,0.1
+nausea and vomiting,0.05
+adverse drug events and drug allergies,0.25
+allergy/adverse effect of penicillin,0.1
+coronary atherosclerosis,0.0
+pain in limb,0.0
+substance addiction and disorders,0.05
+acquired absence of organs,0.0
+adverse effects of sedatives or other central nervous system depressants and anesthetics,0.05
+atrial fibrillation and flutter,0.0
+osteoarthritis; localized,0.0
+diarrhea,0.0
+complications of transplants and reattached limbs,0.0
+vitamin d deficiency,0.05
+bacterial infection nos,0.05
+acute renal failure,0.0
+respiratory failure,0.5
+pleurisy; pleural effusion,0.1
+acute pain,0.1
+attention deficit hyperactivity disorder,0.0
+other disorders of metabolism,0.05
+adjustment reaction,0.1
+elevated white blood cell count,0.2
+pulmonary collapse; interstitial and compensatory emphysema,0.1
+rash and other nonspecific skin eruption,0.05
+pneumonia,0.2
+adverse effects of antibacterials (not penicillins),0.05
+circulatory disease nec,0.0
+mental disorders durring/after pregnancy,0.05
+abnormality in fetal heart rate or rhythm,0.0
+thrombocytopenia,0.05
+peritoneal adhesions (postoperative) (postinfection),0.0
+sickle cell anemia,0.0
+other chronic nonalcoholic liver disease,0.0
+malaise and fatigue,0.1
+benign neoplasm of colon,0.0
+osteoporosis,0.0
+other disorders of bone and cartilage,0.0
+disorders of magnesium metabolism,0.05
+other disorders of soft tissues,0.05
+"symptoms concerning nutrition, metabolism, and development",0.05
+effects of other external causes,0.05
+edema,0.25
+vitamin b-complex deficiencies,0.05
+hypovolemia,0.05
+hypotension nos,0.05
+"hypertension complicating pregnancy, childbirth, and the puerperium",0.05
+preeclampsia and eclampsia,0.0
+"abnormality of organs and soft tissues of pelvis complicating pregnancy, childbirth, or the puerperium",0.0
+anemia of chronic disease,0.05
+fever of unknown origin,0.05
+anemia during pregnancy,0.05
+cerebral ischemia,0.0
+screening for malignant neoplasms,0.0
+blue top hold,0.0
+green top hold (plasma),0.0
+light green top hold,0.0
+flovent,1.0
+uhold,0.0
+dok,0.0
+glucose,0.0
+"sennosides, usp 8.6 mg oral tablet",0.0
+estimated gfr (mdrd equation),0.05
+length of urine collection,0.05
+ventolin,1.0
+"heparin sodium, porcine 5000 unt/ml injectable solution",0.0
+creatinine,0.0
+ph,0.0
+leukocytes,0.1
+specific gravity,0.05
+ketone,0.05
+bilirubin,0.0
+urine appearance,0.0
+nitrite,0.05
+urobilinogen,0.0
+protein,0.0
+blood,0.0
+urea nitrogen,0.05
+fluticasone propionate 0.05 mg/actuat metered dose nasal spray,0.25
+2 ml ondansetron 2 mg/ml injection,0.0
+epithelial cells,0.1
+rbc,0.0
+yeast,0.0
+bacteria,0.0
+wbc,0.05
+"hcg, urine, qualitative",0.0
+hemoglobin,0.05
+rdw,0.05
+mchc,0.05
+mch,0.0
+red blood cells,0.05
+mcv,0.0
+white blood cells,0.1
+urine mucous,0.1
+ondansetron 4 mg disintegrating oral tablet,0.0
+advair,1.0
+major depressive disorder,0.05
+transitional epithelial cells,0.0
+mapap,0.0
+platelet count,0.05
+ondansetron 4 mg oral tablet,0.0
+hematocrit,0.05
+omeprazole 20 mg delayed release oral capsule,0.05
+diphenhydramine hydrochloride 25 mg oral capsule,0.1
+morbid obesity,0.1
+oxycodone hydrochloride 5 mg oral tablet,0.05
+vitamin b12,0.0
+lorazepam 0.5 mg oral tablet,0.05
+acetaminophen 325 mg oral tablet,0.05
+albuterol 0.83 mg/ml inhalation solution,1.0
+0.4 ml enoxaparin sodium 100 mg/ml prefilled syringe,0.0
+permanent pacemaker mode,0.0
+ibuprofen 400 mg oral tablet,0.1
+diphenhydramine hydrochloride 2.5 mg/ml oral solution,0.25
+iron,0.0
+"esophagitis, gastroenteritis and miscellaneous digestive disorders without mcc",0.0
+calcium carbonate 500 mg chewable tablet,0.0
+folate,0.0
+transferrin,0.05
+"iron binding capacity, total",0.05
+aluminum hydroxide 40 mg/ml / magnesium hydroxide 40 mg/ml / simethicone 4 mg/ml oral suspension,0.0
+% hemoglobin a1c,0.05
+gabapentin 300 mg oral capsule,0.0
+pain in joint,0.0
+glucagen,0.0
+eag,0.0
+anion gap,0.1
+bicarbonate,0.1
+potassium,0.0
+chloride,0.05
+ibuprofen 600 mg oral tablet,0.05
+"calcium, total",0.01
+sodium,0.0
+200 actuat albuterol 0.09 mg/actuat metered dose inhaler,1.0
+d-dimer,0.05
+dextrose 50%,0.0
+poisoning by antibiotics,0.0
+exposure to tobacco smoke,0.65
+"sodium chloride for aerosol (nacl), 0.9% (saline solution)",0.7
+family history of non-malignant tumor,0.0
+desloratadine,0.25
+"adverse effect: antiasthmatics, nec",1.0
+"aerius (desloratadine) 0.5 mg/ml, syrup (150ml)",0.25
+"bilastine 20 mg (inorial), tablets",0.25
+"mizollen 10 mg, modified-release tablets",0.1
+"terbutaline - bricanyl, 500 mcg/dose spray",1.0
+"primalan 5 mg, tablets",0.1
+"rupatadine 10 mg, tablets",0.25
+formoterol,1.0
+"mometasone 50 mcg/dose (nasonex), nasal spray suspension, bottle 140 doses",0.25
+beclomethasone,1.0
+"beclometasone 800 mcg (chiesi lab), suspension for inhalation by nebulizer, 2 ml single-dose container",1.0
+"ebastine 10 mg (lab arrow), tablets",0.75
+research team,0.0
+"fluticasone / vilanterol - relvar ellipta, 184 mcg/22 mcg/dose, powder for inhalation, pack 30 doses",1.0
+"oxygen flow adjustment by transcutaneous monitoring of oxygen saturation, for the initiation or adjustment of a defined flow oxygen therapy in children, per 24 hours",0.75
+personal history of other diseases of the respiratory system,0.5
+"beclometasone 800 mcg (teva lab), suspension for inhalation by nebulizer, 2 ml single-dose container",1.0
+acute laryngitis and tracheitis,0.25
+other physical therapies,0.2
+"tixocortol pivalate, 1% nasal powder",0.2
+"ebastine 10 mg (labo biogaran), orodispersible tablets",0.75
+"bilastine 10 mg (bilaska), orodispersible tablets",0.2
+nasal septoplasty,0.1
+"anomalies of respiratory system, congenital",0.1
+fx26% positivity,0.0
+"bilastine 20 mg (bilaska), tablets",0.25
+mel ige positive detail,0.25
+symptoms involving head and neck,0.1
+chronic tonsillitis and adenoiditis,0.1
+intranasal polypectomy,0.2
+bilateral total ethmoidectomy by endoscopy,0.1
+fx28 research,0.0
+research,0.0
+other upper respiratory disease,0.25
+"bilateral total ethmoidectomy with nasal septoplasty, by endoscopy",0.1
+"naabak (spaglumic acid) 4.9%, eye drops",0.0
+e5 dog,0.0
+research and development,0.0
+"respiratory failure, insufficiency, arrest",0.25
+"multicrom 2%, eye drops, single-dose container 0.3 ml",0.0
+the cat,0.0
+pcr for s. pneumoniae in bal fluid,0.1
+other pulmonary inflamation or edema,0.45
+ketotifen,0.85
+timothy grass allergen g6,0.75
+"tiotropium - spiriva respimat, 2.5 mcg/dose, inh sol, 60 dose bottle",0.85
+alternaria alternata mold,0.75
+acute and chronic tonsillitis,0.05
+"mometasone 50 mcg/dose (arrow lab), nasal spray suspension, bottle 140 doses",0.25
+endoscopic intrabronchial valve placement,0.25
+suppurative and unspecified otitis media,0.05
+bal pcr s.pneumo,0.2
+allergen,0.75
+cystitis,0.0
+narcotics,0.05
+cough effort,0.25
+apnea,0.25
+lobster,0.0
+chronic cough,0.65
+neupogen,0.0
+sterilization,0.0
+pca medication,0.2
+viral enteritis,0.0
+aspirin,0.05
+po intake,0.0
+atropine,0.1
+duodenitis,0.0
+aspiration site,0.05
+thyroiditis,0.0
+cerave,0.0
+mastodynia,0.0
+eribulin,0.0
+neuro symptoms,0.05
+body height,0.0
+bowel sounds,0.0
+dislocation,0.0
+phobia,0.1
+other eye problems,0.0
+midodrine,0.0
+antivirals,0.1
+bursitis,0.0
+psa,0.0
+pulmonary heart disease,0.2
+pulmonary function testing,0.85
+regional enteritis,0.0
+persistent vomiting,0.05
+anesthesia,0.05
+pathology,0.1
+hemolysis,0.0
+lyme disease,0.0
+duration time 1,0.0
+menthol,0.2
+anorexia,0.05
+intubation,0.3
+smoking history,0.25
+blood ur,0.0
+epres,0.0
+beta tester,0.0
+difficulty in walking,0.05
+need for isolation,0.05
+intubated,0.3
+patient body temperature,0.0
+ribavirin,0.01
+heart valve disorders,0.0
+appearance,0.0
+impella position,0.0
+living situation,0.0
+airway location,0.2
+prevacid,0.0
+myelemia,0.0
+urine urea,0.05
+colon cancer,0.0
+inhibition percentage,0.05
+barometric pressure,0.1
+septicemia,0.0
+airway problems,0.75
+pain present,0.05
+traumatic amputation,0.0
+anca test,0.1
+polys,0.1
+restlessness,0.2
+ventilator,0.5
+down syndrome,0.0
+farr test,0.1
+v-neck,0.0
+t3 duration,0.05
+trach care,0.1
+unasyn,0.0
+joint effusions,0.05
+csf tracking,0.0
+lumbar,0.0
+aso,0.0
+latent tuberculosis,0.05
+psoriasis,0.0
+myopia,0.0
+myocarditis,0.05
+furosemide,0.1
+diuretics,0.1
+digoxin,0.0
+morphine,0.0
+sepsis,0.0
+bronchial,0.85
+cocaine,0.0
+methamphetamine,0.0
+insulin,0.0
+respiratory,0.5
+marijuana,0.1
+methadone,0.05
+cannabis,0.1
+prolactin,0.05
+gout,0.0
+atherosclerosis,0.0
+aldosterone,0.05
+cotinine,0.1
+etanercept,0.1
+leptin,0.05
+hypothyroidism,0.0
+hypoglycemia,0.0
+calcitonin,0.05
+isoproterenol,0.85
+influenza,0.1
+medication,0.5
+hyperglycemia,0.05
+haloperidol,0.0
+alport,0.0
+dopamine,0.0
+cd2,0.0
+estrogen,0.0
+levodopa,0.0
+rsv,0.1
+ketamine,0.1
+losartan,0.1
+histamine,0.25
+endometriosis,0.0
+cachexia,0.05
+clozapine,0.0
+appetite,0.0
+doxorubicin,0.0
+Blood,0.0
+tacrolimus,0.1
+airway type,0.2
+respiratory abnormalities,0.65
+chest,0.2
+breaths,0.1
+ambulatory aid,0.1
+nebulizer,0.85
+respiratory arrest,0.25
+inhaler,1.0
+bronchoscopy,0.5
+respiratory supplies,0.5
+aerosol vector air,0.1
+respiratory complications,0.65
+invasive ventilation,0.5
+allergy prescription communication,0.25
+cough assist,0.4
+rigid bronchoscopy,0.25
+medications,0.5
+sputum source,0.25
+incentive spirometry,0.25
+diagnosis,0.0
+acute cough,0.65
+breatherite,0.85
+ventilation measurement,0.65
+eosinophilic asthma,1.0
+analysis,0.0
+respiratory effort,0.25
+medication prescribed,0.75
+respiratory signs and symptoms,0.75
+current dyspnea assessment,0.85
+internal communication allergy,0.25
+activity,0.1
+formula,0.0
+drain,0.0
+therapeutic actions,0.1
+analyses,0.0
+device,0.0
+ventilation mode,0.2
+respiratory pattern,0.25
+acute pulmonary heart disease,0.25
+cough type,0.25
+assist device,0.1
+respiratory culture,0.2
+treatment,0.5
+inspiratory ratio,0.25
+wood dust,0.25
+speech,0.0
+audit,0.0
+tablet,0.0
+equipment,0.1
+sputum consistency,0.25
+ventilation rate,0.25
+par-respiration,0.2
+viral pneumonia,0.1
+ed,0.0
+dimension,0.0
+state,0.0
+cough reflex,0.25
+context,0.0
+ana comment,0.0
+resolution,0.0
+cough/deep breath,0.25
+"cough, unspecified",0.5
+resp alarm - high,0.2
+chest pain,0.25
+respiratory insufficiency,0.65
+painful respiration,0.65
+bronchitis and asthma without cc/mcc,1.0
+aspergillosis,0.2
+extrinsic allergic alveolitis,0.25
+dependence on respirator [ventilator] or supplemental oxygen,0.25
+resp alarm - low,0.1
+bronchial challenge test with a bronchoconstrictor agent or physical factor during a pulmonary function test,0.85
+exposure to air pollution,0.65
+pulmonary congestion and hypostasis,0.2
+hyperventilation,0.25
+arteritis nos,0.0
+airway size (mm),0.1
+angina pectoris,0.0
+arrhythmia (cardiac) nos,0.0
+hypertension,0.0
+nasal congestion,0.25
+lung disease due to external agents,0.5
+breathing pattern/effort,0.65
+"adverse effect: substances acting on the respiratory system, others and unspecified",0.65
+breaths setting,0.1
+sputum amount,0.25
+abnormal sputum,0.75
+respiratory infections and inflammations with mcc,0.45
+tobacco use,0.3
+hemoptysis,0.25
+symptoms involving respiratory system and other chest symptoms,0.75
+high sensitivity carbon dioxide,0.1
+"nebulization of therapeutic agent for bronchial use [aerosol] with monitoring of oxygen saturation by transcutaneous measurement [spo2] and monitoring of heart rate, for at least 2 hours",1.0
+hidradenitis,0.0
+alcoholism,0.0
+idiopathic fibrosing alveolitis,0.1
+current smoker,0.25
+rheumatoid arthritis,0.0
+pulmonary artery pressure alarm - high,0.1
+"acquired absence of organ, lung",0.1
+cancer within the respiratory system,0.1
+torticollis,0.0
+"eosinophilia, unspecified",0.25
+albuterol 0.083 in 3ml ns (via upmc dme),1.0
+eosinophil,0.65
+allergic purpura,0.1
+eosinophils,0.65
+ovalbumin ige,0.25
+eosinophilia,0.65
+title,0.0
+mast cells,0.25
+ige allergen ovalbumin,0.65
+prednisolone,0.85
+l,0.0
+fve title,0.0
+tuberculosis,0.0
+immunology,0.25
+nomenclature,0.0
+other,0.0
+i,0.0
+eosinophils %,0.25
+peanut allergy,0.1
+**hapt,0.0
+see below,0.0
+s comment,0.0
+cortisone,0.75
+p comment,0.0
+clinical info,0.0
+other eosinophilia,0.65
+cystic fibrosis,0.1
+ige allergen helminthospore,0.25
+t comment,0.0
+section,0.0
+therapy,0.25
+eosinophil %,0.3
+absolute eosinophils,0.25
+risk,0.1
+0.4,0.0
+"allergen, interpretation",0.65
+"ige  dust mite,d.frn",0.85
+cardiovascular,0.05
+prot asthma pf 1/4,1.0
+prot p.asthma f 1/4,1.0
+family history of asthma and other chronic lower respiratory diseases,0.85
+anxiety,0.1
+=albuterol,1.0
+proair,1.0
+myasthenia gravis,0.0
+azelastine / fluticasone,1.0
+apremilast,0.0
+singulair,1.0
+acne aestivalis,0.0
+roflumilast,0.85
+autism,0.0
+bronchial wash amylase,0.2
+azelastine nasal product,0.65
+family history of other chronic respiratory conditions,0.25
+albuterol-ipratropium,1.0
+"montelukast, 10 mg tablet",1.0
+other diseases of lung,0.5
+ige allergen latex,0.25
+measles,0.0
+azelastine / fluticasone nasal product,0.75
+anti-dust mite,0.75
+betaxolol,0.1
+alclometasone,0.85
+montelukast 10 mg oral tablet,1.0
+house dust mite,0.75
+ige allergen peanut,0.25
+abnormal chest sounds,0.65
+chronic obstructive pulmonary disease with cc,0.25
+"bambuterol - oxeol, 10 mg tablets",0.85
+combivent,1.0
+second hand tobacco smoke,0.65
+bronchopneumonia and lung abscess,0.2
+dextromethorphan-guaifenesin,0.25
+guaifenesin,0.25
+alpha 1 antitrypsin mutation,0.1
+r.pcr.c.pneumoresp,0.25
+comment(pcr b.per),0.0
+olodaterol,0.85
+lolium perenne ab.ige.rast class,0.25
+indacaterol,0.9
+r.pcr.m.pneumoorl,0.2
+occupational exposure to dust,0.25
+bordetella pertussis,0.1
+smooth muscle ab,0.1
+influenza a by pcr,0.05
+oxygen flow rate l/min,0.25
+arformoterol,0.9
+r.pcr.b.pertusorl,0.1
+influenza a antigen (point of care),0.05
+influenza b by pcr,0.05
+legionella pneumophila ag,0.05
+aclidinium,0.85
+spiriva,0.9
+umeclidinium / vilanterol,0.9
+how.pcr c.pneu,0.25
+orthopnea,0.65
+disorders of diaphragm,0.1
+hypoventilation,0.25
+carvedilol,0.05
+asphyxia and hypoxemia,0.75
+isoflurane,0.1
+septic shock,0.0
+other cardiomyopathy,0.05
+thiopental,0.0
+metaproterenol,1.0
+myocardial infarction,0.0
+aminophylline,0.85
+dizziness and giddiness (light-headedness and vertigo),0.1
+propafenone,0.0
+personal history of allergy to medicinal agents,0.2
+cardiogenic shock,0.0
+primary pulmonary hypertension,0.1
+acidosis,0.2
+dexamethasone,0.65
+hypertensive heart disease,0.0
+hyperhidrosis,0.05
+"other diseases of respiratory system, nec",0.25
+disorders of the autonomic nervous system,0.1
+secondary diabetes mellitus,0.0
+alpha-1-antitrypsin deficiency,0.1
+alcohol-related disorders,0.0
+primary/intrinsic cardiomyopathies,0.0
+potassium iodide,0.01
+other ill-defined and unknown causes of morbidity and mortality,0.1
+cyproheptadine,0.1
+bethanechol,0.1
+pyelonephritis,0.0
+arterial blood gases,0.25
+abnormal results of function study of pulmonary system,0.75
+unstable angina (intermediate coronary syndrome),0.0
+atrial fibrillation,0.0
+flunisolide,0.9
+"hiv infection, symptomatic",0.0
+voice disturbance,0.1
+fluticasone / vilanterol,1.0
+aspergillus niger ige,0.25
+neomycin / polymyxin b / prednisolone,0.25
+total partial pressure of carbon dioxide,0.1
+total partial pressure of oxygen,0.1
+house dust greer ige,0.75
+shunt assessment lab test,0.05
+streptococcus pneumoniae ab,0.05
+adenovirus dna,0.05
+budesonide / formoterol / glycopyrronium,1.0
+fluticasone topical product,0.2
+beclomethasone nasal product,0.25
+fluticasone / umeclidinium / vilanterol,1.0
+mometasone topical product,0.2
+flunisolide nasal product,0.25
+budesonide nasal product,0.25
+fluticasone nasal product,0.25
+mometasone nasal product,0.25
+oxyhemoglobin concentration,0.1
+other laboratory: sulfatide sulfate,0.05
+albuterol_.83_mg/ml_3_ml_sol,1.0
+other disorders of liver,0.0
+abnormal findings examination of lungs,0.65
+other symptoms,0.1
+chlorpheniramine,0.75
+short stature,0.05
+shock,0.05
+disease of capillaries,0.05
+iddm patient ql,0.1
+budesonide 0.5mg/unit dose (via upmc dme),0.85
+upper resp disease profile,0.4
+avocado (persea americana) ige,0.25
+tryptase level test,0.1
+azelastine ophthalmic product,0.1
+prescription date,0.0
+eosinophilic esophagitis,0.1
+plasma histamine,0.25
+oyster (ostrea edulis) ige,0.2
+upper respiratory allergy region 1,0.25
+rye (secale cereale) ige,0.2
+aspergillus fumigatus ab.ige.rast class,0.25
+peach (prunus persica) ige,0.25
+strawberry (fragaria vesca) ige,0.1
+pineapple (ananas comosus) ige,0.2
+histamine assay,0.25
+Amoxicillin IgE,0.1
+tryptase,0.1
+e204 alb. cow serum,0.05
+dermatophagoides farinae ab.ige.rast class,0.25
+cynodon dactylon ab.ige.rast class,0.1
+common pigweed ige,0.65
+wheat (triticum aestivum) ige,0.25
+cat dander ab.ige.rast class,0.85
+formoterol fumarate,1.0
+or received,0.0
+isoetharine,0.85
+bacterial pneumonia,0.1
+albuterol 0.833 mg/ml / ipratropium bromide 0.167 mg/ml inhalation solution,1.0
+"tiotropium / olodaterol - spiolto respimat, 2.5 mcg/2.5 mcg/dose, inh sol, bottle 60 doses",0.85
+device efficiency percentage,0.0
+neuronal nuclear ab,0.0
+sars-cov-2 (covid-19) ab,0.1
+ionized calcium,0.05
+l-methylfola tab 15mg,0.05
+influenza a virus a/north carolina/04/2016 (h3n2) antigen / influenza a virus a/singapore/gp1908/2015 (h1n1) antigen / influenza b virus b/iowa/06/2017 antigen / influenza b virus b/singapore/inftt-16-0610/2016 antigen,0.0
+2282 del4 polymorph,0.05
+sperm survival test,0.0
+expected turnaround time (karyotyping),0.0
+closed reduction and internal fixation of fracture or epiphyseal detachment of the proximal end of the tibia or both bones of the leg,0.0
+unspecified overexertion and strenuous and repetitive movements or loads,0.1
+conclusion,0.0
+ornithine,0.0
+troponin t.cardiac,0.0
+uranium sodium,0.0
+spermatozoa.normal/100 spermatozoa,0.0
+denaturation,0.0
+ige allergen sheep sorrell,0.25
+"dpca balance, 1.5% glucose, ca 1.75, ph=7, 2l stay-safe (ref f00007858)",0.0
+mgb comments,0.0
+=sodiumthiosulfate,0.0
+"parenteral nutrition: clinimix n14 g30, 2 l bag",0.0
+heterophile ab,0.05
+conivaptan,0.05
+cashew nut,0.1
+flow (vad),0.05
+ric placed in outside facility,0.05
+lysosomal storage diseases,0.0
+detection sensitivity limit,0.0
+acanthocytes,0.0
+32 weeks gestation of pregnancy,0.05
+carisoprodol,0.05
+calcium/sodium alginate,0.05
+"perikabiven 1 200 kcal/1 920 ml, emulsion for infusion, tri-compartment biofine bag",0.0
+"vacuum-assisted core biopsy of breast lesion using add-on system, percutaneous approach with mammographic guidance",0.0
+"sympathyl, coated tablets",0.1
+bortezomib,0.0
+total protein concentration in blood,0.05
+iga.lambda,0.0
+saint louis encephalitis virus igg,0.0
+"supraselective in situ hepatic intra-arterial injection of non-radioisotope anticancer pharmacological agent with particle embolization, via transcutaneous arterial route",0.0
+sustiva,0.0
+nil,0.0
+ergocalciferol 1.25 mg oral capsule,0.05
+citric acid - dextro-citric acid,0.05
+etodolac,0.0
+deoxyhemoglobin,0.1
+"pedal cycle driver injured in noncollision transport accident in traffic accident, initial encounter",0.0
+"letrozole 2.5 mg (femara), tablets aip bba be",0.0
+ca / creatinine ratio,0.05
+fer-gen-sol,0.0
+pressure ulcer #3- cleanse,0.0
+tacro t 2,0.0
+krill oil,0.05
+impact caused by the throwing or dropping of an object - home,0.0
+fentanyl plasma concentration,0.05
+age patient (years),0.0
+5 ml protamine sulfate (usp) 10 mg/ml injection,0.05
+hepatitis c virus antibody,0.0
+esketamine,0.1
+valine csf,0.05
+dexmedetomidine400mcg/d5w100mlpmx(cabinetus,0.0
+jc virus dna,0.0
+hcv rt-polymerase chain reaction (qual),0.0
+chromosomal anomalies,0.0
+cd24+,0.0
+"herpes simplex virus 2 deoxyribonucleic acid by polymerase chain reaction qualitative, cerebrospinal fluid",0.0
+"unruptured infrarenal aortic aneurysm repair with infrarenal aorto-aortic prosthetic replacement, by laparotomy with suprarenal clamping",0.0
+calculated o2 saturation,0.25
+dibucaine 0.01 mg/mg topical ointment,0.0
+"suturing of wound of abdominal aorta, of a common iliac artery and/or of an external iliac artery, by laparotomy",0.0
+follicle stimulating hormone test,0.0
+aggrenox_capsule_er,0.0
+gelatinsponge12/7mm,0.0
+sanger sequencing for point mutation detection,0.05
+glucose tolerance fasting (do not order alone),0.0
+infliximab,0.1
+gi_cocktail_(smh)_30ml,0.0
+"cutaneous gastrostomy, by laparotomy",0.0
+urine acetaminophen,0.0
+thyroid uptake test,0.0
+occult blood fecal immunochemical test single screen,0.0
+mestranol / norethindrone,0.0
+"orbital lesion biopsy, via lateral or ethmoidal approach",0.0
+preliminary b cell type and crossmatch interpretation,0.0
+total cd34+ (%),0.1
+placement of an intra-arterial pressure monitoring device,0.0
+succinate,0.0
+clinical probability score,0.1
+pancreatic polypeptide,0.01
+methyl-1 histidine s,0.0
+Fatty acids.nonesterified,0.0
+gds origin,0.0
+platelet factor 4,0.05
+"change of an esophageal endoprosthesis, by endoscopy",0.0
+"hysterectomy for obstetric complications, by laparotomy",0.0
+one tch lanc del plus dev,0.0
+california walnut pollen (juglans california pollen) ige,0.25
+pruritus and related conditions,0.05
+influenza a/b pcr test,0.1
+spasm of muscle,0.1
+multiple gestation,0.0
+unspecified residential institution as the place of occurrence of the external cause,0.0
+"binimetinib - mektovi, 15 mg tablet",0.0
+Sapovirus RNA,0.0
+"placement of a stent in a previously drained biliary duct, with ultrasound and/or radiological guidance",0.0
+alpha rapid thromboelastography with heparinase,0.0
+cd45ro/ra+cd3 normal control percent,0.05
+inactivity osteoporosis with pathological fracture - arm,0.0
+platelet function,0.05
+lymphocyte count test #4,0.1
+viability by propidium iodide,0.0
+"nonspecific abnormal findings on radiological and other examination of other intrathoracic organs (echocardiogram, etc)",0.1
+isoleucine,0.0
+"central hepatectomy, by laparotomy",0.0
+nonspecific findings on examination of blood,0.1
+ige allergen cor a 14,0.65
+hydroxychloroquine,0.05
+"firearm and other weapon assault, and sai - home",0.0
+doxycycline,0.0
+extensive and/or tight pelvic peritoneal adhesion release [adhesiolysis] for female infertility by laparoscopy,0.0
+ascitic fluid ldh,0.05
+immature reticulocyte fraction percentage,0.0
+whitescreen,0.0
+coxsackievirus b6 ab,0.05
+peanut (arachis hypogaea) native (nara h) 2 ige,0.2
+penicillin g benzathine / penicillin g procaine,0.0
+undermining present #1,0.0
+Plasmodium vivax DNA,0.0
+cultural outing,0.0
+supplement for the use of custom and focused caches,0.0
+acetaminophen,0.0
+utx4,0.0
+stx5,0.0
+serum calcium adjusted for albumin,0.05
+crizotinib,0.0
+white blood cell clump count per high power field,0.1
+bartonella henselae dna,0.0
+lct o/n,0.0
+daclizumab,0.1
+biological validation,0.0
+urgent cmv igm,0.0
+type 2 crystals,0.05
+institute for forensic research,0.0
+Coproporphyrin 1/Creatinine,0.05
+low-density lipoprotein cholesterol calculated,0.05
+igm csf level,0.05
+diuresis,0.05
+surnamefirstname pat.example,0.0
+euglobulin lysis time,0.05
+occult blood test - 2,0.0
+"resection of a tumor of the anterior floor of the skull base, via unilateral frontal craniotomy",0.0
+sodium l-ascorbate,0.05
+deprecated n-ac-asp ur ql,0.0
+iron-binding capacity total,0.05
+"excision of vestigial thymus, by thoracotomy",0.05
+"fall from scooter (nonmotorized), initial encounter",0.0
+"influenza a virus vaccine, a-victoria-361-2011 (h3n2)-like virus / influenza a-california-7-2009-(h1n1)v-like virus vaccine / influenza b virus vaccine, b-massachusetts-2-2012-like virus",0.1
+motor vehicle traffic accident of unspecified nature injuring passenger in motor vehicle other than motorcycle,0.0
+long term (current) use of hormonal contraceptives,0.05
+parainfluenza virus 4 rna,0.1
+metering site(s),0.1
+pump connect,0.05
+Polio virus 1 Ab.Neut,0.0
+eprex (epo) 40000iu/ml inj sol vial 1ml,0.0
+b-d #9622 syr/ndl 1ml 25gx1,0.0
+prothrombin time (pt),0.05
+mycobacterium sp,0.0
+scan for immature cells,0.05
+sympathetic protection v4,0.05
+continuous unipolar traction of the spine by strap or collar,0.0
+=enalaprilat,0.1
+urine white blood cell count - iris,0.05
+"transscleral transillumination of lesion of posterior segment of eye, with conjunctival detachment",0.0
+diphenhydramine hydrochloride 2.5 mg/ml oral solution [tusstat],0.25
+driver - transport accident - without collision - off-road,0.0
+sodium ur tp {c,0.0
+complement c1 esterase inhibitor,0.05
+"skin graft for burns excluding the head and hands, covering 5% to 7.5% of the body surface area",0.0
+pre-inc dop-ams prot,0.0
+other artificial opening status,0.05
+p32,0.1
+folates,0.05
+"fall on same level due to ice and snow, subsequent encounter",0.0
+observation for unspecified suspected condition,0.2
+urine density,0.05
+"sodium alginate sodium bicarbonate 0.5 g/0.267 g biogaran, oral suspension, sachet 10 ml",0.1
+"lopinavir/ritonavir (generic kaletra), 200 mg/50 mg tablets",0.05
+chronic lymphocytic leukemia,0.0
+terconazole topical,0.0
+platelet with cd41,0.05
+dexamethasone / tobramycin,0.65
+thioridazine,0.05
+paroxetine,0.0
+methylenedioxymethamphetamine,0.0
+excess base ecf,0.1
+change of an intrathecal spinal catheter connected to a delivery system or an implanted subcutaneous pump,0.0
+meningococcal_(menomune)_vaccine_0.5ml,0.0
